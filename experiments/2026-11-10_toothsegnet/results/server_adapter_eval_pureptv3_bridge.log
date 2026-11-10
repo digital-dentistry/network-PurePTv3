@@ -1,0 +1,51 @@
+adapter pureptv3 package None modes ['bridge'] inhouse False
+[1/40] EK26QFUW_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[2/40] POSEIDON000057_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[3/40] C2SF98X5_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[4/40] QA27COSZ_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[5/40] 016FSM14_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[6/40] L428SD7J_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[7/40] FUSION012_lower bridge: DDH F75 0.60 m1s2 | CC F75 0.60 m1s2
+[8/40] POSEIDON000177_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[9/40] POSEIDON000029_upper bridge: DDH F75 0.22 m1s0 | CC F75 0.22 m1s0
+[10/40] T21AWMTR_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[12/40] L8IYFLQP_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[13/40] 15AIQVK8_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[14/40] XKC3KSSB_upper bridge: DDH F75 0.57 m1s0 | CC F75 1.00 m0s0
+[15/40] HWO9T72O_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[16/40] FUSION013_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[17/40] 01JZDW8K_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[18/40] VNRRN6ZF_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[19/40] POSEIDON000042_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[20/40] 014M2HZD_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[21/40] FUSION095_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[22/40] HDVYC7UQ_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[23/40] 015DK78F_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[24/40] 0132CR0A_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[25/40] LOVM549U_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[26/40] C4LOTSKE_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[27/40] 01A6HE9H_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[28/40] O2LXM8BS_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[29/40] VJZXIP9X_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[30/40] KKBN198S_lower bridge: DDH F75 1.00 m0s0 | CC F75 0.80 m0s0
+[31/40] 013FWKMZ_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[32/40] APLDXK7R_lower bridge: DDH F75 0.67 m1s0 | CC F75 0.67 m1s0
+[33/40] U0YVRCMS_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[34/40] DEBDX44O_lower bridge: DDH F75 0.50 m0s2 | CC F75 0.50 m0s2
+[35/40] L7Z4TSKP_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[36/40] L9EKTZMV_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[37/40] 5J9O0LG3_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[38/40] 9U19TREK_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[39/40] XGTCZ6LH_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[40/40] LE4E8YWJ_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+
+== 인하우스 정중선 판정과 경고
+
+== public bridge (40 scans)
+   method          F50   F75  mIoU  merge split
+   DDH            0.968 0.939 0.923     4     4   (n=40)
+   CC             0.973 0.945 0.929     3     4   (n=40)
+
+== 어댑터 시간 (s, 평균 / 최대)
+   public bridge    1.31 / 3.17

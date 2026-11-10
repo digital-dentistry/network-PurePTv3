@@ -1,0 +1,21 @@
+INHOUSE0001_lower tooth area 2806 mm2 | A+clean F50 0.84 mIoU 0.875 m1s2 miss 1.4% extra 1.7% | H F50 1.00 mIoU 0.911 m1s1 miss 0.7% extra 2.2% | S1+clean F50 1.00 mIoU 0.963 m0s0 miss 1.3% extra 1.0%
+INHOUSE0002_upper tooth area 3212 mm2 | A+clean F50 1.00 mIoU 0.949 m0s0 miss 0.8% extra 2.0% | H F50 1.00 mIoU 0.960 m0s0 miss 0.3% extra 2.0% | S1+clean F50 1.00 mIoU 0.973 m0s0 miss 0.9% extra 0.8%
+INHOUSE0003_lower tooth area 641 mm2 | A+clean F50 0.91 mIoU 0.942 m0s0 miss 1.2% extra 5.6% | H F50 1.00 mIoU 0.951 m0s0 miss 0.3% extra 4.6% | S1+clean F50 0.91 mIoU 0.966 m0s0 miss 1.7% extra 3.8%
+INHOUSE0004_upper tooth area 698 mm2 | A+clean F50 0.91 mIoU 0.970 m0s0 miss 0.7% extra 2.4% | H F50 1.00 mIoU 0.973 m0s0 miss 0.2% extra 2.0% | S1+clean F50 1.00 mIoU 0.972 m0s0 miss 1.4% extra 0.9%
+INHOUSE0005_lower tooth area 534 mm2 | A+clean F50 1.00 mIoU 0.947 m0s0 miss 0.7% extra 3.9% | H F50 1.00 mIoU 0.950 m0s0 miss 0.1% extra 4.6% | S1+clean F50 1.00 mIoU 0.960 m0s0 miss 0.8% extra 2.6%
+INHOUSE0006_upper tooth area 883 mm2 | A+clean F50 1.00 mIoU 0.945 m0s0 miss 1.8% extra 1.6% | H F50 1.00 mIoU 0.916 m0s1 miss 0.2% extra 2.9% | S1+clean F50 1.00 mIoU 0.961 m0s0 miss 1.7% extra 0.9%
+INHOUSE0007_lower tooth area 755 mm2 | A+clean F50 0.92 mIoU 0.799 m1s0 miss 2.8% extra 3.4% | H F50 0.92 mIoU 0.798 m1s0 miss 2.9% extra 3.6% | S1+clean F50 0.92 mIoU 0.785 m0s0 miss 6.5% extra 1.7%
+INHOUSE0008_upper tooth area 989 mm2 | A+clean F50 0.82 mIoU 0.828 m0s2 miss 0.9% extra 3.2% | H F50 0.82 mIoU 0.823 m0s2 miss 0.5% extra 4.5% | S1+clean F50 1.00 mIoU 0.965 m0s0 miss 1.3% extra 1.7%
+INHOUSE0009_lower tooth area 756 mm2 | A+clean F50 0.86 mIoU 0.812 m1s0 miss 1.8% extra 2.8% | H F50 0.92 mIoU 0.799 m1s0 miss 3.3% extra 5.0% | S1+clean F50 1.00 mIoU 0.939 m0s0 miss 3.6% extra 1.2%
+INHOUSE0010_upper tooth area 932 mm2 | A+clean F50 1.00 mIoU 0.951 m0s0 miss 0.7% extra 3.6% | H F50 1.00 mIoU 0.957 m0s0 miss 0.1% extra 4.1% | S1+clean F50 1.00 mIoU 0.967 m0s0 miss 0.7% extra 2.5%
+INHOUSE0011_lower tooth area 698 mm2 | A+clean F50 1.00 mIoU 0.986 m0s0 miss 0.1% extra 1.0% | H F50 1.00 mIoU 0.966 m0s0 miss 0.3% extra 2.9% | S1+clean F50 1.00 mIoU 0.974 m0s0 miss 1.4% extra 0.5%
+INHOUSE0012_upper tooth area 823 mm2 | A+clean F50 1.00 mIoU 0.885 m0s1 miss 1.3% extra 8.1% | H F50 1.00 mIoU 0.953 m0s0 miss 0.1% extra 4.6% | S1+clean F50 1.00 mIoU 0.959 m0s0 miss 2.6% extra 1.0%
+
+variant         F50   F75  mIoU  merge split  margin GT>P P>GT  inter GT>P P>GT  miss%  extra%
+A+clean        0.938 0.875 0.907     3     5   0.21 0.29      0.24 0.96    1.2    3.3
+H              0.972 0.928 0.913     3     4   0.27 0.15      0.23 0.92    0.7    3.6
+S1             0.317 0.315 0.948     0     0   0.14 0.35      0.60 0.35    2.1    1.6
+S1+clean       0.986 0.973 0.949     0     0   0.17 0.18      0.57 0.37    2.0    1.5
+H+erode0.1     0.876 0.836 0.916     3     4   0.25 0.13      0.23 0.89    1.0    2.9
+H+erode0.2     0.929 0.885 0.917     3     4   0.24 0.13      0.23 0.85    2.0    1.9
+H+erode0.3     0.941 0.885 0.908     3     3   0.28 0.18      0.23 0.80    3.4    1.3

@@ -1,0 +1,6 @@
+z_first grey mIoU17 31.97 mIoU9 88.67 TSA 98.43 | colour mIoU17 33.75 mIoU9 91.03 TSA 99.58 | 15s
+hilbert_first grey mIoU17 32.01 mIoU9 88.31 TSA 98.43 | colour mIoU17 33.60 mIoU9 90.59 TSA 99.59 | 13s
+shuffle_s0 grey mIoU17 32.16 mIoU9 88.40 TSA 98.45 | colour mIoU17 33.57 mIoU9 90.56 TSA 99.58 | 14s
+shuffle_s1 grey mIoU17 32.05 mIoU9 88.52 TSA 98.43 | colour mIoU17 34.11 mIoU9 91.04 TSA 99.58 | 14s
+shuffle_s2 grey mIoU17 32.23 mIoU9 88.62 TSA 98.44 | colour mIoU17 33.51 mIoU9 90.82 TSA 99.59 | 14s
+points per scan by stage [52229.0, 18833.0, 5734.0, 1652.0, 477.0] | patches per scan [51.56, 18.87, 6.09, 2.12, 1.0]

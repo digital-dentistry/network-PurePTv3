@@ -1,0 +1,16 @@
+INHOUSE0001_lower: F50 1.00 F75 0.86 mIoU 0.911 m1s1 tooth F1 0.986 | 9802 ms (wall 9.83 s) mesh tta 8 midline instances 14 | warnings 0
+INHOUSE0002_upper: F50 1.00 F75 1.00 mIoU 0.960 m0s0 tooth F1 0.986 | 9236 ms (wall 9.24 s) mesh tta 8 midline instances 14 | warnings 0
+INHOUSE0003_lower: F50 1.00 F75 1.00 mIoU 0.928 m0s0 tooth F1 0.930 | 4692 ms (wall 4.7 s) mesh tta 8 single instances 5 | warnings 1
+INHOUSE0004_upper: F50 1.00 F75 1.00 mIoU 0.971 m0s0 tooth F1 0.970 | 4729 ms (wall 4.74 s) mesh tta 8 single instances 5 | warnings 1
+INHOUSE0005_lower: F50 1.00 F75 1.00 mIoU 0.951 m0s0 tooth F1 0.945 | 4750 ms (wall 4.76 s) mesh tta 8 single instances 5 | warnings 1
+INHOUSE0006_upper: F50 1.00 F75 1.00 mIoU 0.919 m0s1 tooth F1 0.965 | 4623 ms (wall 4.63 s) mesh tta 8 single instances 7 | warnings 1
+INHOUSE0007_lower: F50 0.92 F75 0.77 mIoU 0.810 m1s0 tooth F1 0.952 | 4849 ms (wall 4.86 s) mesh tta 8 single instances 6 | warnings 1
+INHOUSE0008_upper: F50 1.00 F75 1.00 mIoU 0.954 m0s0 tooth F1 0.957 | 4374 ms (wall 4.38 s) mesh tta 8 midline instances 7 | warnings 1
+INHOUSE0009_lower: F50 0.92 F75 0.77 mIoU 0.822 m1s0 tooth F1 0.969 | 3682 ms (wall 3.69 s) mesh tta 8 single instances 6 | warnings 1
+INHOUSE0010_upper: F50 1.00 F75 1.00 mIoU 0.953 m0s0 tooth F1 0.927 | 3854 ms (wall 3.86 s) mesh tta 8 single instances 6 | warnings 1
+INHOUSE0011_lower: F50 1.00 F75 1.00 mIoU 0.967 m0s0 tooth F1 0.974 | 5007 ms (wall 5.01 s) mesh tta 8 single instances 5 | warnings 1
+INHOUSE0012_upper: F50 1.00 F75 1.00 mIoU 0.947 m0s0 tooth F1 0.946 | 4540 ms (wall 4.55 s) mesh tta 8 single instances 6 | warnings 1
+
+== 대시보드 자동 라벨, 인하우스 12개 (DDH 기준: 같은 FDI = 한 치아)
+   F50 0.987  F75 0.950  mIoU 0.924  merge 3  split 2  tooth/gingiva F1 0.959
+   대시보드 서버 응답 시간 평균 5.3 s, 최대 9.8 s

@@ -1,0 +1,21 @@
+group                     n  agreeF50  <0.7  stabF50  <0.7 teeth P-S  P>S  P<S  conf
+partial colour=True      33     0.923     4    1.000     5    +10.97   11    8 0.460
+partial colour=False     12     0.817     1    0.889     4     +0.58    6    2 0.406
+partial colour=all       45     0.909     5    0.947     9     +8.20   17   10 0.447
+full colour=True         67     0.870     7    0.857    14     +0.94   37   16 0.450
+full colour=False        53     1.000     0    0.963     0     +0.38   20    2 0.477
+full colour=all         120     0.938     7    0.933    14     +0.69   57   18 0.462
+
+lowest agreement:
+  INHOUSE0105_lower partial colour=True  PurePTv3 355 seg3d  7 agree 0.04 stab 1.00 conf 0.42
+  INHOUSE0093_lower full    colour=True  PurePTv3 13 seg3d 19 agree 0.38 stab 0.80 conf 0.46
+  INHOUSE0014_upper partial colour=True  PurePTv3  7 seg3d  5 agree 0.50 stab 0.40 conf 0.32
+  INHOUSE0017_lower full    colour=True  PurePTv3 10 seg3d 11 agree 0.57 stab 0.64 conf 0.25
+  INHOUSE0124_upper full    colour=True  PurePTv3 12 seg3d  8 agree 0.60 stab 1.00 conf 0.49
+  INHOUSE0140_lower full    colour=True  PurePTv3 12 seg3d  8 agree 0.60 stab 0.34 conf 0.28
+  INHOUSE0123_lower full    colour=True  PurePTv3  6 seg3d  7 agree 0.61 stab 0.53 conf 0.39
+  INHOUSE0013_lower partial colour=True  PurePTv3 14 seg3d  8 agree 0.64 stab 0.35 conf 0.29
+  INHOUSE0097_lower full    colour=True  PurePTv3 12 seg3d 13 agree 0.64 stab 0.61 conf 0.38
+  INHOUSE0138_lower full    colour=True  PurePTv3 13 seg3d  8 agree 0.67 stab 0.61 conf 0.28
+  INHOUSE0149_upper partial colour=True  PurePTv3  9 seg3d  6 agree 0.67 stab 0.62 conf 0.44
+  INHOUSE0158_lower partial colour=False PurePTv3  4 seg3d  5 agree 0.67 stab 1.00 conf 0.39

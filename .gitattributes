@@ -1,0 +1,7 @@
+# 컨테이너(Linux)에서 실행되는 파일은 LF 고정
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf

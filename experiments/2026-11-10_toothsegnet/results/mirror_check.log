@@ -1,0 +1,17 @@
+recipe params AugmentationParams(rotation='so3', scale=0.1, jitter_mm=0.05, rot_xy_deg=10.0, rot_z_deg=25.0, crop_mode=None, crop_mix=(0.4, 0.35, 0.25), crop_margin_mm={'bridge': (1.0, 3.0), 'quadrant': (1.5, 4.5), 'half': (2.0, 6.0)}, wedge_keep=(0.3, 0.95), crop_min_points=3000, trim_reach_mm=(2.5, 14.0), trim_min_points=5000, colour_edge_mm=None, colour_edge_width_mm=(1.2, 2.2), colour_drift_scale=(1.0, 1.0), mirror_p=0.5, crop_p=0.5, wedge_p=0.25, trim_p=0.5, colour_p=0.0)
+3d_iosseg 8
+cbct_ios_fusion_liu2023 6
+poseidon3d 8
+teeth3ds 8
+  3d_iosseg                original samples   8 | tooth FDI 0.979 | side-only wrong 0.000
+  3d_iosseg                mirror   samples   8 | tooth FDI 0.969 | side-only wrong 0.000
+  3d_iosseg                recipe   samples  24 | tooth FDI 0.850 | side-only wrong 0.006
+  cbct_ios_fusion_liu2023  original samples   6 | tooth FDI 0.978 | side-only wrong 0.000
+  cbct_ios_fusion_liu2023  mirror   samples   6 | tooth FDI 0.978 | side-only wrong 0.000
+  cbct_ios_fusion_liu2023  recipe   samples  18 | tooth FDI 0.820 | side-only wrong 0.111
+  poseidon3d               original samples   8 | tooth FDI 0.901 | side-only wrong 0.018
+  poseidon3d               mirror   samples   8 | tooth FDI 0.891 | side-only wrong 0.008
+  poseidon3d               recipe   samples  24 | tooth FDI 0.713 | side-only wrong 0.132
+  teeth3ds                 original samples   8 | tooth FDI 0.990 | side-only wrong 0.000
+  teeth3ds                 mirror   samples   8 | tooth FDI 0.981 | side-only wrong 0.000
+  teeth3ds                 recipe   samples  24 | tooth FDI 0.930 | side-only wrong 0.039

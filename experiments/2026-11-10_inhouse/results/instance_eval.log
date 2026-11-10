@@ -1,0 +1,203 @@
+INHOUSE0001_lower full=True teeth=14 (7s)
+   A dashboard FDI regions                  F50 0.07 F75 0.07 mIoU 0.865 n 349/14 merge 1 split 2 | margin 0.22/0.16 inter 0.10/2.13 | miss 38 extra 49 mm2
+   B grey 17-class regions                  F50 0.01 F75 0.00 mIoU 0.556 n 3098/14 merge 1 split 3 | margin 0.22/0.16 inter 0.06/3.02 | miss 38 extra 49 mm2
+   C grey pos9 regions                      F50 0.05 F75 0.05 mIoU 0.800 n 357/14 merge 2 split 2 | margin 0.25/0.18 inter 0.47/2.20 | miss 26 extra 66 mm2
+   D grey pos9+rule                         F50 0.06 F75 0.06 mIoU 0.862 n 358/14 merge 1 split 2 | margin 0.25/0.18 inter 0.10/2.17 | miss 26 extra 66 mm2
+   E grey pos9+rule+clean                   F50 0.84 F75 0.77 mIoU 0.873 n 17/14 merge 1 split 2 | margin 0.30/0.16 inter 0.13/1.59 | miss 27 extra 66 mm2
+   F colour pos9+rule+clean                 F50 0.84 F75 0.77 mIoU 0.873 n 17/14 merge 1 split 2 | margin 0.30/0.16 inter 0.13/1.59 | miss 27 extra 66 mm2
+   G knn pos9+rule+clean                    F50 0.84 F75 0.77 mIoU 0.876 n 17/14 merge 1 split 2 | margin 0.29/0.15 inter 0.13/1.19 | miss 25 extra 61 mm2
+   H tta8+knn pos9+rule+clean               F50 1.00 F75 0.86 mIoU 0.911 n 14/14 merge 1 split 1 | margin 0.30/0.14 inter 0.24/0.86 | miss 19 extra 60 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 1.00 F75 0.86 mIoU 0.914 n 14/14 merge 1 split 1 | margin 0.29/0.13 inter 0.25/0.73 | miss 18 extra 55 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 1.00 F75 0.86 mIoU 0.912 n 14/14 merge 1 split 1 | margin 0.30/0.13 inter 0.26/0.67 | miss 19 extra 56 mm2
+   S1 seg3d instance_ios tta8               F50 0.74 F75 0.74 mIoU 0.963 n 24/14 merge 0 split 0 | margin 0.15/0.34 inter 0.12/0.08 | miss 42 extra 28 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 1.00 F75 1.00 mIoU 0.949 n 14/14 merge 0 split 0 | margin 0.24/0.13 inter 0.09/0.15 | miss 39 extra 40 mm2
+INHOUSE0002_upper full=True teeth=14 (8s)
+   A dashboard FDI regions                  F50 0.24 F75 0.24 mIoU 0.948 n 104/14 merge 0 split 0 | margin 0.28/0.30 inter 0.17/0.62 | miss 27 extra 69 mm2
+   B grey 17-class regions                  F50 0.00 F75 0.00 mIoU 0.586 n 3543/14 merge 1 split 4 | margin 0.28/0.30 inter 0.07/4.75 | miss 27 extra 69 mm2
+   C grey pos9 regions                      F50 0.21 F75 0.20 mIoU 0.881 n 107/14 merge 1 split 0 | margin 0.32/0.29 inter 1.14/1.01 | miss 17 extra 91 mm2
+   D grey pos9+rule                         F50 0.23 F75 0.23 mIoU 0.944 n 108/14 merge 0 split 0 | margin 0.32/0.29 inter 0.16/0.97 | miss 17 extra 91 mm2
+   E grey pos9+rule+clean                   F50 0.97 F75 0.97 mIoU 0.944 n 15/14 merge 0 split 0 | margin 0.34/0.22 inter 0.17/0.96 | miss 16 extra 91 mm2
+   F colour pos9+rule+clean                 F50 0.97 F75 0.97 mIoU 0.944 n 15/14 merge 0 split 0 | margin 0.34/0.22 inter 0.17/0.96 | miss 16 extra 91 mm2
+   G knn pos9+rule+clean                    F50 0.97 F75 0.97 mIoU 0.946 n 15/14 merge 0 split 0 | margin 0.39/0.20 inter 0.18/0.90 | miss 12 extra 92 mm2
+   H tta8+knn pos9+rule+clean               F50 1.00 F75 1.00 mIoU 0.960 n 14/14 merge 0 split 0 | margin 0.31/0.12 inter 0.17/0.21 | miss 9 extra 63 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 1.00 F75 1.00 mIoU 0.964 n 14/14 merge 0 split 0 | margin 0.31/0.11 inter 0.17/0.20 | miss 8 extra 56 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 1.00 F75 1.00 mIoU 0.964 n 14/14 merge 0 split 0 | margin 0.32/0.11 inter 0.16/0.20 | miss 9 extra 57 mm2
+   S1 seg3d instance_ios tta8               F50 0.47 F75 0.47 mIoU 0.972 n 45/14 merge 0 split 0 | margin 0.17/0.46 inter 0.14/0.11 | miss 35 extra 24 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 1.00 F75 1.00 mIoU 0.960 n 14/14 merge 0 split 0 | margin 0.27/0.14 inter 0.15/0.19 | miss 28 extra 45 mm2
+INHOUSE0003_lower full=False teeth=5 (3s)
+   A dashboard FDI regions                  F50 0.21 F75 0.21 mIoU 0.943 n 43/ 5 merge 0 split 0 | margin 0.11/0.79 inter 0.16/4.30 | miss 8 extra 39 mm2
+   B grey 17-class regions                  F50 0.03 F75 0.02 mIoU 0.793 n 342/ 5 merge 0 split 0 | margin 0.12/0.24 inter 0.02/6.06 | miss 3 extra 30 mm2
+   C grey pos9 regions                      F50 0.37 F75 0.37 mIoU 0.936 n 22/ 5 merge 0 split 0 | margin 0.16/0.29 inter 0.03/4.45 | miss 2 extra 42 mm2
+   D grey pos9+rule                         F50 0.37 F75 0.37 mIoU 0.936 n 22/ 5 merge 0 split 0 | margin 0.16/0.29 inter 0.03/4.45 | miss 2 extra 42 mm2
+   E grey pos9+rule+clean                   F50 1.00 F75 1.00 mIoU 0.935 n  5/ 5 merge 0 split 0 | margin 0.16/0.27 inter 0.04/3.78 | miss 2 extra 41 mm2
+   F colour pos9+rule+clean                 F50 1.00 F75 1.00 mIoU 0.907 n  5/ 5 merge 0 split 0 | margin 0.31/0.27 inter 0.12/2.99 | miss 6 extra 53 mm2
+   G knn pos9+rule+clean                    F50 1.00 F75 1.00 mIoU 0.937 n  5/ 5 merge 0 split 0 | margin 0.18/0.27 inter 0.04/4.00 | miss 2 extra 41 mm2
+   H tta8+knn pos9+rule+clean               F50 1.00 F75 1.00 mIoU 0.951 n  5/ 5 merge 0 split 0 | margin 0.19/0.13 inter 0.04/2.81 | miss 2 extra 29 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 1.00 F75 1.00 mIoU 0.955 n  5/ 5 merge 0 split 0 | margin 0.18/0.12 inter 0.03/3.10 | miss 2 extra 27 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 1.00 F75 1.00 mIoU 0.958 n  5/ 5 merge 0 split 0 | margin 0.17/0.11 inter 0.03/3.03 | miss 2 extra 26 mm2
+   S1 seg3d instance_ios tta8               F50 0.21 F75 0.21 mIoU 0.965 n 43/ 5 merge 0 split 0 | margin 0.09/0.29 inter 0.58/3.49 | miss 11 extra 24 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 0.91 F75 0.91 mIoU 0.951 n  6/ 5 merge 0 split 0 | margin 0.30/0.16 inter 0.04/2.32 | miss 3 extra 41 mm2
+INHOUSE0004_upper full=False teeth=5 (3s)
+   A dashboard FDI regions                  F50 0.17 F75 0.17 mIoU 0.969 n 53/ 5 merge 0 split 0 | margin 0.09/1.95 inter 0.09/1.64 | miss 6 extra 23 mm2
+   B grey 17-class regions                  F50 0.03 F75 0.02 mIoU 0.861 n 332/ 5 merge 0 split 0 | margin 0.18/0.09 inter 0.06/1.92 | miss 4 extra 12 mm2
+   C grey pos9 regions                      F50 0.59 F75 0.59 mIoU 0.966 n 12/ 5 merge 0 split 0 | margin 0.20/0.09 inter 0.07/0.14 | miss 3 extra 15 mm2
+   D grey pos9+rule                         F50 0.59 F75 0.59 mIoU 0.966 n 12/ 5 merge 0 split 0 | margin 0.20/0.09 inter 0.07/0.14 | miss 3 extra 15 mm2
+   E grey pos9+rule+clean                   F50 1.00 F75 1.00 mIoU 0.966 n  5/ 5 merge 0 split 0 | margin 0.20/0.09 inter 0.07/0.14 | miss 3 extra 15 mm2
+   F colour pos9+rule+clean                 F50 0.91 F75 0.91 mIoU 0.966 n  6/ 5 merge 0 split 0 | margin 0.18/0.58 inter 0.06/0.11 | miss 4 extra 20 mm2
+   G knn pos9+rule+clean                    F50 1.00 F75 1.00 mIoU 0.968 n  5/ 5 merge 0 split 0 | margin 0.22/0.09 inter 0.07/0.13 | miss 2 extra 15 mm2
+   H tta8+knn pos9+rule+clean               F50 1.00 F75 1.00 mIoU 0.973 n  5/ 5 merge 0 split 0 | margin 0.21/0.08 inter 0.06/0.11 | miss 1 extra 14 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 1.00 F75 1.00 mIoU 0.977 n  5/ 5 merge 0 split 0 | margin 0.20/0.07 inter 0.05/0.10 | miss 2 extra 12 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 1.00 F75 1.00 mIoU 0.979 n  5/ 5 merge 0 split 0 | margin 0.18/0.06 inter 0.05/0.09 | miss 2 extra 10 mm2
+   S1 seg3d instance_ios tta8               F50 0.30 F75 0.30 mIoU 0.972 n 28/ 5 merge 0 split 0 | margin 0.15/0.41 inter 2.12/0.07 | miss 11 extra 7 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 0.53 F75 0.13 mIoU 0.634 n 10/ 5 merge 0 split 4 | margin 0.18/0.10 inter 0.05/1.76 | miss 4 extra 14 mm2
+/exp/scripts/instance_eval.py:129: RuntimeWarning: divide by zero encountered in divide
+  A = diags(1.0 / np.asarray(A.sum(1)).ravel()) @ A
+INHOUSE0005_lower full=False teeth=5 (3s)
+   A dashboard FDI regions                  F50 0.30 F75 0.30 mIoU 0.942 n 28/ 5 merge 0 split 0 | margin 0.12/0.45 inter 0.05/0.87 | miss 5 extra 21 mm2
+   B grey 17-class regions                  F50 0.02 F75 0.02 mIoU 0.722 n 363/ 5 merge 0 split 1 | margin 0.10/0.54 inter 0.04/3.85 | miss 4 extra 33 mm2
+   C grey pos9 regions                      F50 0.42 F75 0.42 mIoU 0.946 n 19/ 5 merge 0 split 0 | margin 0.14/0.79 inter 0.05/1.73 | miss 2 extra 48 mm2
+   D grey pos9+rule                         F50 0.42 F75 0.42 mIoU 0.946 n 19/ 5 merge 0 split 0 | margin 0.14/0.79 inter 0.05/1.73 | miss 2 extra 48 mm2
+   E grey pos9+rule+clean                   F50 0.77 F75 0.77 mIoU 0.945 n  8/ 5 merge 0 split 0 | margin 0.16/0.74 inter 0.05/1.11 | miss 2 extra 45 mm2
+   F colour pos9+rule+clean                 F50 1.00 F75 1.00 mIoU 0.941 n  5/ 5 merge 0 split 0 | margin 0.17/0.13 inter 0.05/1.09 | miss 3 extra 25 mm2
+   G knn pos9+rule+clean                    F50 0.77 F75 0.77 mIoU 0.949 n  8/ 5 merge 0 split 0 | margin 0.16/0.71 inter 0.05/1.15 | miss 2 extra 43 mm2
+   H tta8+knn pos9+rule+clean               F50 1.00 F75 1.00 mIoU 0.950 n  5/ 5 merge 0 split 0 | margin 0.20/0.13 inter 0.02/1.26 | miss 1 extra 25 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 1.00 F75 1.00 mIoU 0.955 n  5/ 5 merge 0 split 0 | margin 0.19/0.11 inter 0.02/1.25 | miss 1 extra 22 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 1.00 F75 1.00 mIoU 0.957 n  5/ 5 merge 0 split 0 | margin 0.18/0.10 inter 0.03/1.24 | miss 1 extra 20 mm2
+   S1 seg3d instance_ios tta8               F50 0.26 F75 0.26 mIoU 0.961 n 33/ 5 merge 0 split 0 | margin 0.08/0.17 inter 0.05/0.07 | miss 5 extra 14 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 0.91 F75 0.91 mIoU 0.923 n  6/ 5 merge 0 split 0 | margin 0.27/1.44 inter 0.05/1.07 | miss 4 extra 64 mm2
+INHOUSE0006_upper full=False teeth=7 (3s)
+   A dashboard FDI regions                  F50 0.40 F75 0.40 mIoU 0.944 n 28/ 7 merge 0 split 0 | margin 0.13/0.30 inter 0.06/0.33 | miss 13 extra 15 mm2
+   B grey 17-class regions                  F50 0.02 F75 0.01 mIoU 0.731 n 681/ 7 merge 0 split 2 | margin 0.16/0.15 inter 0.06/2.76 | miss 10 extra 19 mm2
+   C grey pos9 regions                      F50 0.70 F75 0.70 mIoU 0.935 n 13/ 7 merge 0 split 0 | margin 0.24/0.17 inter 0.06/0.35 | miss 6 extra 25 mm2
+   D grey pos9+rule                         F50 0.70 F75 0.70 mIoU 0.935 n 13/ 7 merge 0 split 0 | margin 0.24/0.17 inter 0.06/0.35 | miss 6 extra 25 mm2
+   E grey pos9+rule+clean                   F50 1.00 F75 1.00 mIoU 0.942 n  7/ 7 merge 0 split 0 | margin 0.29/0.11 inter 0.05/0.19 | miss 8 extra 25 mm2
+   F colour pos9+rule+clean                 F50 1.00 F75 1.00 mIoU 0.944 n  7/ 7 merge 0 split 0 | margin 0.17/0.13 inter 0.06/0.20 | miss 14 extra 17 mm2
+   G knn pos9+rule+clean                    F50 1.00 F75 1.00 mIoU 0.944 n  7/ 7 merge 0 split 0 | margin 0.31/0.11 inter 0.06/0.18 | miss 7 extra 26 mm2
+   H tta8+knn pos9+rule+clean               F50 1.00 F75 1.00 mIoU 0.916 n  7/ 7 merge 0 split 1 | margin 0.27/0.10 inter 0.09/0.44 | miss 2 extra 25 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 1.00 F75 1.00 mIoU 0.919 n  7/ 7 merge 0 split 1 | margin 0.26/0.08 inter 0.09/0.43 | miss 2 extra 22 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 1.00 F75 1.00 mIoU 0.921 n  7/ 7 merge 0 split 1 | margin 0.26/0.07 inter 0.08/0.41 | miss 3 extra 20 mm2
+   S1 seg3d instance_ios tta8               F50 0.37 F75 0.37 mIoU 0.961 n 31/ 7 merge 0 split 0 | margin 0.09/0.17 inter 0.04/0.07 | miss 16 extra 8 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 0.82 F75 0.59 mIoU 0.865 n 10/ 7 merge 0 split 1 | margin 0.16/0.30 inter 0.05/1.70 | miss 23 extra 74 mm2
+INHOUSE0007_lower full=False teeth=7 (4s)
+   A dashboard FDI regions                  F50 0.15 F75 0.12 mIoU 0.799 n 73/ 7 merge 1 split 0 | margin 0.19/1.25 inter 0.39/0.38 | miss 20 extra 38 mm2
+   B grey 17-class regions                  F50 0.02 F75 0.01 mIoU 0.594 n 466/ 7 merge 0 split 2 | margin 0.25/0.17 inter 0.06/3.28 | miss 33 extra 24 mm2
+   C grey pos9 regions                      F50 0.50 F75 0.42 mIoU 0.786 n 17/ 7 merge 1 split 0 | margin 0.27/0.25 inter 0.76/0.23 | miss 28 extra 31 mm2
+   D grey pos9+rule                         F50 0.50 F75 0.42 mIoU 0.786 n 17/ 7 merge 1 split 0 | margin 0.27/0.25 inter 0.76/0.23 | miss 28 extra 31 mm2
+   E grey pos9+rule+clean                   F50 0.92 F75 0.77 mIoU 0.786 n  6/ 7 merge 1 split 0 | margin 0.27/0.22 inter 0.76/0.23 | miss 28 extra 31 mm2
+   F colour pos9+rule+clean                 F50 0.92 F75 0.77 mIoU 0.799 n  6/ 7 merge 1 split 0 | margin 0.23/0.20 inter 0.76/0.22 | miss 16 extra 30 mm2
+   G knn pos9+rule+clean                    F50 0.92 F75 0.77 mIoU 0.789 n  6/ 7 merge 1 split 0 | margin 0.29/0.19 inter 0.77/0.22 | miss 28 extra 30 mm2
+   H tta8+knn pos9+rule+clean               F50 0.92 F75 0.77 mIoU 0.798 n  6/ 7 merge 1 split 0 | margin 0.27/0.18 inter 0.79/0.20 | miss 22 extra 27 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 0.92 F75 0.77 mIoU 0.802 n  6/ 7 merge 1 split 0 | margin 0.26/0.16 inter 0.78/0.18 | miss 22 extra 24 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 0.92 F75 0.77 mIoU 0.804 n  6/ 7 merge 1 split 0 | margin 0.25/0.15 inter 0.78/0.18 | miss 22 extra 22 mm2
+   S1 seg3d instance_ios tta8               F50 0.18 F75 0.15 mIoU 0.785 n 61/ 7 merge 0 split 0 | margin 0.22/0.39 inter 1.01/0.10 | miss 50 extra 15 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 0.57 F75 0.43 mIoU 0.551 n  7/ 7 merge 1 split 0 | margin 0.60/0.19 inter 1.40/1.30 | miss 80 extra 14 mm2
+INHOUSE0008_upper full=False teeth=7 (3s)
+   A dashboard FDI regions                  F50 0.22 F75 0.16 mIoU 0.828 n 57/ 7 merge 0 split 2 | margin 0.19/0.81 inter 0.07/2.50 | miss 9 extra 37 mm2
+   B grey 17-class regions                  F50 0.02 F75 0.01 mIoU 0.768 n 785/ 7 merge 0 split 2 | margin 0.22/0.16 inter 0.05/5.06 | miss 8 extra 35 mm2
+   C grey pos9 regions                      F50 0.56 F75 0.56 mIoU 0.944 n 18/ 7 merge 0 split 0 | margin 0.27/0.19 inter 0.06/1.97 | miss 6 extra 45 mm2
+   D grey pos9+rule                         F50 0.48 F75 0.34 mIoU 0.824 n 22/ 7 merge 0 split 2 | margin 0.27/0.19 inter 0.06/3.00 | miss 6 extra 45 mm2
+   E grey pos9+rule+clean                   F50 0.82 F75 0.59 mIoU 0.820 n 10/ 7 merge 0 split 2 | margin 0.34/0.17 inter 0.06/2.85 | miss 6 extra 47 mm2
+   F colour pos9+rule+clean                 F50 0.82 F75 0.59 mIoU 0.825 n 10/ 7 merge 0 split 2 | margin 0.29/0.17 inter 0.07/2.04 | miss 8 extra 38 mm2
+   G knn pos9+rule+clean                    F50 0.82 F75 0.59 mIoU 0.821 n 10/ 7 merge 0 split 2 | margin 0.37/0.16 inter 0.06/3.28 | miss 5 extra 48 mm2
+   H tta8+knn pos9+rule+clean               F50 0.82 F75 0.59 mIoU 0.823 n 10/ 7 merge 0 split 2 | margin 0.32/0.16 inter 0.05/2.90 | miss 5 extra 44 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 0.82 F75 0.59 mIoU 0.825 n 10/ 7 merge 0 split 2 | margin 0.30/0.13 inter 0.05/2.93 | miss 5 extra 40 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 0.82 F75 0.59 mIoU 0.827 n 10/ 7 merge 0 split 2 | margin 0.29/0.12 inter 0.05/2.90 | miss 6 extra 37 mm2
+   S1 seg3d instance_ios tta8               F50 0.24 F75 0.24 mIoU 0.965 n 51/ 7 merge 0 split 0 | margin 0.07/0.25 inter 0.18/0.07 | miss 14 extra 18 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 0.78 F75 0.33 mIoU 0.754 n 11/ 7 merge 0 split 2 | margin 0.34/0.16 inter 0.47/3.05 | miss 14 extra 38 mm2
+INHOUSE0009_lower full=False teeth=7 (3s)
+   A dashboard FDI regions                  F50 0.15 F75 0.12 mIoU 0.808 n 73/ 7 merge 1 split 0 | margin 0.09/1.79 inter 0.27/1.08 | miss 18 extra 24 mm2
+   B grey 17-class regions                  F50 0.03 F75 0.02 mIoU 0.707 n 371/ 7 merge 1 split 0 | margin 0.22/0.46 inter 0.38/2.16 | miss 14 extra 34 mm2
+   C grey pos9 regions                      F50 0.17 F75 0.14 mIoU 0.762 n 62/ 7 merge 1 split 0 | margin 0.24/0.53 inter 1.26/1.69 | miss 11 extra 43 mm2
+   D grey pos9+rule                         F50 0.17 F75 0.14 mIoU 0.762 n 62/ 7 merge 1 split 0 | margin 0.24/0.53 inter 1.26/1.69 | miss 11 extra 43 mm2
+   E grey pos9+rule+clean                   F50 0.75 F75 0.62 mIoU 0.771 n  9/ 7 merge 1 split 0 | margin 0.29/0.55 inter 1.26/0.82 | miss 14 extra 42 mm2
+   F colour pos9+rule+clean                 F50 0.86 F75 0.71 mIoU 0.814 n  7/ 7 merge 1 split 0 | margin 0.14/1.21 inter 1.20/0.18 | miss 9 extra 25 mm2
+   G knn pos9+rule+clean                    F50 0.75 F75 0.62 mIoU 0.773 n  9/ 7 merge 1 split 0 | margin 0.31/0.54 inter 1.27/0.87 | miss 14 extra 41 mm2
+   H tta8+knn pos9+rule+clean               F50 0.92 F75 0.92 mIoU 0.799 n  6/ 7 merge 1 split 0 | margin 0.32/0.28 inter 1.17/0.20 | miss 25 extra 38 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 0.92 F75 0.92 mIoU 0.800 n  6/ 7 merge 1 split 0 | margin 0.32/0.26 inter 1.17/0.20 | miss 25 extra 36 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 0.92 F75 0.92 mIoU 0.801 n  6/ 7 merge 1 split 0 | margin 0.32/0.25 inter 1.18/0.22 | miss 25 extra 35 mm2
+   S1 seg3d instance_ios tta8               F50 0.31 F75 0.31 mIoU 0.934 n 38/ 7 merge 0 split 0 | margin 0.09/0.69 inter 0.76/0.10 | miss 29 extra 10 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 0.88 F75 0.88 mIoU 0.935 n  9/ 7 merge 0 split 0 | margin 0.30/1.94 inter 0.07/0.32 | miss 2 extra 59 mm2
+INHOUSE0010_upper full=False teeth=6 (3s)
+   A dashboard FDI regions                  F50 0.14 F75 0.14 mIoU 0.954 n 82/ 6 merge 0 split 0 | margin 0.16/0.35 inter 0.05/3.08 | miss 7 extra 37 mm2
+   B grey 17-class regions                  F50 0.02 F75 0.02 mIoU 0.809 n 502/ 6 merge 0 split 1 | margin 0.14/0.18 inter 0.03/5.49 | miss 4 extra 34 mm2
+   C grey pos9 regions                      F50 0.32 F75 0.32 mIoU 0.950 n 31/ 6 merge 0 split 0 | margin 0.16/0.22 inter 0.06/2.54 | miss 2 extra 44 mm2
+   D grey pos9+rule                         F50 0.32 F75 0.32 mIoU 0.950 n 31/ 6 merge 0 split 0 | margin 0.16/0.22 inter 0.06/2.54 | miss 2 extra 44 mm2
+   E grey pos9+rule+clean                   F50 1.00 F75 1.00 mIoU 0.948 n  6/ 6 merge 0 split 0 | margin 0.31/0.18 inter 0.06/2.37 | miss 2 extra 43 mm2
+   F colour pos9+rule+clean                 F50 1.00 F75 1.00 mIoU 0.946 n  6/ 6 merge 0 split 0 | margin 0.33/0.19 inter 0.05/2.64 | miss 4 extra 43 mm2
+   G knn pos9+rule+clean                    F50 1.00 F75 1.00 mIoU 0.949 n  6/ 6 merge 0 split 0 | margin 0.33/0.19 inter 0.05/2.43 | miss 2 extra 44 mm2
+   H tta8+knn pos9+rule+clean               F50 1.00 F75 1.00 mIoU 0.957 n  6/ 6 merge 0 split 0 | margin 0.27/0.17 inter 0.05/1.41 | miss 1 extra 38 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 1.00 F75 1.00 mIoU 0.961 n  6/ 6 merge 0 split 0 | margin 0.27/0.16 inter 0.04/1.52 | miss 1 extra 36 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 1.00 F75 1.00 mIoU 0.963 n  6/ 6 merge 0 split 0 | margin 0.26/0.15 inter 0.03/1.51 | miss 1 extra 33 mm2
+   S1 seg3d instance_ios tta8               F50 0.21 F75 0.21 mIoU 0.967 n 52/ 6 merge 0 split 0 | margin 0.16/0.32 inter 0.08/0.03 | miss 8 extra 24 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 0.92 F75 0.92 mIoU 0.957 n  7/ 6 merge 0 split 0 | margin 0.23/0.23 inter 0.04/4.34 | miss 4 extra 45 mm2
+INHOUSE0011_lower full=False teeth=5 (3s)
+   A dashboard FDI regions                  F50 0.23 F75 0.23 mIoU 0.986 n 38/ 5 merge 0 split 0 | margin 0.02/0.47 inter 0.01/0.02 | miss 0 extra 10 mm2
+   B grey 17-class regions                  F50 0.02 F75 0.01 mIoU 0.748 n 468/ 5 merge 0 split 1 | margin 0.33/0.06 inter 0.02/2.81 | miss 2 extra 10 mm2
+   C grey pos9 regions                      F50 0.67 F75 0.67 mIoU 0.976 n 10/ 5 merge 0 split 0 | margin 0.34/0.09 inter 0.04/0.02 | miss 1 extra 15 mm2
+   D grey pos9+rule                         F50 0.67 F75 0.67 mIoU 0.976 n 10/ 5 merge 0 split 0 | margin 0.34/0.09 inter 0.04/0.02 | miss 1 extra 15 mm2
+   E grey pos9+rule+clean                   F50 1.00 F75 1.00 mIoU 0.976 n  5/ 5 merge 0 split 0 | margin 0.35/0.08 inter 0.04/0.02 | miss 1 extra 15 mm2
+   F colour pos9+rule+clean                 F50 1.00 F75 1.00 mIoU 0.975 n  5/ 5 merge 0 split 0 | margin 0.34/0.09 inter 0.03/0.02 | miss 1 extra 14 mm2
+   G knn pos9+rule+clean                    F50 1.00 F75 1.00 mIoU 0.969 n  5/ 5 merge 0 split 0 | margin 0.36/0.09 inter 0.06/0.04 | miss 2 extra 17 mm2
+   H tta8+knn pos9+rule+clean               F50 1.00 F75 1.00 mIoU 0.966 n  5/ 5 merge 0 split 0 | margin 0.39/0.10 inter 0.07/0.05 | miss 2 extra 20 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 1.00 F75 1.00 mIoU 0.967 n  5/ 5 merge 0 split 0 | margin 0.39/0.09 inter 0.07/0.05 | miss 2 extra 18 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 1.00 F75 1.00 mIoU 0.967 n  5/ 5 merge 0 split 0 | margin 0.39/0.09 inter 0.08/0.06 | miss 3 extra 17 mm2
+   S1 seg3d instance_ios tta8               F50 0.28 F75 0.28 mIoU 0.974 n 31/ 5 merge 0 split 0 | margin 0.31/0.37 inter 0.26/0.05 | miss 11 extra 4 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 1.00 F75 1.00 mIoU 0.944 n  5/ 5 merge 0 split 0 | margin 0.44/0.11 inter 0.09/0.08 | miss 7 extra 24 mm2
+INHOUSE0012_upper full=False teeth=6 (3s)
+   A dashboard FDI regions                  F50 0.13 F75 0.11 mIoU 0.885 n 88/ 6 merge 0 split 1 | margin 0.12/1.38 inter 0.16/2.00 | miss 11 extra 80 mm2
+   B grey 17-class regions                  F50 0.01 F75 0.01 mIoU 0.642 n 591/ 6 merge 0 split 2 | margin 0.22/0.87 inter 0.04/8.30 | miss 4 extra 87 mm2
+   C grey pos9 regions                      F50 0.25 F75 0.25 mIoU 0.892 n 42/ 6 merge 0 split 0 | margin 0.28/1.27 inter 0.05/2.95 | miss 2 extra 106 mm2
+   D grey pos9+rule                         F50 0.25 F75 0.25 mIoU 0.892 n 42/ 6 merge 0 split 0 | margin 0.28/1.27 inter 0.05/2.95 | miss 2 extra 106 mm2
+   E grey pos9+rule+clean                   F50 1.00 F75 1.00 mIoU 0.906 n  6/ 6 merge 0 split 0 | margin 0.45/0.52 inter 0.05/3.74 | miss 2 extra 104 mm2
+   F colour pos9+rule+clean                 F50 1.00 F75 1.00 mIoU 0.880 n  6/ 6 merge 0 split 0 | margin 0.23/0.47 inter 0.09/1.18 | miss 7 extra 79 mm2
+   G knn pos9+rule+clean                    F50 1.00 F75 1.00 mIoU 0.909 n  6/ 6 merge 0 split 0 | margin 0.46/0.52 inter 0.05/3.61 | miss 2 extra 104 mm2
+   H tta8+knn pos9+rule+clean               F50 1.00 F75 1.00 mIoU 0.953 n  6/ 6 merge 0 split 0 | margin 0.26/0.20 inter 0.04/0.58 | miss 0 extra 38 mm2
+   I tta8+knn+smooth3 pos9+rule+clean       F50 1.00 F75 1.00 mIoU 0.957 n  6/ 6 merge 0 split 0 | margin 0.25/0.19 inter 0.04/0.68 | miss 1 extra 35 mm2
+   I tta8+knn+smooth10 pos9+rule+clean      F50 1.00 F75 1.00 mIoU 0.960 n  6/ 6 merge 0 split 0 | margin 0.25/0.18 inter 0.04/0.72 | miss 1 extra 33 mm2
+   S1 seg3d instance_ios tta8               F50 0.24 F75 0.24 mIoU 0.958 n 44/ 6 merge 0 split 0 | margin 0.11/0.34 inter 1.84/0.02 | miss 22 extra 9 mm2
+   S2 seg3d semantic tta8 pos9+rule+clean   F50 0.22 F75 0.00 mIoU 0.515 n 21/ 6 merge 1 split 4 | margin 0.19/1.44 inter 0.20/5.45 | miss 10 extra 79 mm2
+
+== all (12 scans, 88 teeth)
+   method                                    F50   F75  mIoU  merge split  margin GT>P P>GT  inter GT>P P>GT  miss  extra(mm2/scan)
+   A dashboard FDI regions                  0.200 0.189 0.906     3     5   0.14 0.83      0.13 1.58     14    37
+   B grey 17-class regions                  0.018 0.013 0.710     3    18   0.20 0.28      0.07 4.12     13    36
+   C grey pos9 regions                      0.402 0.391 0.898     5     2   0.24 0.36      0.34 1.61      9    48
+   D grey pos9+rule                         0.397 0.376 0.898     3     4   0.24 0.36      0.22 1.69      9    48
+   E grey pos9+rule+clean                   0.923 0.874 0.901     3     4   0.29 0.28      0.23 1.48      9    47
+   F colour pos9+rule+clean                 0.943 0.893 0.901     3     4   0.25 0.32      0.23 1.10      9    42
+   G knn pos9+rule+clean                    0.923 0.874 0.902     3     4   0.31 0.27      0.23 1.50      9    47
+   H tta8+knn pos9+rule+clean               0.972 0.928 0.913     3     4   0.27 0.15      0.23 0.92      7    35
+   I tta8+knn+smooth3 pos9+rule+clean       0.972 0.928 0.916     3     4   0.27 0.13      0.23 0.95      7    32
+   I tta8+knn+smooth10 pos9+rule+clean      0.972 0.928 0.918     3     4   0.26 0.13      0.23 0.94      8    30
+   S1 seg3d instance_ios tta8               0.317 0.315 0.948     0     0   0.14 0.35      0.60 0.35     21    15
+   S2 seg3d semantic tta8 pos9+rule+clean   0.795 0.675 0.828     2    11   0.29 0.53      0.22 1.81     18    45
+
+== partial (one quadrant) (10 scans, 60 teeth)
+   method                                    F50   F75  mIoU  merge split  margin GT>P P>GT  inter GT>P P>GT  miss  extra(mm2/scan)
+   A dashboard FDI regions                  0.210 0.197 0.906     2     3   0.12 0.95      0.13 1.62     10    33
+   B grey 17-class regions                  0.021 0.015 0.737     1    11   0.19 0.29      0.08 4.17      9    32
+   C grey pos9 regions                      0.455 0.444 0.909     2     0   0.23 0.39      0.24 1.61      6    41
+   D grey pos9+rule                         0.447 0.422 0.897     2     2   0.23 0.39      0.24 1.71      6    41
+   E grey pos9+rule+clean                   0.927 0.875 0.899     2     2   0.28 0.29      0.24 1.53      7    41
+   F colour pos9+rule+clean                 0.951 0.898 0.900     2     2   0.24 0.34      0.25 1.07      7    34
+   G knn pos9+rule+clean                    0.927 0.875 0.901     2     2   0.30 0.29      0.25 1.59      7    41
+   H tta8+knn pos9+rule+clean               0.967 0.928 0.908     2     3   0.27 0.15      0.24 0.99      6    30
+   I tta8+knn+smooth3 pos9+rule+clean       0.967 0.928 0.912     2     3   0.26 0.14      0.23 1.04      6    27
+   I tta8+knn+smooth10 pos9+rule+clean      0.967 0.928 0.914     2     3   0.25 0.13      0.23 1.04      7    25
+   S1 seg3d instance_ios tta8               0.260 0.257 0.944     0     0   0.14 0.34      0.69 0.41     18    13
+   S2 seg3d semantic tta8 pos9+rule+clean   0.754 0.610 0.803     2    11   0.30 0.61      0.25 2.14     15    45
+
+== full arch (2 scans, 28 teeth)
+   method                                    F50   F75  mIoU  merge split  margin GT>P P>GT  inter GT>P P>GT  miss  extra(mm2/scan)
+   A dashboard FDI regions                  0.152 0.152 0.906     1     2   0.25 0.23      0.13 1.37     32    59
+   B grey 17-class regions                  0.005 0.002 0.571     2     7   0.25 0.23      0.06 3.89     32    59
+   C grey pos9 regions                      0.134 0.126 0.840     3     2   0.28 0.23      0.81 1.60     22    78
+   D grey pos9+rule                         0.147 0.147 0.903     1     2   0.28 0.23      0.13 1.57     22    78
+   E grey pos9+rule+clean                   0.902 0.870 0.908     1     2   0.32 0.19      0.15 1.27     21    78
+   F colour pos9+rule+clean                 0.902 0.870 0.908     1     2   0.32 0.19      0.15 1.27     21    78
+   G knn pos9+rule+clean                    0.902 0.870 0.911     1     2   0.34 0.18      0.16 1.04     18    77
+   H tta8+knn pos9+rule+clean               1.000 0.929 0.936     1     1   0.30 0.13      0.21 0.54     14    62
+   I tta8+knn+smooth3 pos9+rule+clean       1.000 0.929 0.939     1     1   0.30 0.12      0.21 0.46     13    56
+   I tta8+knn+smooth10 pos9+rule+clean      1.000 0.929 0.938     1     1   0.31 0.12      0.21 0.44     14    56
+   S1 seg3d instance_ios tta8               0.606 0.606 0.967     0     0   0.16 0.40      0.13 0.09     38    26
+   S2 seg3d semantic tta8 pos9+rule+clean   1.000 1.000 0.954     0     0   0.25 0.13      0.12 0.17     33    42

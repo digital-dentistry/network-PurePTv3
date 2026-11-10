@@ -1,0 +1,234 @@
+{"name": "INHOUSE0001_lower", "full": true, "method": "midline", "gingiva_share_vox": 0.397, "gingiva_share_after_crop": 0.227, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.998, "s": 4.4}
+    P0 dashboard (as is)                       f1 0.985 pos 0.917 side 0.998 fdi 0.904 teeth_ok 1.000
+    P1 replica of P0                           f1 0.985 pos 0.917 side 0.998 fdi 0.904 teeth_ok 1.000
+    P2 no colour                               f1 0.985 pos 0.917 side 0.998 fdi 0.904 teeth_ok 1.000
+    P3 side = raw model output                 f1 0.985 pos 0.917 side 0.512 fdi 0.472 teeth_ok 0.429
+    P4 side = GT (oracle)                      f1 0.985 pos 0.917 side 1.000 fdi 0.906 teeth_ok 1.000
+    P5 TTA x8                                  f1 0.987 pos 0.970 side 0.998 fdi 0.958 teeth_ok 1.000
+    P5o TTA x8 + side GT                       f1 0.987 pos 0.970 side 1.000 fdi 0.960 teeth_ok 1.000
+    P6 voxel-mean normals                      f1 0.985 pos 0.913 side 0.998 fdi 0.901 teeth_ok 1.000
+    P7 jaw flag flipped                        f1 0.985 pos 0.874 side 0.998 fdi 0.863 teeth_ok 0.857
+    P8 GT teeth+3mm crop, side GT              f1 0.985 pos 0.695 side 1.000 fdi 0.690 teeth_ok 0.786
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.985 pos 0.777 side 1.000 fdi 0.771 teeth_ok 0.857
+    S8 segmentation3d TTA x8                   f1 0.986 pos 0.987 side 0.999 fdi 0.974 teeth_ok 1.000
+    S1 segmentation3d TTA x1                   f1 0.980 pos 0.976 side 0.999 fdi 0.955 teeth_ok 1.000
+    S8o segmentation3d TTA x8, side GT         f1 0.986 pos 0.987 side 1.000 fdi 0.975 teeth_ok 1.000
+{"name": "INHOUSE0002_upper", "full": true, "method": "midline", "gingiva_share_vox": 0.418, "gingiva_share_after_crop": 0.231, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.996, "s": 3.9}
+    P0 dashboard (as is)                       f1 0.981 pos 0.991 side 0.004 fdi 0.003 teeth_ok 0.000
+    P1 replica of P0                           f1 0.981 pos 0.991 side 0.004 fdi 0.003 teeth_ok 0.000
+    P2 no colour                               f1 0.981 pos 0.991 side 0.004 fdi 0.003 teeth_ok 0.000
+    P3 side = raw model output                 f1 0.981 pos 0.991 side 0.414 fdi 0.405 teeth_ok 0.214
+    P4 side = GT (oracle)                      f1 0.981 pos 0.991 side 1.000 fdi 0.980 teeth_ok 1.000
+    P5 TTA x8                                  f1 0.988 pos 0.994 side 0.004 fdi 0.003 teeth_ok 0.000
+    P5o TTA x8 + side GT                       f1 0.988 pos 0.994 side 1.000 fdi 0.982 teeth_ok 1.000
+    P6 voxel-mean normals                      f1 0.981 pos 0.991 side 0.004 fdi 0.003 teeth_ok 0.000
+    P7 jaw flag flipped                        f1 0.981 pos 0.992 side 0.004 fdi 0.003 teeth_ok 0.000
+    P8 GT teeth+3mm crop, side GT              f1 0.985 pos 0.991 side 1.000 fdi 0.980 teeth_ok 1.000
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.985 pos 0.990 side 1.000 fdi 0.980 teeth_ok 1.000
+    S8 segmentation3d TTA x8                   f1 0.985 pos 0.993 side 0.002 fdi 0.001 teeth_ok 0.000
+    S1 segmentation3d TTA x1                   f1 0.977 pos 0.965 side 0.002 fdi 0.001 teeth_ok 0.000
+    S8o segmentation3d TTA x8, side GT         f1 0.985 pos 0.993 side 1.000 fdi 0.979 teeth_ok 1.000
+{"name": "INHOUSE0003_lower", "full": false, "method": "single", "gingiva_share_vox": 0.679, "gingiva_share_after_crop": 0.384, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.198, "s": 1.4}
+    P0 dashboard (as is)                       f1 0.926 pos 0.993 side 0.000 fdi 0.000 teeth_ok 0.000
+    P1 replica of P0                           f1 0.926 pos 0.993 side 0.000 fdi 0.000 teeth_ok 0.000
+    P2 no colour                               f1 0.938 pos 0.994 side 1.000 fdi 0.979 teeth_ok 1.000
+    P3 side = raw model output                 f1 0.938 pos 0.994 side 0.567 fdi 0.554 teeth_ok 0.600
+    P4 side = GT (oracle)                      f1 0.938 pos 0.994 side 1.000 fdi 0.979 teeth_ok 1.000
+    P5 TTA x8                                  f1 0.956 pos 0.995 side 1.000 fdi 0.976 teeth_ok 1.000
+    P5o TTA x8 + side GT                       f1 0.956 pos 0.995 side 1.000 fdi 0.976 teeth_ok 1.000
+    P6 voxel-mean normals                      f1 0.940 pos 0.994 side 1.000 fdi 0.980 teeth_ok 1.000
+    P7 jaw flag flipped                        f1 0.922 pos 0.994 side 0.000 fdi 0.000 teeth_ok 0.000
+    P8 GT teeth+3mm crop, side GT              f1 0.942 pos 0.779 side 1.000 fdi 0.766 teeth_ok 0.800
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.934 pos 0.855 side 1.000 fdi 0.842 teeth_ok 0.800
+    S8 segmentation3d TTA x8                   f1 0.932 pos 0.990 side 0.800 fdi 0.777 teeth_ok 1.000
+    S1 segmentation3d TTA x1                   f1 0.864 pos 0.932 side 0.695 fdi 0.619 teeth_ok 0.600
+    S8o segmentation3d TTA x8, side GT         f1 0.932 pos 0.990 side 1.000 fdi 0.974 teeth_ok 1.000
+{"name": "INHOUSE0004_upper", "full": false, "method": "single", "gingiva_share_vox": 0.599, "gingiva_share_after_crop": 0.281, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.0, "s": 1.4}
+    P0 dashboard (as is)                       f1 0.948 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    P1 replica of P0                           f1 0.948 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    P2 no colour                               f1 0.969 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    P3 side = raw model output                 f1 0.969 pos 0.000 side 0.798 fdi 0.000 teeth_ok 0.000
+    P4 side = GT (oracle)                      f1 0.969 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    P5 TTA x8                                  f1 0.975 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    P5o TTA x8 + side GT                       f1 0.975 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    P6 voxel-mean normals                      f1 0.969 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    P7 jaw flag flipped                        f1 0.970 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    P8 GT teeth+3mm crop, side GT              f1 0.970 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.970 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+    S8 segmentation3d TTA x8                   f1 0.967 pos 0.000 side 0.000 fdi 0.000 teeth_ok 0.000
+    S1 segmentation3d TTA x1                   f1 0.945 pos 0.000 side 0.009 fdi 0.000 teeth_ok 0.000
+    S8o segmentation3d TTA x8, side GT         f1 0.967 pos 0.000 side 1.000 fdi 0.000 teeth_ok 0.000
+{"name": "INHOUSE0005_lower", "full": false, "method": "single", "gingiva_share_vox": 0.713, "gingiva_share_after_crop": 0.38, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.0, "s": 1.5}
+    P0 dashboard (as is)                       f1 0.943 pos 0.005 side 0.000 fdi 0.000 teeth_ok 0.000
+    P1 replica of P0                           f1 0.943 pos 0.005 side 0.000 fdi 0.000 teeth_ok 0.000
+    P2 no colour                               f1 0.945 pos 0.004 side 0.000 fdi 0.000 teeth_ok 0.000
+    P3 side = raw model output                 f1 0.945 pos 0.004 side 0.239 fdi 0.001 teeth_ok 0.000
+    P4 side = GT (oracle)                      f1 0.945 pos 0.004 side 1.000 fdi 0.004 teeth_ok 0.000
+    P5 TTA x8                                  f1 0.956 pos 0.004 side 0.000 fdi 0.000 teeth_ok 0.000
+    P5o TTA x8 + side GT                       f1 0.956 pos 0.004 side 1.000 fdi 0.004 teeth_ok 0.000
+    P6 voxel-mean normals                      f1 0.944 pos 0.004 side 0.000 fdi 0.000 teeth_ok 0.000
+    P7 jaw flag flipped                        f1 0.939 pos 0.004 side 0.000 fdi 0.000 teeth_ok 0.000
+    P8 GT teeth+3mm crop, side GT              f1 0.947 pos 0.005 side 1.000 fdi 0.005 teeth_ok 0.000
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.940 pos 0.004 side 1.000 fdi 0.004 teeth_ok 0.000
+    S8 segmentation3d TTA x8                   f1 0.867 pos 0.006 side 1.000 fdi 0.006 teeth_ok 0.000
+    S1 segmentation3d TTA x1                   f1 0.758 pos 0.003 side 0.999 fdi 0.003 teeth_ok 0.000
+    S8o segmentation3d TTA x8, side GT         f1 0.867 pos 0.006 side 1.000 fdi 0.006 teeth_ok 0.000
+{"name": "INHOUSE0006_upper", "full": false, "method": "single", "gingiva_share_vox": 0.503, "gingiva_share_after_crop": 0.276, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.36, "s": 1.5}
+    P0 dashboard (as is)                       f1 0.962 pos 0.978 side 0.000 fdi 0.000 teeth_ok 0.000
+    P1 replica of P0                           f1 0.962 pos 0.978 side 0.000 fdi 0.000 teeth_ok 0.000
+    P2 no colour                               f1 0.964 pos 0.980 side 1.000 fdi 0.959 teeth_ok 1.000
+    P3 side = raw model output                 f1 0.964 pos 0.980 side 0.546 fdi 0.525 teeth_ok 0.571
+    P4 side = GT (oracle)                      f1 0.964 pos 0.980 side 1.000 fdi 0.959 teeth_ok 1.000
+    P5 TTA x8                                  f1 0.970 pos 0.974 side 1.000 fdi 0.956 teeth_ok 1.000
+    P5o TTA x8 + side GT                       f1 0.970 pos 0.974 side 1.000 fdi 0.956 teeth_ok 1.000
+    P6 voxel-mean normals                      f1 0.964 pos 0.980 side 1.000 fdi 0.958 teeth_ok 1.000
+    P7 jaw flag flipped                        f1 0.958 pos 0.978 side 1.000 fdi 0.948 teeth_ok 1.000
+    P8 GT teeth+3mm crop, side GT              f1 0.965 pos 0.985 side 1.000 fdi 0.972 teeth_ok 1.000
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.965 pos 0.985 side 1.000 fdi 0.972 teeth_ok 1.000
+    S8 segmentation3d TTA x8                   f1 0.916 pos 0.877 side 0.643 fdi 0.573 teeth_ok 0.857
+    S1 segmentation3d TTA x1                   f1 0.867 pos 0.840 side 0.136 fdi 0.127 teeth_ok 0.143
+    S8o segmentation3d TTA x8, side GT         f1 0.916 pos 0.877 side 1.000 fdi 0.826 teeth_ok 1.000
+{"name": "INHOUSE0007_lower", "full": false, "method": "single", "gingiva_share_vox": 0.65, "gingiva_share_after_crop": 0.349, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.113, "s": 1.6}
+    P0 dashboard (as is)                       f1 0.933 pos 0.028 side 1.000 fdi 0.028 teeth_ok 0.143
+    P1 replica of P0                           f1 0.933 pos 0.028 side 1.000 fdi 0.028 teeth_ok 0.143
+    P2 no colour                               f1 0.940 pos 0.021 side 1.000 fdi 0.020 teeth_ok 0.000
+    P3 side = raw model output                 f1 0.940 pos 0.021 side 0.808 fdi 0.012 teeth_ok 0.000
+    P4 side = GT (oracle)                      f1 0.940 pos 0.021 side 1.000 fdi 0.020 teeth_ok 0.000
+    P5 TTA x8                                  f1 0.947 pos 0.019 side 1.000 fdi 0.018 teeth_ok 0.000
+    P5o TTA x8 + side GT                       f1 0.947 pos 0.019 side 1.000 fdi 0.018 teeth_ok 0.000
+    P6 voxel-mean normals                      f1 0.940 pos 0.022 side 1.000 fdi 0.021 teeth_ok 0.000
+    P7 jaw flag flipped                        f1 0.940 pos 0.026 side 1.000 fdi 0.025 teeth_ok 0.143
+    P8 GT teeth+3mm crop, side GT              f1 0.943 pos 0.012 side 1.000 fdi 0.012 teeth_ok 0.000
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.943 pos 0.012 side 1.000 fdi 0.012 teeth_ok 0.000
+    S8 segmentation3d TTA x8                   f1 0.911 pos 0.162 side 0.114 fdi 0.002 teeth_ok 0.000
+    S1 segmentation3d TTA x1                   f1 0.844 pos 0.186 side 0.051 fdi 0.001 teeth_ok 0.000
+    S8o segmentation3d TTA x8, side GT         f1 0.911 pos 0.162 side 1.000 fdi 0.143 teeth_ok 0.143
+{"name": "INHOUSE0008_upper", "full": false, "method": "midline", "gingiva_share_vox": 0.615, "gingiva_share_after_crop": 0.3, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.862, "s": 1.7}
+    P0 dashboard (as is)                       f1 0.951 pos 0.004 side 0.138 fdi 0.000 teeth_ok 0.000
+    P1 replica of P0                           f1 0.951 pos 0.004 side 0.138 fdi 0.000 teeth_ok 0.000
+    P2 no colour                               f1 0.953 pos 0.005 side 0.138 fdi 0.000 teeth_ok 0.000
+    P3 side = raw model output                 f1 0.953 pos 0.005 side 0.574 fdi 0.001 teeth_ok 0.000
+    P4 side = GT (oracle)                      f1 0.953 pos 0.005 side 1.000 fdi 0.005 teeth_ok 0.000
+    P5 TTA x8                                  f1 0.961 pos 0.004 side 0.138 fdi 0.000 teeth_ok 0.000
+    P5o TTA x8 + side GT                       f1 0.961 pos 0.004 side 1.000 fdi 0.004 teeth_ok 0.000
+    P6 voxel-mean normals                      f1 0.953 pos 0.004 side 0.139 fdi 0.000 teeth_ok 0.000
+    P7 jaw flag flipped                        f1 0.957 pos 0.005 side 0.138 fdi 0.000 teeth_ok 0.000
+    P8 GT teeth+3mm crop, side GT              f1 0.954 pos 0.004 side 1.000 fdi 0.004 teeth_ok 0.000
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.951 pos 0.005 side 1.000 fdi 0.005 teeth_ok 0.000
+    S8 segmentation3d TTA x8                   f1 0.949 pos 0.001 side 0.108 fdi 0.000 teeth_ok 0.000
+    S1 segmentation3d TTA x1                   f1 0.937 pos 0.001 side 0.114 fdi 0.001 teeth_ok 0.000
+    S8o segmentation3d TTA x8, side GT         f1 0.949 pos 0.001 side 1.000 fdi 0.001 teeth_ok 0.000
+{"name": "INHOUSE0009_lower", "full": false, "method": "single", "gingiva_share_vox": 0.625, "gingiva_share_after_crop": 0.28, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.982, "s": 2.3}
+    P0 dashboard (as is)                       f1 0.946 pos 0.942 side 1.000 fdi 0.899 teeth_ok 0.857
+    P1 replica of P0                           f1 0.946 pos 0.942 side 1.000 fdi 0.899 teeth_ok 0.857
+    P2 no colour                               f1 0.951 pos 0.900 side 1.000 fdi 0.875 teeth_ok 0.857
+    P3 side = raw model output                 f1 0.951 pos 0.900 side 0.610 fdi 0.556 teeth_ok 0.429
+    P4 side = GT (oracle)                      f1 0.951 pos 0.900 side 1.000 fdi 0.875 teeth_ok 0.857
+    P5 TTA x8                                  f1 0.949 pos 0.967 side 1.000 fdi 0.930 teeth_ok 0.857
+    P5o TTA x8 + side GT                       f1 0.949 pos 0.967 side 1.000 fdi 0.930 teeth_ok 0.857
+    P6 voxel-mean normals                      f1 0.951 pos 0.901 side 1.000 fdi 0.875 teeth_ok 0.857
+    P7 jaw flag flipped                        f1 0.948 pos 0.648 side 0.000 fdi 0.000 teeth_ok 0.000
+    P8 GT teeth+3mm crop, side GT              f1 0.944 pos 0.970 side 1.000 fdi 0.922 teeth_ok 0.857
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.943 pos 0.962 side 1.000 fdi 0.924 teeth_ok 0.857
+    S8 segmentation3d TTA x8                   f1 0.923 pos 0.976 side 0.981 fdi 0.948 teeth_ok 1.000
+    S1 segmentation3d TTA x1                   f1 0.860 pos 0.959 side 0.968 fdi 0.932 teeth_ok 1.000
+    S8o segmentation3d TTA x8, side GT         f1 0.923 pos 0.976 side 1.000 fdi 0.964 teeth_ok 1.000
+{"name": "INHOUSE0010_upper", "full": false, "method": "single", "gingiva_share_vox": 0.559, "gingiva_share_after_crop": 0.433, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.998, "s": 3.3}
+    P0 dashboard (as is)                       f1 0.932 pos 0.983 side 0.000 fdi 0.000 teeth_ok 0.000
+    P1 replica of P0                           f1 0.932 pos 0.983 side 0.000 fdi 0.000 teeth_ok 0.000
+    P2 no colour                               f1 0.936 pos 0.983 side 1.000 fdi 0.969 teeth_ok 1.000
+    P3 side = raw model output                 f1 0.936 pos 0.983 side 0.550 fdi 0.534 teeth_ok 0.500
+    P4 side = GT (oracle)                      f1 0.936 pos 0.983 side 1.000 fdi 0.969 teeth_ok 1.000
+    P5 TTA x8                                  f1 0.948 pos 0.990 side 1.000 fdi 0.979 teeth_ok 1.000
+    P5o TTA x8 + side GT                       f1 0.948 pos 0.990 side 1.000 fdi 0.979 teeth_ok 1.000
+    P6 voxel-mean normals                      f1 0.936 pos 0.983 side 1.000 fdi 0.968 teeth_ok 1.000
+    P7 jaw flag flipped                        f1 0.945 pos 0.983 side 1.000 fdi 0.964 teeth_ok 1.000
+    P8 GT teeth+3mm crop, side GT              f1 0.939 pos 0.979 side 1.000 fdi 0.964 teeth_ok 1.000
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.938 pos 0.980 side 1.000 fdi 0.965 teeth_ok 1.000
+    S8 segmentation3d TTA x8                   f1 0.930 pos 0.986 side 0.003 fdi 0.001 teeth_ok 0.000
+    S1 segmentation3d TTA x1                   f1 0.873 pos 0.885 side 0.000 fdi 0.000 teeth_ok 0.000
+    S8o segmentation3d TTA x8, side GT         f1 0.930 pos 0.986 side 1.000 fdi 0.970 teeth_ok 1.000
+{"name": "INHOUSE0011_lower", "full": false, "method": "single", "gingiva_share_vox": 0.677, "gingiva_share_after_crop": 0.367, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.538, "s": 1.8}
+    P0 dashboard (as is)                       f1 0.986 pos 0.998 side 1.000 fdi 0.998 teeth_ok 1.000
+    P1 replica of P0                           f1 0.986 pos 0.998 side 1.000 fdi 0.998 teeth_ok 1.000
+    P2 no colour                               f1 0.983 pos 0.997 side 1.000 fdi 0.989 teeth_ok 1.000
+    P3 side = raw model output                 f1 0.983 pos 0.997 side 0.790 fdi 0.783 teeth_ok 1.000
+    P4 side = GT (oracle)                      f1 0.983 pos 0.997 side 1.000 fdi 0.989 teeth_ok 1.000
+    P5 TTA x8                                  f1 0.978 pos 0.987 side 1.000 fdi 0.974 teeth_ok 1.000
+    P5o TTA x8 + side GT                       f1 0.978 pos 0.987 side 1.000 fdi 0.974 teeth_ok 1.000
+    P6 voxel-mean normals                      f1 0.981 pos 0.995 side 1.000 fdi 0.988 teeth_ok 1.000
+    P7 jaw flag flipped                        f1 0.978 pos 0.995 side 1.000 fdi 0.987 teeth_ok 1.000
+    P8 GT teeth+3mm crop, side GT              f1 0.978 pos 0.988 side 1.000 fdi 0.975 teeth_ok 1.000
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.971 pos 0.986 side 1.000 fdi 0.969 teeth_ok 1.000
+    S8 segmentation3d TTA x8                   f1 0.958 pos 0.980 side 0.538 fdi 0.513 teeth_ok 0.400
+    S1 segmentation3d TTA x1                   f1 0.873 pos 0.817 side 0.046 fdi 0.038 teeth_ok 0.000
+    S8o segmentation3d TTA x8, side GT         f1 0.958 pos 0.980 side 1.000 fdi 0.955 teeth_ok 1.000
+{"name": "INHOUSE0012_upper", "full": false, "method": "single", "gingiva_share_vox": 0.691, "gingiva_share_after_crop": 0.353, "colour": true, "seg3d_vs_pureptv3_side_agree": 0.917, "s": 3.0}
+    P0 dashboard (as is)                       f1 0.919 pos 0.016 side 0.000 fdi 0.000 teeth_ok 0.000
+    P1 replica of P0                           f1 0.919 pos 0.016 side 0.000 fdi 0.000 teeth_ok 0.000
+    P2 no colour                               f1 0.922 pos 0.012 side 1.000 fdi 0.012 teeth_ok 0.000
+    P3 side = raw model output                 f1 0.922 pos 0.012 side 0.637 fdi 0.005 teeth_ok 0.000
+    P4 side = GT (oracle)                      f1 0.922 pos 0.012 side 1.000 fdi 0.012 teeth_ok 0.000
+    P5 TTA x8                                  f1 0.957 pos 0.004 side 1.000 fdi 0.004 teeth_ok 0.000
+    P5o TTA x8 + side GT                       f1 0.957 pos 0.004 side 1.000 fdi 0.004 teeth_ok 0.000
+    P6 voxel-mean normals                      f1 0.922 pos 0.013 side 1.000 fdi 0.012 teeth_ok 0.000
+    P7 jaw flag flipped                        f1 0.935 pos 0.016 side 1.000 fdi 0.016 teeth_ok 0.000
+    P8 GT teeth+3mm crop, side GT              f1 0.952 pos 0.017 side 1.000 fdi 0.017 teeth_ok 0.000
+    P9 2-pass pred teeth+3mm crop, side GT     f1 0.935 pos 0.016 side 1.000 fdi 0.016 teeth_ok 0.000
+    S8 segmentation3d TTA x8                   f1 0.913 pos 0.002 side 0.083 fdi 0.000 teeth_ok 0.000
+    S1 segmentation3d TTA x1                   f1 0.879 pos 0.008 side 0.301 fdi 0.008 teeth_ok 0.000
+    S8o segmentation3d TTA x8, side GT         f1 0.913 pos 0.002 side 1.000 fdi 0.002 teeth_ok 0.000
+
+== all (12 scans)
+  P0 dashboard (as is)                       f1 0.951 pos 0.571 side 0.428 fdi 0.236 teeth_ok 0.250
+  P1 replica of P0                           f1 0.951 pos 0.571 side 0.428 fdi 0.236 teeth_ok 0.250
+  P2 no colour                               f1 0.956 pos 0.567 side 0.762 fdi 0.476 teeth_ok 0.488
+  P3 side = raw model output                 f1 0.956 pos 0.567 side 0.587 fdi 0.321 teeth_ok 0.312
+  P4 side = GT (oracle)                      f1 0.956 pos 0.567 side 1.000 fdi 0.558 teeth_ok 0.571
+  P5 TTA x8                                  f1 0.964 pos 0.576 side 0.762 fdi 0.483 teeth_ok 0.488
+  P5o TTA x8 + side GT                       f1 0.964 pos 0.576 side 1.000 fdi 0.566 teeth_ok 0.571
+  P6 voxel-mean normals                      f1 0.955 pos 0.567 side 0.762 fdi 0.475 teeth_ok 0.488
+  P7 jaw flag flipped                        f1 0.955 pos 0.543 side 0.595 fdi 0.317 teeth_ok 0.333
+  P8 GT teeth+3mm crop, side GT              f1 0.959 pos 0.535 side 1.000 fdi 0.526 teeth_ok 0.537
+  P9 2-pass pred teeth+3mm crop, side GT     f1 0.955 pos 0.548 side 1.000 fdi 0.538 teeth_ok 0.543
+  S8 segmentation3d TTA x8                   f1 0.936 pos 0.580 side 0.439 fdi 0.316 teeth_ok 0.355
+  S1 segmentation3d TTA x1                   f1 0.888 pos 0.548 side 0.360 fdi 0.224 teeth_ok 0.229
+  S8o segmentation3d TTA x8, side GT         f1 0.936 pos 0.580 side 1.000 fdi 0.566 teeth_ok 0.595
+
+== partial (one quadrant) (10 scans)
+  P0 dashboard (as is)                       f1 0.945 pos 0.495 side 0.414 fdi 0.192 teeth_ok 0.200
+  P1 replica of P0                           f1 0.945 pos 0.495 side 0.414 fdi 0.192 teeth_ok 0.200
+  P2 no colour                               f1 0.950 pos 0.490 side 0.814 fdi 0.480 teeth_ok 0.486
+  P3 side = raw model output                 f1 0.950 pos 0.490 side 0.612 fdi 0.297 teeth_ok 0.310
+  P4 side = GT (oracle)                      f1 0.950 pos 0.490 side 1.000 fdi 0.481 teeth_ok 0.486
+  P5 TTA x8                                  f1 0.960 pos 0.494 side 0.814 fdi 0.484 teeth_ok 0.486
+  P5o TTA x8 + side GT                       f1 0.960 pos 0.494 side 1.000 fdi 0.484 teeth_ok 0.486
+  P6 voxel-mean normals                      f1 0.950 pos 0.490 side 0.814 fdi 0.480 teeth_ok 0.486
+  P7 jaw flag flipped                        f1 0.949 pos 0.465 side 0.614 fdi 0.294 teeth_ok 0.314
+  P8 GT teeth+3mm crop, side GT              f1 0.953 pos 0.474 side 1.000 fdi 0.464 teeth_ok 0.466
+  P9 2-pass pred teeth+3mm crop, side GT     f1 0.949 pos 0.481 side 1.000 fdi 0.471 teeth_ok 0.466
+  S8 segmentation3d TTA x8                   f1 0.927 pos 0.498 side 0.427 fdi 0.282 teeth_ok 0.326
+  S1 segmentation3d TTA x1                   f1 0.870 pos 0.463 side 0.332 fdi 0.173 teeth_ok 0.174
+  S8o segmentation3d TTA x8, side GT         f1 0.927 pos 0.498 side 1.000 fdi 0.484 teeth_ok 0.514
+
+== full arch (2 scans)
+  P0 dashboard (as is)                       f1 0.983 pos 0.954 side 0.501 fdi 0.454 teeth_ok 0.500
+  P1 replica of P0                           f1 0.983 pos 0.954 side 0.501 fdi 0.454 teeth_ok 0.500
+  P2 no colour                               f1 0.983 pos 0.954 side 0.501 fdi 0.454 teeth_ok 0.500
+  P3 side = raw model output                 f1 0.983 pos 0.954 side 0.463 fdi 0.439 teeth_ok 0.321
+  P4 side = GT (oracle)                      f1 0.983 pos 0.954 side 1.000 fdi 0.943 teeth_ok 1.000
+  P5 TTA x8                                  f1 0.988 pos 0.982 side 0.501 fdi 0.480 teeth_ok 0.500
+  P5o TTA x8 + side GT                       f1 0.988 pos 0.982 side 1.000 fdi 0.971 teeth_ok 1.000
+  P6 voxel-mean normals                      f1 0.983 pos 0.952 side 0.501 fdi 0.452 teeth_ok 0.500
+  P7 jaw flag flipped                        f1 0.983 pos 0.933 side 0.501 fdi 0.433 teeth_ok 0.429
+  P8 GT teeth+3mm crop, side GT              f1 0.985 pos 0.843 side 1.000 fdi 0.835 teeth_ok 0.893
+  P9 2-pass pred teeth+3mm crop, side GT     f1 0.985 pos 0.884 side 1.000 fdi 0.876 teeth_ok 0.929
+  S8 segmentation3d TTA x8                   f1 0.986 pos 0.990 side 0.500 fdi 0.488 teeth_ok 0.500
+  S1 segmentation3d TTA x1                   f1 0.978 pos 0.970 side 0.500 fdi 0.478 teeth_ok 0.500
+  S8o segmentation3d TTA x8, side GT         f1 0.986 pos 0.990 side 1.000 fdi 0.977 teeth_ok 1.000
+
+== public val, synthetic crops (40 scans, grey)
+  full      pos 0.959 side_rule 0.995 side_raw 0.499 teeth_ok_oracle_side 0.969 gingiva_share 0.498 n_teeth 13.775
+  half      pos 0.969 side_rule 0.812 side_raw 0.533 teeth_ok_oracle_side 0.974 gingiva_share 0.328 n_teeth 7.850
+  quadrant  pos 0.931 side_rule 0.752 side_raw 0.522 teeth_ok_oracle_side 0.935 gingiva_share 0.293 n_teeth 5.400
+  bridge    pos 0.974 side_rule 0.600 side_raw 0.527 teeth_ok_oracle_side 0.974 gingiva_share 0.273 n_teeth 3.525

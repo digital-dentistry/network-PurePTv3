@@ -1,0 +1,14 @@
+3d_iosseg 12
+cbct_ios_fusion_liu2023 6
+poseidon3d 15
+teeth3ds 20
+toothsegnet-ios/1
+  3d_iosseg                scans  12 | tooth FDI 0.986 | side-only wrong 0.000 | scans with >50% teeth on the wrong side 0
+  cbct_ios_fusion_liu2023  scans   6 | tooth FDI 0.978 | side-only wrong 0.000 | scans with >50% teeth on the wrong side 0
+  poseidon3d               scans  15 | tooth FDI 0.869 | side-only wrong 0.021 | scans with >50% teeth on the wrong side 0
+  teeth3ds                 scans  20 | tooth FDI 0.917 | side-only wrong 0.004 | scans with >50% teeth on the wrong side 0
+s1-sem-ios/1
+  3d_iosseg                scans  12 | tooth FDI 0.493 | side-only wrong 0.487 | scans with >50% teeth on the wrong side 5
+  cbct_ios_fusion_liu2023  scans   6 | tooth FDI 0.476 | side-only wrong 0.501 | scans with >50% teeth on the wrong side 2
+  poseidon3d               scans  15 | tooth FDI 0.408 | side-only wrong 0.469 | scans with >50% teeth on the wrong side 7
+  teeth3ds                 scans  20 | tooth FDI 0.598 | side-only wrong 0.333 | scans with >50% teeth on the wrong side 3

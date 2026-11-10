@@ -1,0 +1,166 @@
+INHOUSE0001_lower midline conf H F75 0.86 m1s1 | Hn F75 0.74 m2s1 | K F75 0.86 m1s1 | K1 F75 0.86 m1s1 | K1c F75 0.86 m1s1
+INHOUSE0002_upper midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+INHOUSE0003_lower single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+INHOUSE0004_upper single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+INHOUSE0005_lower single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+INHOUSE0006_upper single - H F75 1.00 m0s1 | Hn F75 1.00 m0s1 | K F75 1.00 m0s1 | K1 F75 1.00 m0s1 | K1c F75 1.00 m0s1
+INHOUSE0007_lower single - H F75 0.77 m1s0 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0 | K1 F75 0.77 m1s0 | K1c F75 0.77 m1s0
+INHOUSE0008_upper midline conf H F75 0.59 m0s2 | Hn F75 1.00 m0s0 | K F75 0.80 m0s1 | K1 F75 0.80 m0s1 | K1c F75 0.80 m0s1
+INHOUSE0009_lower single - H F75 0.92 m1s0 | Hn F75 0.92 m1s0 | K F75 0.92 m1s0 | K1 F75 0.92 m1s0 | K1c F75 0.92 m1s0
+INHOUSE0010_upper single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+INHOUSE0011_lower single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+INHOUSE0012_upper single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[1/40] EK26QFUW_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[1/40] EK26QFUW_upper quadrant: midline - H F75 1.00 m0s0 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0 | K1 F75 1.00 m0s0 | K1c F75 0.73 m1s0
+[1/40] EK26QFUW_upper half: midline conf H F75 0.60 m0s2 | Hn F75 0.80 m1s0 | K F75 0.60 m0s2 | K1 F75 0.89 m0s0 | K1c F75 0.89 m0s0
+[2/40] POSEIDON000057_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.88 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[2/40] POSEIDON000057_upper quadrant: midline - H F75 0.31 m0s3 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 0.73 m0s1 | K1c F75 1.00 m0s0
+[2/40] POSEIDON000057_upper half: midline - H F75 0.50 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0 | K1 F75 0.71 m0s0 | K1c F75 0.77 m1s0
+[3/40] C2SF98X5_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[3/40] C2SF98X5_lower quadrant: single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[3/40] C2SF98X5_lower half: midline conf H F75 0.35 m0s3 | Hn F75 1.00 m0s0 | K F75 0.53 m0s2 | K1 F75 0.71 m0s1 | K1c F75 0.71 m0s1
+[4/40] QA27COSZ_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[4/40] QA27COSZ_lower quadrant: midline - H F75 0.33 m2s3 | Hn F75 0.67 m1s0 | K F75 0.67 m1s0 | K1 F75 0.60 m2s2 | K1c F75 0.67 m1s0
+[4/40] QA27COSZ_lower half: midline conf H F75 0.67 m0s2 | Hn F75 0.80 m1s0 | K F75 0.82 m0s1 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[5/40] 016FSM14_lower full: midline conf H F75 0.73 m2s1 | Hn F75 0.69 m3s1 | K F75 0.69 m3s1 | K1 F75 0.69 m3s1 | K1c F75 0.69 m3s1
+[5/40] 016FSM14_lower quadrant: midline conf H F75 0.36 m0s3 | Hn F75 0.38 m1s1 | K F75 0.29 m0s3 | K1 F75 0.35 m1s1 | K1c F75 0.35 m1s1
+[5/40] 016FSM14_lower half: midline conf H F75 0.53 m1s2 | Hn F75 0.53 m2s0 | K F75 0.59 m1s1 | K1 F75 0.53 m2s0 | K1c F75 0.53 m2s0
+[6/40] L428SD7J_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.90 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[6/40] L428SD7J_upper quadrant: midline conf H F75 0.38 m0s4 | Hn F75 0.77 m1s0 | K F75 0.53 m0s3 | K1 F75 0.71 m0s2 | K1c F75 0.71 m0s2
+[6/40] L428SD7J_upper half: midline conf H F75 0.48 m0s3 | Hn F75 0.82 m1s0 | K F75 0.50 m0s3 | K1 F75 0.78 m0s1 | K1c F75 0.78 m0s1
+[7/40] FUSION012_lower full: midline conf H F75 0.90 m0s1 | Hn F75 0.80 m1s1 | K F75 0.90 m0s1 | K1 F75 0.90 m0s1 | K1c F75 0.90 m0s1
+[7/40] FUSION012_lower quadrant: midline conf H F75 0.33 m0s3 | Hn F75 0.57 m1s1 | K F75 0.35 m0s3 | K1 F75 0.53 m0s2 | K1c F75 0.53 m0s2
+[7/40] FUSION012_lower half: midline conf H F75 0.38 m0s5 | Hn F75 0.70 m1s1 | K F75 0.52 m0s4 | K1 F75 0.67 m0s3 | K1c F75 0.67 m0s3
+[8/40] POSEIDON000177_upper full: midline conf H F75 0.87 m0s0 | Hn F75 0.90 m1s0 | K F75 0.87 m0s0 | K1 F75 0.87 m0s0 | K1c F75 0.87 m0s0
+[8/40] POSEIDON000177_upper quadrant: midline conf H F75 0.35 m0s2 | Hn F75 0.77 m1s0 | K F75 0.47 m0s1 | K1 F75 0.71 m0s0 | K1c F75 0.71 m0s0
+[8/40] POSEIDON000177_upper half: midline conf H F75 0.42 m0s4 | Hn F75 0.84 m1s0 | K F75 0.42 m0s4 | K1 F75 0.80 m0s1 | K1c F75 0.80 m0s1
+[9/40] POSEIDON000029_upper full: midline conf H F75 0.85 m0s0 | Hn F75 0.88 m1s0 | K F75 0.85 m0s0 | K1 F75 0.85 m0s0 | K1c F75 0.85 m0s0
+[9/40] POSEIDON000029_upper quadrant: midline - H F75 0.62 m0s1 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0 | K1 F75 0.62 m0s0 | K1c F75 0.73 m1s0
+[9/40] POSEIDON000029_upper half: midline conf H F75 0.00 m1s5 | Hn F75 0.50 m2s0 | K F75 0.27 m1s3 | K1 F75 0.43 m1s2 | K1c F75 0.43 m1s2
+[10/40] T21AWMTR_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 0.93 m0s0 | K1 F75 0.93 m0s0 | K1c F75 0.93 m0s0
+[10/40] T21AWMTR_upper quadrant: midline - H F75 0.00 m0s4 | Hn F75 0.57 m1s0 | K F75 0.57 m1s0 | K1 F75 0.50 m0s2 | K1c F75 0.57 m1s0
+[10/40] T21AWMTR_upper half: midline conf H F75 0.63 m0s3 | Hn F75 0.80 m1s0 | K F75 0.60 m0s2 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.87 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower quadrant: single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower half: midline conf H F75 0.38 m0s2 | Hn F75 0.77 m1s0 | K F75 0.71 m0s0 | K1 F75 0.71 m0s0 | K1c F75 0.71 m0s0
+[12/40] L8IYFLQP_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[12/40] L8IYFLQP_upper quadrant: midline conf H F75 0.44 m0s3 | Hn F75 1.00 m0s0 | K F75 0.62 m0s2 | K1 F75 0.80 m0s1 | K1c F75 0.80 m0s1
+[12/40] L8IYFLQP_upper half: midline conf H F75 1.00 m0s0 | Hn F75 0.84 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[13/40] 15AIQVK8_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[13/40] 15AIQVK8_upper quadrant: midline - H F75 0.46 m0s3 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 0.73 m0s1 | K1c F75 1.00 m0s0
+[13/40] 15AIQVK8_upper half: midline - H F75 0.47 m0s3 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 0.80 m0s1 | K1c F75 1.00 m0s0
+[14/40] XKC3KSSB_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.87 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[14/40] XKC3KSSB_upper quadrant: single - H F75 0.80 m0s0 | Hn F75 0.80 m0s0 | K F75 0.80 m0s0 | K1 F75 0.80 m0s0 | K1c F75 0.80 m0s0
+[14/40] XKC3KSSB_upper half: single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[15/40] HWO9T72O_lower full: midline conf H F75 0.96 m0s0 | Hn F75 0.83 m1s0 | K F75 0.92 m0s0 | K1 F75 0.92 m0s0 | K1c F75 0.92 m0s0
+[15/40] HWO9T72O_lower quadrant: midline - H F75 0.33 m0s1 | Hn F75 0.67 m1s0 | K F75 0.67 m1s0 | K1 F75 0.60 m0s0 | K1c F75 0.67 m1s0
+[15/40] HWO9T72O_lower half: midline - H F75 0.80 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0 | K1 F75 0.93 m0s0 | K1c F75 0.77 m1s0
+[16/40] FUSION013_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.90 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[16/40] FUSION013_upper quadrant: single - H F75 0.94 m0s0 | Hn F75 0.94 m0s0 | K F75 0.94 m0s0 | K1 F75 0.94 m0s0 | K1c F75 0.94 m0s0
+[16/40] FUSION013_upper half: midline conf H F75 0.70 m0s2 | Hn F75 0.84 m1s0 | K F75 0.86 m0s1 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[17/40] 01JZDW8K_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 0.97 m0s0 | K1 F75 0.97 m0s0 | K1c F75 0.97 m0s0
+[17/40] 01JZDW8K_lower quadrant: midline - H F75 1.00 m0s0 | Hn F75 0.57 m1s0 | K F75 0.57 m1s0 | K1 F75 1.00 m0s0 | K1c F75 0.57 m1s0
+[17/40] 01JZDW8K_lower half: single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[18/40] VNRRN6ZF_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[18/40] VNRRN6ZF_upper quadrant: midline conf H F75 0.33 m0s2 | Hn F75 1.00 m0s0 | K F75 0.40 m0s2 | K1 F75 0.67 m0s1 | K1c F75 0.67 m0s1
+[18/40] VNRRN6ZF_upper half: midline conf H F75 0.67 m0s2 | Hn F75 0.80 m1s0 | K F75 0.82 m0s1 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[19/40] POSEIDON000042_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.90 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[19/40] POSEIDON000042_upper quadrant: single - H F75 0.71 m1s0 | Hn F75 0.71 m1s0 | K F75 0.71 m1s0 | K1 F75 0.71 m1s0 | K1c F75 0.71 m1s0
+[19/40] POSEIDON000042_upper half: single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[20/40] 014M2HZD_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 0.97 m0s0 | K1 F75 0.97 m0s0 | K1c F75 0.97 m0s0
+[20/40] 014M2HZD_upper quadrant: midline - H F75 0.62 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0 | K1 F75 0.86 m0s0 | K1c F75 0.77 m1s0
+[20/40] 014M2HZD_upper half: midline conf H F75 1.00 m0s0 | Hn F75 0.82 m1s0 | K F75 0.90 m0s0 | K1 F75 0.90 m0s0 | K1c F75 0.90 m0s0
+[21/40] FUSION095_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[21/40] FUSION095_upper quadrant: single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[21/40] FUSION095_upper half: midline conf H F75 0.93 m0s0 | Hn F75 0.77 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[22/40] HDVYC7UQ_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[22/40] HDVYC7UQ_upper quadrant: midline - H F75 0.67 m0s1 | Hn F75 0.67 m1s0 | K F75 0.67 m1s0 | K1 F75 1.00 m0s0 | K1c F75 0.67 m1s0
+[22/40] HDVYC7UQ_upper half: midline - H F75 0.59 m0s2 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 0.80 m0s1 | K1c F75 1.00 m0s0
+[23/40] 015DK78F_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[23/40] 015DK78F_lower quadrant: midline - H F75 0.20 m0s3 | Hn F75 0.57 m1s0 | K F75 0.57 m1s0 | K1 F75 0.50 m0s2 | K1c F75 0.57 m1s0
+[23/40] 015DK78F_lower half: midline - H F75 0.56 m0s1 | Hn F75 0.80 m1s0 | K F75 0.80 m1s0 | K1 F75 0.75 m0s0 | K1c F75 0.80 m1s0
+[24/40] 0132CR0A_upper full: midline conf H F75 0.96 m0s0 | Hn F75 0.82 m1s0 | K F75 0.92 m0s0 | K1 F75 0.92 m0s0 | K1c F75 0.92 m0s0
+[24/40] 0132CR0A_upper quadrant: single - H F75 0.86 m0s0 | Hn F75 0.86 m0s0 | K F75 0.86 m0s0 | K1 F75 0.86 m0s0 | K1c F75 0.86 m0s0
+[24/40] 0132CR0A_upper half: midline - H F75 1.00 m0s0 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0 | K1 F75 1.00 m0s0 | K1c F75 0.73 m1s0
+[25/40] LOVM549U_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[25/40] LOVM549U_lower quadrant: midline conf H F75 0.44 m0s4 | Hn F75 0.80 m1s0 | K F75 0.59 m0s3 | K1 F75 0.75 m0s2 | K1c F75 0.75 m0s2
+[25/40] LOVM549U_lower half: midline conf H F75 0.64 m0s1 | Hn F75 0.84 m1s0 | K F75 0.67 m0s1 | K1 F75 0.80 m0s0 | K1c F75 0.80 m0s0
+[26/40] C4LOTSKE_lower full: midline conf H F75 0.97 m0s0 | Hn F75 0.86 m1s0 | K F75 0.93 m0s0 | K1 F75 0.93 m0s0 | K1c F75 0.93 m0s0
+[26/40] C4LOTSKE_lower quadrant: midline conf H F75 0.33 m0s4 | Hn F75 0.77 m1s0 | K F75 0.38 m0s4 | K1 F75 0.71 m0s2 | K1c F75 0.71 m0s2
+[26/40] C4LOTSKE_lower half: midline conf H F75 0.55 m0s2 | Hn F75 0.78 m1s0 | K F75 0.57 m0s1 | K1 F75 0.74 m0s0 | K1c F75 0.74 m0s0
+[27/40] 01A6HE9H_lower full: midline conf H F75 0.93 m0s0 | Hn F75 0.81 m1s0 | K F75 0.93 m0s0 | K1 F75 0.93 m0s0 | K1c F75 0.93 m0s0
+[27/40] 01A6HE9H_lower quadrant: midline - H F75 0.20 m2s3 | Hn F75 0.57 m1s0 | K F75 0.57 m1s0 | K1 F75 0.50 m2s2 | K1c F75 0.57 m1s0
+[27/40] 01A6HE9H_lower half: midline conf H F75 0.67 m0s1 | Hn F75 0.77 m1s0 | K F75 0.71 m0s1 | K1 F75 0.71 m0s1 | K1c F75 0.71 m0s1
+[28/40] O2LXM8BS_lower full: midline conf H F75 0.96 m0s0 | Hn F75 0.83 m1s0 | K F75 0.96 m0s0 | K1 F75 0.96 m0s0 | K1c F75 0.96 m0s0
+[28/40] O2LXM8BS_lower quadrant: midline conf H F75 0.43 m0s2 | Hn F75 1.00 m0s0 | K F75 0.50 m0s2 | K1 F75 0.73 m0s1 | K1c F75 0.73 m0s1
+[28/40] O2LXM8BS_lower half: midline - H F75 0.80 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0 | K1 F75 0.93 m0s0 | K1c F75 0.77 m1s0
+[29/40] VJZXIP9X_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[29/40] VJZXIP9X_lower quadrant: midline - H F75 0.53 m0s2 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0 | K1 F75 0.71 m0s1 | K1c F75 0.77 m1s0
+[29/40] VJZXIP9X_lower half: midline - H F75 0.56 m0s3 | Hn F75 0.80 m1s0 | K F75 0.80 m1s0 | K1 F75 0.75 m0s2 | K1c F75 0.80 m1s0
+[30/40] KKBN198S_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[30/40] KKBN198S_lower quadrant: midline conf H F75 0.31 m0s2 | Hn F75 0.67 m1s0 | K F75 0.33 m0s2 | K1 F75 0.60 m0s1 | K1c F75 0.60 m0s1
+[30/40] KKBN198S_lower half: midline conf H F75 0.47 m0s3 | Hn F75 0.77 m1s0 | K F75 0.53 m0s3 | K1 F75 0.71 m0s2 | K1c F75 0.71 m0s2
+[31/40] 013FWKMZ_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[31/40] 013FWKMZ_lower quadrant: midline conf H F75 0.50 m0s2 | Hn F75 0.77 m1s0 | K F75 0.53 m0s2 | K1 F75 0.71 m0s1 | K1c F75 0.71 m0s1
+[31/40] 013FWKMZ_lower half: midline conf H F75 0.95 m0s0 | Hn F75 0.82 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[32/40] APLDXK7R_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.87 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[32/40] APLDXK7R_lower quadrant: midline conf H F75 0.43 m0s2 | Hn F75 0.73 m1s0 | K F75 0.46 m0s2 | K1 F75 0.67 m0s1 | K1c F75 0.67 m0s1
+[32/40] APLDXK7R_lower half: midline conf H F75 0.56 m0s2 | Hn F75 0.80 m1s0 | K F75 0.67 m0s0 | K1 F75 0.67 m0s0 | K1c F75 0.67 m0s0
+[33/40] U0YVRCMS_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[33/40] U0YVRCMS_lower quadrant: midline - H F75 0.33 m0s1 | Hn F75 0.67 m1s0 | K F75 0.67 m1s0 | K1 F75 0.60 m0s0 | K1c F75 0.67 m1s0
+[33/40] U0YVRCMS_lower half: midline conf H F75 0.78 m0s0 | Hn F75 0.82 m1s0 | K F75 0.78 m0s0 | K1 F75 0.78 m0s0 | K1c F75 0.78 m0s0
+[34/40] DEBDX44O_lower full: midline conf H F75 0.88 m0s2 | Hn F75 0.90 m1s0 | K F75 0.88 m0s2 | K1 F75 0.88 m0s2 | K1c F75 0.88 m0s2
+[34/40] DEBDX44O_lower quadrant: midline - H F75 0.80 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0 | K1 F75 1.00 m0s0 | K1c F75 0.77 m1s0
+[34/40] DEBDX44O_lower half: midline conf H F75 0.50 m2s4 | Hn F75 0.82 m1s0 | K F75 0.50 m2s4 | K1 F75 0.78 m2s2 | K1c F75 0.78 m2s2
+[35/40] L7Z4TSKP_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[35/40] L7Z4TSKP_lower quadrant: single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[35/40] L7Z4TSKP_lower half: midline conf H F75 1.00 m0s0 | Hn F75 0.80 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[36/40] L9EKTZMV_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[36/40] L9EKTZMV_lower quadrant: midline conf H F75 0.15 m0s2 | Hn F75 0.67 m1s0 | K F75 0.36 m0s1 | K1 F75 0.60 m0s0 | K1c F75 0.60 m0s0
+[36/40] L9EKTZMV_lower half: midline conf H F75 0.47 m0s1 | Hn F75 0.77 m1s0 | K F75 0.50 m0s1 | K1 F75 0.71 m0s0 | K1c F75 0.71 m0s0
+[37/40] 5J9O0LG3_upper full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[37/40] 5J9O0LG3_upper quadrant: midline conf H F75 0.50 m0s2 | Hn F75 1.00 m0s0 | K F75 0.57 m0s2 | K1 F75 0.77 m0s1 | K1c F75 0.77 m0s1
+[37/40] 5J9O0LG3_upper half: midline conf H F75 1.00 m0s0 | Hn F75 0.80 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[38/40] 9U19TREK_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[38/40] 9U19TREK_lower quadrant: single - H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[38/40] 9U19TREK_lower half: midline conf H F75 0.70 m0s1 | Hn F75 0.82 m1s0 | K F75 0.78 m0s1 | K1 F75 0.78 m0s1 | K1c F75 0.78 m0s1
+[39/40] XGTCZ6LH_lower full: midline conf H F75 0.79 m0s1 | Hn F75 0.67 m1s1 | K F75 0.79 m0s1 | K1 F75 0.79 m0s1 | K1c F75 0.79 m0s1
+[39/40] XGTCZ6LH_lower quadrant: single - H F75 0.89 m0s0 | Hn F75 0.89 m0s0 | K F75 0.89 m0s0 | K1 F75 0.89 m0s0 | K1c F75 0.89 m0s0
+[39/40] XGTCZ6LH_lower half: midline - H F75 1.00 m0s0 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0 | K1 F75 1.00 m0s0 | K1c F75 0.73 m1s0
+[40/40] LE4E8YWJ_lower full: midline conf H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0 | K1 F75 1.00 m0s0 | K1c F75 1.00 m0s0
+[40/40] LE4E8YWJ_lower quadrant: midline - H F75 1.00 m0s0 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0 | K1 F75 1.00 m0s0 | K1c F75 0.73 m1s0
+[40/40] LE4E8YWJ_lower half: midline conf H F75 0.44 m0s2 | Hn F75 0.80 m1s0 | K F75 0.44 m0s2 | K1 F75 0.75 m0s0 | K1c F75 0.75 m0s0
+
+== inhouse (12 scans, 88 teeth) rule: midline 3, confident 3
+   method  F50   F75  mIoU  merge split  inter GT>P P>GT
+   H    0.972 0.928 0.913     3     4   0.23 0.92
+   Hn   0.975 0.943 0.913     5     2   0.35 0.81
+   K    0.982 0.946 0.918     3     3   0.23 0.86
+   K1   0.982 0.946 0.918     3     3   0.23 0.86
+   K1c  0.982 0.946 0.918     3     3   0.23 0.86
+
+== public full (40 scans, 553 teeth) rule: midline 40, confident 40
+   method  F50   F75  mIoU  merge split  inter GT>P P>GT
+   H    0.987 0.970 0.930     2     5   0.06 0.21
+   Hn   0.896 0.869 0.871    42     3   0.68 0.18
+   K    0.981 0.962 0.930     3     5   0.06 0.21
+   K1   0.981 0.962 0.930     3     5   0.06 0.21
+   K1c  0.981 0.962 0.930     3     5   0.06 0.21
+
+== public quadrant (40 scans, 224 teeth) rule: midline 30, confident 14
+   method  F50   F75  mIoU  merge split  inter GT>P P>GT
+   H    0.811 0.573 0.800     5    64   0.23 1.60
+   Hn   0.831 0.788 0.838    25     2   0.95 0.52
+   K    0.825 0.676 0.819    15    32   0.74 0.91
+   K1   0.923 0.762 0.865     6    27   0.22 1.00
+   K1c  0.864 0.749 0.840    16    16   0.74 0.75
+
+== public half (40 scans, 321 teeth) rule: midline 37, confident 28
+   method  F50   F75  mIoU  merge split  inter GT>P P>GT
+   H    0.872 0.668 0.840     4    64   0.18 1.01
+   Hn   0.849 0.811 0.840    36     1   0.97 0.12
+   K    0.888 0.741 0.853    11    38   0.38 0.55
+   K1   0.948 0.838 0.889     5    18   0.18 0.44
+   K1c  0.927 0.830 0.876    12    14   0.38 0.36
+
+187s

@@ -1,0 +1,222 @@
+adapter toothsegnet package /pkgs/toothsegnet-ios/1 modes ['full', 'quadrant', 'half', 'bridge'] inhouse True
+INHOUSE0001_lower 214104 3.4s - [31, 32, 33, 34, 35, 36, 37, 41, 42, 43, 44, 45, 46, 47] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+INHOUSE0002_upper 255194 1.8s - [11, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 27] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+INHOUSE0003_lower 152045 1.1s - [42, 43, 44, 45, 46, 47] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 0.91 m0s0 | +colour CC F75 0.91 m0s0
+INHOUSE0004_upper 118202 1.2s - [11, 13, 14, 15, 16] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+INHOUSE0005_lower 170946 1.6s - [32, 33, 34, 35, 36] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+INHOUSE0006_upper 149725 1.3s - [13, 22, 24, 25, 26, 27, 28] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+INHOUSE0007_lower 181547 1.4s - [32, 33, 34, 35, 36, 37] DDH F75 0.83 m0s0 | CC F75 0.83 m0s0 | +colour DDH F75 0.77 m0s0 | +colour CC F75 0.77 m0s0
+INHOUSE0008_upper 184264 1.6s - [11, 12, 14, 15, 16, 17, 21] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+INHOUSE0009_lower 160824 1.5s - [42, 43, 44, 45, 46, 47, 48] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+INHOUSE0010_upper 168037 1.4s - [12, 13, 14, 15, 16, 17] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+INHOUSE0011_lower 207935 1.4s - [33, 34, 45, 46, 47] DDH F75 1.00 m0s0 | CC F75 1.00 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+INHOUSE0012_upper 218483 1.7s - [13, 14, 15, 16, 17, 21] DDH F75 0.92 m0s0 | CC F75 0.92 m0s0 | +colour DDH F75 1.00 m0s0 | +colour CC F75 1.00 m0s0
+[1/40] EK26QFUW_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[1/40] EK26QFUW_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[1/40] EK26QFUW_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[1/40] EK26QFUW_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[2/40] POSEIDON000057_upper full: DDH F75 0.96 m0s0 | CC F75 0.96 m0s0
+[2/40] POSEIDON000057_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[2/40] POSEIDON000057_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[2/40] POSEIDON000057_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[3/40] C2SF98X5_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[3/40] C2SF98X5_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[3/40] C2SF98X5_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[3/40] C2SF98X5_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[4/40] QA27COSZ_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[4/40] QA27COSZ_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[4/40] QA27COSZ_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[4/40] QA27COSZ_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[5/40] 016FSM14_lower full: DDH F75 0.87 m0s0 | CC F75 0.87 m0s0
+[5/40] 016FSM14_lower quadrant: DDH F75 0.71 m1s0 | CC F75 0.71 m1s0
+[5/40] 016FSM14_lower half: DDH F75 0.80 m1s0 | CC F75 0.80 m1s0
+[5/40] 016FSM14_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[6/40] L428SD7J_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[6/40] L428SD7J_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[6/40] L428SD7J_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[6/40] L428SD7J_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[7/40] FUSION012_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[7/40] FUSION012_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[7/40] FUSION012_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[7/40] FUSION012_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[8/40] POSEIDON000177_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[8/40] POSEIDON000177_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[8/40] POSEIDON000177_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[8/40] POSEIDON000177_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[9/40] POSEIDON000029_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[9/40] POSEIDON000029_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[9/40] POSEIDON000029_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[9/40] POSEIDON000029_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[10/40] T21AWMTR_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[10/40] T21AWMTR_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[10/40] T21AWMTR_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[10/40] T21AWMTR_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[12/40] L8IYFLQP_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[12/40] L8IYFLQP_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[12/40] L8IYFLQP_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[12/40] L8IYFLQP_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[13/40] 15AIQVK8_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[13/40] 15AIQVK8_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[13/40] 15AIQVK8_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[13/40] 15AIQVK8_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[14/40] XKC3KSSB_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[14/40] XKC3KSSB_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[14/40] XKC3KSSB_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[14/40] XKC3KSSB_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[15/40] HWO9T72O_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[15/40] HWO9T72O_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[15/40] HWO9T72O_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[15/40] HWO9T72O_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[16/40] FUSION013_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[16/40] FUSION013_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[16/40] FUSION013_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[16/40] FUSION013_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[17/40] 01JZDW8K_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[17/40] 01JZDW8K_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[17/40] 01JZDW8K_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[17/40] 01JZDW8K_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[18/40] VNRRN6ZF_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[18/40] VNRRN6ZF_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[18/40] VNRRN6ZF_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[18/40] VNRRN6ZF_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[19/40] POSEIDON000042_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[19/40] POSEIDON000042_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[19/40] POSEIDON000042_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[19/40] POSEIDON000042_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[20/40] 014M2HZD_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[20/40] 014M2HZD_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[20/40] 014M2HZD_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[20/40] 014M2HZD_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[21/40] FUSION095_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[21/40] FUSION095_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[21/40] FUSION095_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[21/40] FUSION095_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[22/40] HDVYC7UQ_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[22/40] HDVYC7UQ_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[22/40] HDVYC7UQ_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[22/40] HDVYC7UQ_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[23/40] 015DK78F_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[23/40] 015DK78F_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[23/40] 015DK78F_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[23/40] 015DK78F_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[24/40] 0132CR0A_upper full: DDH F75 0.96 m0s0 | CC F75 0.96 m0s0
+[24/40] 0132CR0A_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[24/40] 0132CR0A_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[24/40] 0132CR0A_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[25/40] LOVM549U_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[25/40] LOVM549U_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[25/40] LOVM549U_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[25/40] LOVM549U_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[26/40] C4LOTSKE_lower full: DDH F75 0.90 m0s0 | CC F75 0.90 m0s0
+[26/40] C4LOTSKE_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[26/40] C4LOTSKE_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[26/40] C4LOTSKE_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[27/40] 01A6HE9H_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[27/40] 01A6HE9H_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[27/40] 01A6HE9H_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[27/40] 01A6HE9H_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[28/40] O2LXM8BS_lower full: DDH F75 0.96 m0s0 | CC F75 0.96 m0s0
+[28/40] O2LXM8BS_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[28/40] O2LXM8BS_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[28/40] O2LXM8BS_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[29/40] VJZXIP9X_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[29/40] VJZXIP9X_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[29/40] VJZXIP9X_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[29/40] VJZXIP9X_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[30/40] KKBN198S_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[30/40] KKBN198S_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[30/40] KKBN198S_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[30/40] KKBN198S_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[31/40] 013FWKMZ_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[31/40] 013FWKMZ_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[31/40] 013FWKMZ_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[31/40] 013FWKMZ_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[32/40] APLDXK7R_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[32/40] APLDXK7R_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[32/40] APLDXK7R_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[32/40] APLDXK7R_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[33/40] U0YVRCMS_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[33/40] U0YVRCMS_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[33/40] U0YVRCMS_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[33/40] U0YVRCMS_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[34/40] DEBDX44O_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[34/40] DEBDX44O_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[34/40] DEBDX44O_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[34/40] DEBDX44O_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[35/40] L7Z4TSKP_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[35/40] L7Z4TSKP_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[35/40] L7Z4TSKP_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[35/40] L7Z4TSKP_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[36/40] L9EKTZMV_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[36/40] L9EKTZMV_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[36/40] L9EKTZMV_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[36/40] L9EKTZMV_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[37/40] 5J9O0LG3_upper full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[37/40] 5J9O0LG3_upper quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[37/40] 5J9O0LG3_upper half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[37/40] 5J9O0LG3_upper bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[38/40] 9U19TREK_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[38/40] 9U19TREK_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[38/40] 9U19TREK_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[38/40] 9U19TREK_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[39/40] XGTCZ6LH_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[39/40] XGTCZ6LH_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[39/40] XGTCZ6LH_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[39/40] XGTCZ6LH_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[40/40] LE4E8YWJ_lower full: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[40/40] LE4E8YWJ_lower quadrant: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[40/40] LE4E8YWJ_lower half: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+[40/40] LE4E8YWJ_lower bridge: DDH F75 1.00 m0s0 | CC F75 1.00 m0s0
+
+== 인하우스 정중선 판정과 경고
+  INHOUSE0001_lower - [31, 32, 33, 34, 35, 36, 37, 41, 42, 43, 44, 45, 46, 47] []
+  INHOUSE0002_upper - [11, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 27] []
+  INHOUSE0003_lower - [43, 44, 45, 46, 47] ['좌우(사분면)가 불확실한 치아가 있습니다 (43, 44, 45, 46, 47). 번호를 확인하세요.']
+  INHOUSE0004_upper - [11, 13, 14, 15, 16] []
+  INHOUSE0005_lower - [32, 33, 34, 35, 36] []
+  INHOUSE0006_upper - [13, 22, 24, 25, 26, 27, 28] ['좌우(사분면)가 불확실한 치아가 있습니다 (13, 22, 24, 25, 26, 27, 28). 번호를 확인하세요.']
+  INHOUSE0007_lower - [33, 34, 35, 36, 37] ['좌우(사분면)가 불확실한 치아가 있습니다 (35, 36, 37). 번호를 확인하세요.']
+  INHOUSE0008_upper - [11, 12, 14, 15, 16, 17, 21] []
+  INHOUSE0009_lower - [42, 43, 44, 45, 46, 47, 48] ['좌우(사분면)가 불확실한 치아가 있습니다 (42, 43). 번호를 확인하세요.']
+  INHOUSE0010_upper - [12, 13, 14, 15, 16, 17] ['좌우(사분면)가 불확실한 치아가 있습니다 (12). 번호를 확인하세요.']
+  INHOUSE0011_lower - [33, 34, 45, 46, 47] ['좌우(사분면)가 불확실한 치아가 있습니다 (33, 34, 45, 46, 47). 번호를 확인하세요.']
+  INHOUSE0012_upper - [13, 14, 15, 16, 17, 18, 21] ['좌우(사분면)가 불확실한 치아가 있습니다 (13, 14, 21). 번호를 확인하세요.']
+
+== inhouse (12 scans)
+   method          F50   F75  mIoU  merge split
+   DDH            0.980 0.980 0.940     0     0   (n=12)
+   CC             0.980 0.980 0.940     0     0   (n=12)
+   +colour DDH    0.986 0.973 0.949     0     0   (n=12)
+   +colour CC     0.986 0.973 0.949     0     0   (n=12)
+
+== public full (40 scans)
+   method          F50   F75  mIoU  merge split
+   DDH            0.994 0.991 0.943     0     0   (n=40)
+   CC             0.994 0.991 0.943     0     0   (n=40)
+
+== public quadrant (40 scans)
+   method          F50   F75  mIoU  merge split
+   DDH            0.996 0.993 0.942     1     0   (n=40)
+   CC             0.996 0.993 0.942     1     0   (n=40)
+
+== public half (40 scans)
+   method          F50   F75  mIoU  merge split
+   DDH            0.998 0.995 0.943     1     0   (n=40)
+   CC             0.998 0.995 0.943     1     0   (n=40)
+
+== public bridge (40 scans)
+   method          F50   F75  mIoU  merge split
+   DDH            1.000 1.000 0.952     0     0   (n=40)
+   CC             1.000 1.000 0.952     0     0   (n=40)
+
+== 어댑터 시간 (s, 평균 / 최대)
+   inhouse          1.60 / 3.35
+   inhouse colour   1.56 / 1.93
+   public full      1.49 / 2.14
+   public quadrant  0.76 / 1.09
+   public half      0.89 / 1.37
+   public bridge    0.70 / 0.90

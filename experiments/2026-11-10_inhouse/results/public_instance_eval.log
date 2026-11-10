@@ -1,0 +1,135 @@
+[1/40] EK26QFUW_upper full: PurePTv3 H F75 1.00 mIoU 0.945 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.959 m0s0 n 14/14
+[1/40] EK26QFUW_upper quadrant: PurePTv3 H F75 1.00 mIoU 0.944 m0s0 n 6/6 | seg3d S1+clean F75 1.00 mIoU 0.948 m0s0 n 6/6
+[1/40] EK26QFUW_upper half: PurePTv3 H F75 0.60 mIoU 0.828 m0s2 n 12/8 | seg3d S1+clean F75 1.00 mIoU 0.952 m0s0 n 8/8
+[2/40] POSEIDON000057_upper full: PurePTv3 H F75 1.00 mIoU 0.871 m0s0 n 13/13 | seg3d S1+clean F75 0.96 mIoU 0.878 m0s0 n 14/13
+[2/40] POSEIDON000057_upper quadrant: PurePTv3 H F75 0.31 mIoU 0.665 m0s3 n 8/5 | seg3d S1+clean F75 1.00 mIoU 0.901 m0s0 n 5/5
+[2/40] POSEIDON000057_upper half: PurePTv3 H F75 0.50 mIoU 0.744 m0s1 n 9/7 | seg3d S1+clean F75 1.00 mIoU 0.908 m0s0 n 7/7
+[3/40] C2SF98X5_lower full: PurePTv3 H F75 1.00 mIoU 0.961 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.964 m0s0 n 14/14
+[3/40] C2SF98X5_lower quadrant: PurePTv3 H F75 1.00 mIoU 0.963 m0s0 n 4/4 | seg3d S1+clean F75 1.00 mIoU 0.967 m0s0 n 4/4
+[3/40] C2SF98X5_lower half: PurePTv3 H F75 0.35 mIoU 0.736 m0s3 n 11/6 | seg3d S1+clean F75 1.00 mIoU 0.963 m0s0 n 6/6
+[4/40] QA27COSZ_lower full: PurePTv3 H F75 1.00 mIoU 0.946 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.954 m0s0 n 14/14
+[4/40] QA27COSZ_lower quadrant: PurePTv3 H F75 0.33 mIoU 0.654 m2s3 n 7/5 | seg3d S1+clean F75 1.00 mIoU 0.950 m0s0 n 5/5
+[4/40] QA27COSZ_lower half: PurePTv3 H F75 0.67 mIoU 0.847 m0s2 n 10/8 | seg3d S1+clean F75 1.00 mIoU 0.960 m0s0 n 8/8
+[5/40] 016FSM14_lower full: PurePTv3 H F75 0.73 mIoU 0.801 m2s1 n 15/15 | seg3d S1+clean F75 0.87 mIoU 0.892 m0s0 n 15/15
+[5/40] 016FSM14_lower quadrant: PurePTv3 H F75 0.36 mIoU 0.646 m0s3 n 14/8 | seg3d S1+clean F75 0.71 mIoU 0.707 m1s0 n 6/8
+[5/40] 016FSM14_lower half: PurePTv3 H F75 0.53 mIoU 0.755 m1s2 n 11/8 | seg3d S1+clean F75 0.80 mIoU 0.812 m1s0 n 7/8
+[6/40] L428SD7J_upper full: PurePTv3 H F75 1.00 mIoU 0.921 m0s0 n 16/16 | seg3d S1+clean F75 1.00 mIoU 0.943 m0s0 n 16/16
+[6/40] L428SD7J_upper quadrant: PurePTv3 H F75 0.38 mIoU 0.748 m0s4 n 9/7 | seg3d S1+clean F75 1.00 mIoU 0.948 m0s0 n 7/7
+[6/40] L428SD7J_upper half: PurePTv3 H F75 0.48 mIoU 0.790 m0s3 n 12/9 | seg3d S1+clean F75 1.00 mIoU 0.952 m0s0 n 9/9
+[7/40] FUSION012_lower full: PurePTv3 H F75 0.90 mIoU 0.894 m0s1 n 16/15 | seg3d S1+clean F75 0.97 mIoU 0.942 m0s0 n 16/15
+[7/40] FUSION012_lower quadrant: PurePTv3 H F75 0.33 mIoU 0.707 m0s3 n 11/7 | seg3d S1+clean F75 1.00 mIoU 0.949 m0s0 n 7/7
+[7/40] FUSION012_lower half: PurePTv3 H F75 0.38 mIoU 0.730 m0s5 n 16/10 | seg3d S1+clean F75 1.00 mIoU 0.935 m0s0 n 10/10
+[8/40] POSEIDON000177_upper full: PurePTv3 H F75 0.87 mIoU 0.876 m0s0 n 15/15 | seg3d S1+clean F75 1.00 mIoU 0.922 m0s0 n 15/15
+[8/40] POSEIDON000177_upper quadrant: PurePTv3 H F75 0.35 mIoU 0.751 m0s2 n 10/7 | seg3d S1+clean F75 1.00 mIoU 0.916 m0s0 n 7/7
+[8/40] POSEIDON000177_upper half: PurePTv3 H F75 0.42 mIoU 0.724 m0s4 n 14/10 | seg3d S1+clean F75 1.00 mIoU 0.919 m0s0 n 10/10
+[9/40] POSEIDON000029_upper full: PurePTv3 H F75 0.85 mIoU 0.827 m0s0 n 13/13 | seg3d S1+clean F75 1.00 mIoU 0.888 m0s0 n 13/13
+[9/40] POSEIDON000029_upper quadrant: PurePTv3 H F75 0.62 mIoU 0.771 m0s1 n 7/6 | seg3d S1+clean F75 1.00 mIoU 0.894 m0s0 n 6/6
+[9/40] POSEIDON000029_upper half: PurePTv3 H F75 0.00 mIoU 0.560 m1s5 n 9/7 | seg3d S1+clean F75 1.00 mIoU 0.870 m0s0 n 7/7
+[10/40] T21AWMTR_upper full: PurePTv3 H F75 1.00 mIoU 0.927 m0s0 n 14/14 | seg3d S1+clean F75 0.97 mIoU 0.930 m0s0 n 15/14
+[10/40] T21AWMTR_upper quadrant: PurePTv3 H F75 0.00 mIoU 0.602 m0s4 n 6/4 | seg3d S1+clean F75 1.00 mIoU 0.936 m0s0 n 4/4
+[10/40] T21AWMTR_upper half: PurePTv3 H F75 0.63 mIoU 0.802 m0s3 n 11/8 | seg3d S1+clean F75 1.00 mIoU 0.940 m0s0 n 8/8
+[11/40] 3PSS0ONL_lower full: PurePTv3 H F75 1.00 mIoU 0.949 m0s0 n 12/12 | seg3d S1+clean F75 1.00 mIoU 0.951 m0s0 n 12/12
+[11/40] 3PSS0ONL_lower quadrant: PurePTv3 H F75 1.00 mIoU 0.968 m0s0 n 3/3 | seg3d S1+clean F75 1.00 mIoU 0.966 m0s0 n 3/3
+[11/40] 3PSS0ONL_lower half: PurePTv3 H F75 0.38 mIoU 0.806 m0s2 n 9/7 | seg3d S1+clean F75 1.00 mIoU 0.951 m0s0 n 7/7
+[12/40] L8IYFLQP_upper full: PurePTv3 H F75 1.00 mIoU 0.948 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.955 m0s0 n 14/14
+[12/40] L8IYFLQP_upper quadrant: PurePTv3 H F75 0.44 mIoU 0.795 m0s3 n 11/7 | seg3d S1+clean F75 1.00 mIoU 0.957 m0s0 n 7/7
+[12/40] L8IYFLQP_upper half: PurePTv3 H F75 1.00 mIoU 0.950 m0s0 n 10/10 | seg3d S1+clean F75 1.00 mIoU 0.957 m0s0 n 10/10
+[13/40] 15AIQVK8_upper full: PurePTv3 H F75 1.00 mIoU 0.945 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.961 m0s0 n 14/14
+[13/40] 15AIQVK8_upper quadrant: PurePTv3 H F75 0.46 mIoU 0.744 m0s3 n 8/5 | seg3d S1+clean F75 1.00 mIoU 0.963 m0s0 n 5/5
+[13/40] 15AIQVK8_upper half: PurePTv3 H F75 0.47 mIoU 0.828 m0s3 n 10/7 | seg3d S1+clean F75 1.00 mIoU 0.968 m0s0 n 7/7
+[14/40] XKC3KSSB_upper full: PurePTv3 H F75 1.00 mIoU 0.946 m0s0 n 12/12 | seg3d S1+clean F75 1.00 mIoU 0.944 m0s0 n 12/12
+[14/40] XKC3KSSB_upper quadrant: PurePTv3 H F75 0.80 mIoU 0.938 m0s0 n 6/4 | seg3d S1+clean F75 1.00 mIoU 0.962 m0s0 n 4/4
+[14/40] XKC3KSSB_upper half: PurePTv3 H F75 1.00 mIoU 0.960 m0s0 n 7/7 | seg3d S1+clean F75 1.00 mIoU 0.942 m0s0 n 7/7
+[15/40] HWO9T72O_lower full: PurePTv3 H F75 0.96 mIoU 0.933 m0s0 n 13/12 | seg3d S1+clean F75 1.00 mIoU 0.930 m0s0 n 12/12
+[15/40] HWO9T72O_lower quadrant: PurePTv3 H F75 0.33 mIoU 0.762 m0s1 n 7/5 | seg3d S1+clean F75 1.00 mIoU 0.942 m0s0 n 5/5
+[15/40] HWO9T72O_lower half: PurePTv3 H F75 0.80 mIoU 0.850 m0s1 n 8/7 | seg3d S1+clean F75 1.00 mIoU 0.944 m0s0 n 7/7
+[16/40] FUSION013_upper full: PurePTv3 H F75 1.00 mIoU 0.939 m0s0 n 16/16 | seg3d S1+clean F75 1.00 mIoU 0.943 m0s0 n 16/16
+[16/40] FUSION013_upper quadrant: PurePTv3 H F75 0.94 mIoU 0.925 m0s0 n 9/8 | seg3d S1+clean F75 1.00 mIoU 0.942 m0s0 n 8/8
+[16/40] FUSION013_upper half: PurePTv3 H F75 0.70 mIoU 0.849 m0s2 n 13/10 | seg3d S1+clean F75 1.00 mIoU 0.949 m0s0 n 10/10
+[17/40] 01JZDW8K_lower full: PurePTv3 H F75 1.00 mIoU 0.948 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.945 m0s0 n 14/14
+[17/40] 01JZDW8K_lower quadrant: PurePTv3 H F75 1.00 mIoU 0.928 m0s0 n 4/4 | seg3d S1+clean F75 1.00 mIoU 0.951 m0s0 n 4/4
+[17/40] 01JZDW8K_lower half: PurePTv3 H F75 1.00 mIoU 0.962 m0s0 n 7/7 | seg3d S1+clean F75 1.00 mIoU 0.958 m0s0 n 7/7
+[18/40] VNRRN6ZF_upper full: PurePTv3 H F75 1.00 mIoU 0.961 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.963 m0s0 n 14/14
+[18/40] VNRRN6ZF_upper quadrant: PurePTv3 H F75 0.33 mIoU 0.696 m0s2 n 8/4 | seg3d S1+clean F75 1.00 mIoU 0.958 m0s0 n 4/4
+[18/40] VNRRN6ZF_upper half: PurePTv3 H F75 0.67 mIoU 0.829 m0s2 n 10/8 | seg3d S1+clean F75 1.00 mIoU 0.961 m0s0 n 8/8
+[19/40] POSEIDON000042_upper full: PurePTv3 H F75 1.00 mIoU 0.865 m0s0 n 15/15 | seg3d S1+clean F75 1.00 mIoU 0.922 m0s0 n 15/15
+[19/40] POSEIDON000042_upper quadrant: PurePTv3 H F75 0.71 mIoU 0.780 m1s0 n 7/7 | seg3d S1+clean F75 1.00 mIoU 0.923 m0s0 n 7/7
+[19/40] POSEIDON000042_upper half: PurePTv3 H F75 1.00 mIoU 0.907 m0s0 n 11/11 | seg3d S1+clean F75 0.96 mIoU 0.929 m0s0 n 12/11
+[20/40] 014M2HZD_upper full: PurePTv3 H F75 1.00 mIoU 0.950 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.960 m0s0 n 14/14
+[20/40] 014M2HZD_upper quadrant: PurePTv3 H F75 0.62 mIoU 0.816 m0s1 n 9/7 | seg3d S1+clean F75 1.00 mIoU 0.963 m0s0 n 7/7
+[20/40] 014M2HZD_upper half: PurePTv3 H F75 1.00 mIoU 0.946 m0s0 n 9/9 | seg3d S1+clean F75 1.00 mIoU 0.958 m0s0 n 9/9
+[21/40] FUSION095_upper full: PurePTv3 H F75 1.00 mIoU 0.943 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.943 m0s0 n 14/14
+[21/40] FUSION095_upper quadrant: PurePTv3 H F75 1.00 mIoU 0.954 m0s0 n 5/5 | seg3d S1+clean F75 1.00 mIoU 0.955 m0s0 n 5/5
+[21/40] FUSION095_upper half: PurePTv3 H F75 0.93 mIoU 0.874 m0s0 n 8/7 | seg3d S1+clean F75 1.00 mIoU 0.941 m0s0 n 7/7
+[22/40] HDVYC7UQ_upper full: PurePTv3 H F75 1.00 mIoU 0.958 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.956 m0s0 n 14/14
+[22/40] HDVYC7UQ_upper quadrant: PurePTv3 H F75 0.67 mIoU 0.787 m0s1 n 7/5 | seg3d S1+clean F75 1.00 mIoU 0.953 m0s0 n 5/5
+[22/40] HDVYC7UQ_upper half: PurePTv3 H F75 0.59 mIoU 0.837 m0s2 n 10/7 | seg3d S1+clean F75 1.00 mIoU 0.962 m0s0 n 7/7
+[23/40] 015DK78F_lower full: PurePTv3 H F75 1.00 mIoU 0.940 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.937 m0s0 n 14/14
+[23/40] 015DK78F_lower quadrant: PurePTv3 H F75 0.20 mIoU 0.647 m0s3 n 6/4 | seg3d S1+clean F75 1.00 mIoU 0.931 m0s0 n 4/4
+[23/40] 015DK78F_lower half: PurePTv3 H F75 0.56 mIoU 0.841 m0s1 n 10/8 | seg3d S1+clean F75 1.00 mIoU 0.940 m0s0 n 8/8
+[24/40] 0132CR0A_upper full: PurePTv3 H F75 0.96 mIoU 0.956 m0s0 n 12/11 | seg3d S1+clean F75 0.96 mIoU 0.960 m0s0 n 12/11
+[24/40] 0132CR0A_upper quadrant: PurePTv3 H F75 0.86 mIoU 0.963 m0s0 n 4/3 | seg3d S1+clean F75 1.00 mIoU 0.971 m0s0 n 3/3
+[24/40] 0132CR0A_upper half: PurePTv3 H F75 1.00 mIoU 0.957 m0s0 n 6/6 | seg3d S1+clean F75 1.00 mIoU 0.961 m0s0 n 6/6
+[25/40] LOVM549U_lower full: PurePTv3 H F75 1.00 mIoU 0.952 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.952 m0s0 n 14/14
+[25/40] LOVM549U_lower quadrant: PurePTv3 H F75 0.44 mIoU 0.806 m0s4 n 10/8 | seg3d S1+clean F75 1.00 mIoU 0.950 m0s0 n 8/8
+[25/40] LOVM549U_lower half: PurePTv3 H F75 0.64 mIoU 0.842 m0s1 n 12/10 | seg3d S1+clean F75 1.00 mIoU 0.950 m0s0 n 10/10
+[26/40] C4LOTSKE_lower full: PurePTv3 H F75 0.97 mIoU 0.935 m0s0 n 15/14 | seg3d S1+clean F75 0.87 mIoU 0.928 m0s0 n 16/14
+[26/40] C4LOTSKE_lower quadrant: PurePTv3 H F75 0.33 mIoU 0.728 m0s4 n 11/7 | seg3d S1+clean F75 1.00 mIoU 0.955 m0s0 n 7/7
+[26/40] C4LOTSKE_lower half: PurePTv3 H F75 0.55 mIoU 0.833 m0s2 n 13/9 | seg3d S1+clean F75 1.00 mIoU 0.955 m0s0 n 9/9
+[27/40] 01A6HE9H_lower full: PurePTv3 H F75 0.93 mIoU 0.928 m0s0 n 14/14 | seg3d S1+clean F75 0.97 mIoU 0.935 m0s0 n 15/14
+[27/40] 01A6HE9H_lower quadrant: PurePTv3 H F75 0.20 mIoU 0.592 m2s3 n 6/4 | seg3d S1+clean F75 1.00 mIoU 0.954 m0s0 n 4/4
+[27/40] 01A6HE9H_lower half: PurePTv3 H F75 0.67 mIoU 0.843 m0s1 n 8/7 | seg3d S1+clean F75 1.00 mIoU 0.949 m0s0 n 7/7
+[28/40] O2LXM8BS_lower full: PurePTv3 H F75 0.96 mIoU 0.956 m0s0 n 13/12 | seg3d S1+clean F75 0.96 mIoU 0.955 m0s0 n 13/12
+[28/40] O2LXM8BS_lower quadrant: PurePTv3 H F75 0.43 mIoU 0.754 m0s2 n 9/5 | seg3d S1+clean F75 1.00 mIoU 0.957 m0s0 n 5/5
+[28/40] O2LXM8BS_lower half: PurePTv3 H F75 0.80 mIoU 0.847 m0s1 n 8/7 | seg3d S1+clean F75 1.00 mIoU 0.957 m0s0 n 7/7
+[29/40] VJZXIP9X_lower full: PurePTv3 H F75 1.00 mIoU 0.937 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.952 m0s0 n 14/14
+[29/40] VJZXIP9X_lower quadrant: PurePTv3 H F75 0.53 mIoU 0.792 m0s2 n 8/7 | seg3d S1+clean F75 1.00 mIoU 0.947 m0s0 n 7/7
+[29/40] VJZXIP9X_lower half: PurePTv3 H F75 0.56 mIoU 0.813 m0s3 n 10/8 | seg3d S1+clean F75 1.00 mIoU 0.944 m0s0 n 8/8
+[30/40] KKBN198S_lower full: PurePTv3 H F75 1.00 mIoU 0.957 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.958 m0s0 n 14/14
+[30/40] KKBN198S_lower quadrant: PurePTv3 H F75 0.31 mIoU 0.723 m0s2 n 8/5 | seg3d S1+clean F75 1.00 mIoU 0.949 m0s0 n 5/5
+[30/40] KKBN198S_lower half: PurePTv3 H F75 0.47 mIoU 0.777 m0s3 n 10/7 | seg3d S1+clean F75 1.00 mIoU 0.949 m0s0 n 7/7
+[31/40] 013FWKMZ_lower full: PurePTv3 H F75 1.00 mIoU 0.936 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.934 m0s0 n 14/14
+[31/40] 013FWKMZ_lower quadrant: PurePTv3 H F75 0.50 mIoU 0.791 m0s2 n 9/7 | seg3d S1+clean F75 1.00 mIoU 0.946 m0s0 n 7/7
+[31/40] 013FWKMZ_lower half: PurePTv3 H F75 0.95 mIoU 0.903 m0s0 n 10/9 | seg3d S1+clean F75 1.00 mIoU 0.949 m0s0 n 9/9
+[32/40] APLDXK7R_lower full: PurePTv3 H F75 1.00 mIoU 0.945 m0s0 n 12/12 | seg3d S1+clean F75 1.00 mIoU 0.945 m0s0 n 12/12
+[32/40] APLDXK7R_lower quadrant: PurePTv3 H F75 0.43 mIoU 0.774 m0s2 n 8/6 | seg3d S1+clean F75 1.00 mIoU 0.944 m0s0 n 6/6
+[32/40] APLDXK7R_lower half: PurePTv3 H F75 0.56 mIoU 0.828 m0s2 n 10/8 | seg3d S1+clean F75 1.00 mIoU 0.944 m0s0 n 8/8
+[33/40] U0YVRCMS_lower full: PurePTv3 H F75 1.00 mIoU 0.959 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.957 m0s0 n 14/14
+[33/40] U0YVRCMS_lower quadrant: PurePTv3 H F75 0.33 mIoU 0.717 m0s1 n 7/5 | seg3d S1+clean F75 1.00 mIoU 0.936 m0s0 n 5/5
+[33/40] U0YVRCMS_lower half: PurePTv3 H F75 0.78 mIoU 0.904 m0s0 n 9/9 | seg3d S1+clean F75 1.00 mIoU 0.956 m0s0 n 9/9
+[34/40] DEBDX44O_lower full: PurePTv3 H F75 0.88 mIoU 0.893 m0s2 n 16/16 | seg3d S1+clean F75 0.97 mIoU 0.937 m0s0 n 17/16
+[34/40] DEBDX44O_lower quadrant: PurePTv3 H F75 0.80 mIoU 0.873 m0s1 n 8/7 | seg3d S1+clean F75 1.00 mIoU 0.954 m0s0 n 7/7
+[34/40] DEBDX44O_lower half: PurePTv3 H F75 0.50 mIoU 0.748 m2s4 n 11/9 | seg3d S1+clean F75 1.00 mIoU 0.931 m0s0 n 9/9
+[35/40] L7Z4TSKP_lower full: PurePTv3 H F75 1.00 mIoU 0.946 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.957 m0s0 n 14/14
+[35/40] L7Z4TSKP_lower quadrant: PurePTv3 H F75 1.00 mIoU 0.955 m0s0 n 6/6 | seg3d S1+clean F75 1.00 mIoU 0.961 m0s0 n 6/6
+[35/40] L7Z4TSKP_lower half: PurePTv3 H F75 1.00 mIoU 0.938 m0s0 n 8/8 | seg3d S1+clean F75 1.00 mIoU 0.951 m0s0 n 8/8
+[36/40] L9EKTZMV_lower full: PurePTv3 H F75 1.00 mIoU 0.956 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.954 m0s0 n 14/14
+[36/40] L9EKTZMV_lower quadrant: PurePTv3 H F75 0.15 mIoU 0.731 m0s2 n 8/5 | seg3d S1+clean F75 1.00 mIoU 0.955 m0s0 n 5/5
+[36/40] L9EKTZMV_lower half: PurePTv3 H F75 0.47 mIoU 0.802 m0s1 n 10/7 | seg3d S1+clean F75 1.00 mIoU 0.952 m0s0 n 7/7
+[37/40] 5J9O0LG3_upper full: PurePTv3 H F75 1.00 mIoU 0.949 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.958 m0s0 n 14/14
+[37/40] 5J9O0LG3_upper quadrant: PurePTv3 H F75 0.50 mIoU 0.808 m0s2 n 10/6 | seg3d S1+clean F75 1.00 mIoU 0.965 m0s0 n 6/6
+[37/40] 5J9O0LG3_upper half: PurePTv3 H F75 1.00 mIoU 0.955 m0s0 n 8/8 | seg3d S1+clean F75 1.00 mIoU 0.957 m0s0 n 8/8
+[38/40] 9U19TREK_lower full: PurePTv3 H F75 1.00 mIoU 0.936 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.944 m0s0 n 14/14
+[38/40] 9U19TREK_lower quadrant: PurePTv3 H F75 1.00 mIoU 0.954 m0s0 n 6/6 | seg3d S1+clean F75 1.00 mIoU 0.953 m0s0 n 6/6
+[38/40] 9U19TREK_lower half: PurePTv3 H F75 0.70 mIoU 0.874 m0s1 n 11/9 | seg3d S1+clean F75 1.00 mIoU 0.949 m0s0 n 9/9
+[39/40] XGTCZ6LH_lower full: PurePTv3 H F75 0.79 mIoU 0.909 m0s1 n 16/12 | seg3d S1+clean F75 0.96 mIoU 0.950 m0s0 n 13/12
+[39/40] XGTCZ6LH_lower quadrant: PurePTv3 H F75 0.89 mIoU 0.928 m0s0 n 5/4 | seg3d S1+clean F75 0.89 mIoU 0.943 m0s0 n 5/4
+[39/40] XGTCZ6LH_lower half: PurePTv3 H F75 1.00 mIoU 0.942 m0s0 n 6/6 | seg3d S1+clean F75 1.00 mIoU 0.945 m0s0 n 6/6
+[40/40] LE4E8YWJ_lower full: PurePTv3 H F75 1.00 mIoU 0.955 m0s0 n 14/14 | seg3d S1+clean F75 1.00 mIoU 0.962 m0s0 n 14/14
+[40/40] LE4E8YWJ_lower quadrant: PurePTv3 H F75 1.00 mIoU 0.941 m0s0 n 6/6 | seg3d S1+clean F75 1.00 mIoU 0.960 m0s0 n 6/6
+[40/40] LE4E8YWJ_lower half: PurePTv3 H F75 0.44 mIoU 0.828 m0s2 n 10/8 | seg3d S1+clean F75 1.00 mIoU 0.966 m0s0 n 8/8
+
+== full (40 scans, 553 teeth)
+   method            F50   F75  mIoU  merge split  margin GT>P P>GT  inter GT>P P>GT
+   PurePTv3 H       0.987 0.970 0.930     2     5   0.15 0.06      0.06 0.21
+   seg3d S1+clean   0.989 0.986 0.943     0     0   0.11 0.08      0.07 0.06
+
+== quadrant (40 scans, 224 teeth)
+   method            F50   F75  mIoU  merge split  margin GT>P P>GT  inter GT>P P>GT
+   PurePTv3 H       0.811 0.573 0.800     5    64   0.16 0.04      0.23 1.60
+   seg3d S1+clean   0.994 0.990 0.942     1     0   0.12 0.05      0.04 0.07
+
+== half (40 scans, 321 teeth)
+   method            F50   F75  mIoU  merge split  margin GT>P P>GT  inter GT>P P>GT
+   PurePTv3 H       0.872 0.668 0.840     4    64   0.16 0.04      0.18 1.01
+   seg3d S1+clean   0.997 0.994 0.943     1     0   0.11 0.06      0.04 0.06

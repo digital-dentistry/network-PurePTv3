@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-10",
+  "report": "ios-models/PurePTv3/experiments/2026-11-10_toothsegnet/README.md",
+  "tooth_instance_F75": {
+    "what": "치아 경계만 (번호 무시). IoU>=0.75 1:1 매칭 F1. 인하우스는 mesh 면·면적 가중, 공개는 kNN(8)·정점 수. DDH 방식(같은 FDI = 치아 하나)",
+    "inhouse_12": 0.980,
+    "inhouse_12_colour": 0.973,
+    "public_full_40": 0.991,
+    "public_quadrant_40": 0.993,
+    "public_half_40": 0.995,
+    "public_bridge_40": 1.0,
+    "merge_split_inhouse": [0, 0]
+  },
+  "tooth_instance_F75_toothseg-pureptv3/1": {
+    "inhouse_12": 0.962,
+    "inhouse_12_colour": 0.950,
+    "public_full_40": 0.969,
+    "public_quadrant_40": 0.802,
+    "public_half_40": 0.827,
+    "public_bridge_40": 0.939,
+    "merge_split_inhouse": [3, 2]
+  },
+  "tooth_fdi": {
+    "what": "정답 치아마다 예측 번호 다수결이 맞은 비율",
+    "public_full_60": 0.949,
+    "public_half_60": 0.919,
+    "public_quadrant_60": 0.888,
+    "public_bridge_59": 0.867,
+    "inhouse_12": 0.398,
+    "note": "인하우스 사람 라벨의 번호가 밀리거나 거울상으로 보여(2026-11-10_inhouse) 인하우스 번호 점수는 참고만 한다"
+  },
+  "seconds_gpu_tta8": {"inhouse_mean": 1.6, "inhouse_max": 3.4, "public_full_mean": 1.5}
+}

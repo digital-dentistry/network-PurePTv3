@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pureptv3"
+version = "0.1.0"
+description = "Pointcept Point Transformer V3 (PT-v3m1) in plain PyTorch, ONNX-exportable"
+requires-python = ">=3.9"
+dependencies = ["torch>=2.1"]
+
+[project.optional-dependencies]
+onnx = ["onnx", "onnxruntime", "onnxscript"]
+
+[tool.setuptools]
+packages = ["pureptv3"]

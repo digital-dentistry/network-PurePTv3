@@ -1,0 +1,156 @@
+INHOUSE0001_lower H F75 0.86 m1s1 | Hn F75 0.74 m2s1 | K F75 0.86 m1s1
+INHOUSE0002_upper H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+INHOUSE0003_lower H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+INHOUSE0004_upper H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+INHOUSE0005_lower H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+INHOUSE0006_upper H F75 1.00 m0s1 | Hn F75 1.00 m0s1 | K F75 1.00 m0s1
+INHOUSE0007_lower H F75 0.77 m1s0 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0
+INHOUSE0008_upper H F75 0.59 m0s2 | Hn F75 1.00 m0s0 | K F75 0.80 m0s1
+INHOUSE0009_lower H F75 0.92 m1s0 | Hn F75 0.92 m1s0 | K F75 0.92 m1s0
+INHOUSE0010_upper H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+INHOUSE0011_lower H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+INHOUSE0012_upper H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[1/40] EK26QFUW_upper full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[1/40] EK26QFUW_upper quadrant: H F75 1.00 m0s0 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0
+[1/40] EK26QFUW_upper half: H F75 0.60 m0s2 | Hn F75 0.80 m1s0 | K F75 0.60 m0s2
+[2/40] POSEIDON000057_upper full: H F75 1.00 m0s0 | Hn F75 0.88 m1s0 | K F75 1.00 m0s0
+[2/40] POSEIDON000057_upper quadrant: H F75 0.31 m0s3 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[2/40] POSEIDON000057_upper half: H F75 0.50 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0
+[3/40] C2SF98X5_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[3/40] C2SF98X5_lower quadrant: H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[3/40] C2SF98X5_lower half: H F75 0.35 m0s3 | Hn F75 1.00 m0s0 | K F75 0.53 m0s2
+[4/40] QA27COSZ_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[4/40] QA27COSZ_lower quadrant: H F75 0.33 m2s3 | Hn F75 0.67 m1s0 | K F75 0.67 m1s0
+[4/40] QA27COSZ_lower half: H F75 0.67 m0s2 | Hn F75 0.80 m1s0 | K F75 0.82 m0s1
+[5/40] 016FSM14_lower full: H F75 0.73 m2s1 | Hn F75 0.69 m3s1 | K F75 0.69 m3s1
+[5/40] 016FSM14_lower quadrant: H F75 0.36 m0s3 | Hn F75 0.38 m1s1 | K F75 0.29 m0s3
+[5/40] 016FSM14_lower half: H F75 0.53 m1s2 | Hn F75 0.53 m2s0 | K F75 0.59 m1s1
+[6/40] L428SD7J_upper full: H F75 1.00 m0s0 | Hn F75 0.90 m1s0 | K F75 1.00 m0s0
+[6/40] L428SD7J_upper quadrant: H F75 0.38 m0s4 | Hn F75 0.77 m1s0 | K F75 0.53 m0s3
+[6/40] L428SD7J_upper half: H F75 0.48 m0s3 | Hn F75 0.82 m1s0 | K F75 0.50 m0s3
+[7/40] FUSION012_lower full: H F75 0.90 m0s1 | Hn F75 0.80 m1s1 | K F75 0.90 m0s1
+[7/40] FUSION012_lower quadrant: H F75 0.33 m0s3 | Hn F75 0.57 m1s1 | K F75 0.35 m0s3
+[7/40] FUSION012_lower half: H F75 0.38 m0s5 | Hn F75 0.70 m1s1 | K F75 0.52 m0s4
+[8/40] POSEIDON000177_upper full: H F75 0.87 m0s0 | Hn F75 0.90 m1s0 | K F75 0.87 m0s0
+[8/40] POSEIDON000177_upper quadrant: H F75 0.35 m0s2 | Hn F75 0.77 m1s0 | K F75 0.47 m0s1
+[8/40] POSEIDON000177_upper half: H F75 0.42 m0s4 | Hn F75 0.84 m1s0 | K F75 0.42 m0s4
+[9/40] POSEIDON000029_upper full: H F75 0.85 m0s0 | Hn F75 0.88 m1s0 | K F75 0.85 m0s0
+[9/40] POSEIDON000029_upper quadrant: H F75 0.62 m0s1 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0
+[9/40] POSEIDON000029_upper half: H F75 0.00 m1s5 | Hn F75 0.50 m2s0 | K F75 0.27 m1s3
+[10/40] T21AWMTR_upper full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 0.93 m0s0
+[10/40] T21AWMTR_upper quadrant: H F75 0.00 m0s4 | Hn F75 0.57 m1s0 | K F75 0.57 m1s0
+[10/40] T21AWMTR_upper half: H F75 0.63 m0s3 | Hn F75 0.80 m1s0 | K F75 0.60 m0s2
+[11/40] 3PSS0ONL_lower full: H F75 1.00 m0s0 | Hn F75 0.87 m1s0 | K F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower quadrant: H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[11/40] 3PSS0ONL_lower half: H F75 0.38 m0s2 | Hn F75 0.77 m1s0 | K F75 0.71 m0s0
+[12/40] L8IYFLQP_upper full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[12/40] L8IYFLQP_upper quadrant: H F75 0.44 m0s3 | Hn F75 1.00 m0s0 | K F75 0.62 m0s2
+[12/40] L8IYFLQP_upper half: H F75 1.00 m0s0 | Hn F75 0.84 m1s0 | K F75 1.00 m0s0
+[13/40] 15AIQVK8_upper full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[13/40] 15AIQVK8_upper quadrant: H F75 0.46 m0s3 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[13/40] 15AIQVK8_upper half: H F75 0.47 m0s3 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[14/40] XKC3KSSB_upper full: H F75 1.00 m0s0 | Hn F75 0.87 m1s0 | K F75 1.00 m0s0
+[14/40] XKC3KSSB_upper quadrant: H F75 0.80 m0s0 | Hn F75 0.80 m0s0 | K F75 0.80 m0s0
+[14/40] XKC3KSSB_upper half: H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[15/40] HWO9T72O_lower full: H F75 0.96 m0s0 | Hn F75 0.83 m1s0 | K F75 0.92 m0s0
+[15/40] HWO9T72O_lower quadrant: H F75 0.33 m0s1 | Hn F75 0.67 m1s0 | K F75 0.67 m1s0
+[15/40] HWO9T72O_lower half: H F75 0.80 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0
+[16/40] FUSION013_upper full: H F75 1.00 m0s0 | Hn F75 0.90 m1s0 | K F75 1.00 m0s0
+[16/40] FUSION013_upper quadrant: H F75 0.94 m0s0 | Hn F75 0.94 m0s0 | K F75 0.94 m0s0
+[16/40] FUSION013_upper half: H F75 0.70 m0s2 | Hn F75 0.84 m1s0 | K F75 0.86 m0s1
+[17/40] 01JZDW8K_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 0.97 m0s0
+[17/40] 01JZDW8K_lower quadrant: H F75 1.00 m0s0 | Hn F75 0.57 m1s0 | K F75 0.57 m1s0
+[17/40] 01JZDW8K_lower half: H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[18/40] VNRRN6ZF_upper full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[18/40] VNRRN6ZF_upper quadrant: H F75 0.33 m0s2 | Hn F75 1.00 m0s0 | K F75 0.40 m0s2
+[18/40] VNRRN6ZF_upper half: H F75 0.67 m0s2 | Hn F75 0.80 m1s0 | K F75 0.82 m0s1
+[19/40] POSEIDON000042_upper full: H F75 1.00 m0s0 | Hn F75 0.90 m1s0 | K F75 1.00 m0s0
+[19/40] POSEIDON000042_upper quadrant: H F75 0.71 m1s0 | Hn F75 0.71 m1s0 | K F75 0.71 m1s0
+[19/40] POSEIDON000042_upper half: H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[20/40] 014M2HZD_upper full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 0.97 m0s0
+[20/40] 014M2HZD_upper quadrant: H F75 0.62 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0
+[20/40] 014M2HZD_upper half: H F75 1.00 m0s0 | Hn F75 0.82 m1s0 | K F75 0.90 m0s0
+[21/40] FUSION095_upper full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[21/40] FUSION095_upper quadrant: H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[21/40] FUSION095_upper half: H F75 0.93 m0s0 | Hn F75 0.77 m1s0 | K F75 1.00 m0s0
+[22/40] HDVYC7UQ_upper full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[22/40] HDVYC7UQ_upper quadrant: H F75 0.67 m0s1 | Hn F75 0.67 m1s0 | K F75 0.67 m1s0
+[22/40] HDVYC7UQ_upper half: H F75 0.59 m0s2 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[23/40] 015DK78F_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[23/40] 015DK78F_lower quadrant: H F75 0.20 m0s3 | Hn F75 0.57 m1s0 | K F75 0.57 m1s0
+[23/40] 015DK78F_lower half: H F75 0.56 m0s1 | Hn F75 0.80 m1s0 | K F75 0.80 m1s0
+[24/40] 0132CR0A_upper full: H F75 0.96 m0s0 | Hn F75 0.82 m1s0 | K F75 0.92 m0s0
+[24/40] 0132CR0A_upper quadrant: H F75 0.86 m0s0 | Hn F75 0.86 m0s0 | K F75 0.86 m0s0
+[24/40] 0132CR0A_upper half: H F75 1.00 m0s0 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0
+[25/40] LOVM549U_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[25/40] LOVM549U_lower quadrant: H F75 0.44 m0s4 | Hn F75 0.80 m1s0 | K F75 0.59 m0s3
+[25/40] LOVM549U_lower half: H F75 0.64 m0s1 | Hn F75 0.84 m1s0 | K F75 0.67 m0s1
+[26/40] C4LOTSKE_lower full: H F75 0.97 m0s0 | Hn F75 0.86 m1s0 | K F75 0.93 m0s0
+[26/40] C4LOTSKE_lower quadrant: H F75 0.33 m0s4 | Hn F75 0.77 m1s0 | K F75 0.38 m0s4
+[26/40] C4LOTSKE_lower half: H F75 0.55 m0s2 | Hn F75 0.78 m1s0 | K F75 0.57 m0s1
+[27/40] 01A6HE9H_lower full: H F75 0.93 m0s0 | Hn F75 0.81 m1s0 | K F75 0.93 m0s0
+[27/40] 01A6HE9H_lower quadrant: H F75 0.20 m2s3 | Hn F75 0.57 m1s0 | K F75 0.57 m1s0
+[27/40] 01A6HE9H_lower half: H F75 0.67 m0s1 | Hn F75 0.77 m1s0 | K F75 0.71 m0s1
+[28/40] O2LXM8BS_lower full: H F75 0.96 m0s0 | Hn F75 0.83 m1s0 | K F75 0.96 m0s0
+[28/40] O2LXM8BS_lower quadrant: H F75 0.43 m0s2 | Hn F75 1.00 m0s0 | K F75 0.50 m0s2
+[28/40] O2LXM8BS_lower half: H F75 0.80 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0
+[29/40] VJZXIP9X_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[29/40] VJZXIP9X_lower quadrant: H F75 0.53 m0s2 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0
+[29/40] VJZXIP9X_lower half: H F75 0.56 m0s3 | Hn F75 0.80 m1s0 | K F75 0.80 m1s0
+[30/40] KKBN198S_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[30/40] KKBN198S_lower quadrant: H F75 0.31 m0s2 | Hn F75 0.67 m1s0 | K F75 0.33 m0s2
+[30/40] KKBN198S_lower half: H F75 0.47 m0s3 | Hn F75 0.77 m1s0 | K F75 0.53 m0s3
+[31/40] 013FWKMZ_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[31/40] 013FWKMZ_lower quadrant: H F75 0.50 m0s2 | Hn F75 0.77 m1s0 | K F75 0.53 m0s2
+[31/40] 013FWKMZ_lower half: H F75 0.95 m0s0 | Hn F75 0.82 m1s0 | K F75 1.00 m0s0
+[32/40] APLDXK7R_lower full: H F75 1.00 m0s0 | Hn F75 0.87 m1s0 | K F75 1.00 m0s0
+[32/40] APLDXK7R_lower quadrant: H F75 0.43 m0s2 | Hn F75 0.73 m1s0 | K F75 0.46 m0s2
+[32/40] APLDXK7R_lower half: H F75 0.56 m0s2 | Hn F75 0.80 m1s0 | K F75 0.67 m0s0
+[33/40] U0YVRCMS_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[33/40] U0YVRCMS_lower quadrant: H F75 0.33 m0s1 | Hn F75 0.67 m1s0 | K F75 0.67 m1s0
+[33/40] U0YVRCMS_lower half: H F75 0.78 m0s0 | Hn F75 0.82 m1s0 | K F75 0.78 m0s0
+[34/40] DEBDX44O_lower full: H F75 0.88 m0s2 | Hn F75 0.90 m1s0 | K F75 0.88 m0s2
+[34/40] DEBDX44O_lower quadrant: H F75 0.80 m0s1 | Hn F75 0.77 m1s0 | K F75 0.77 m1s0
+[34/40] DEBDX44O_lower half: H F75 0.50 m2s4 | Hn F75 0.82 m1s0 | K F75 0.50 m2s4
+[35/40] L7Z4TSKP_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[35/40] L7Z4TSKP_lower quadrant: H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[35/40] L7Z4TSKP_lower half: H F75 1.00 m0s0 | Hn F75 0.80 m1s0 | K F75 1.00 m0s0
+[36/40] L9EKTZMV_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[36/40] L9EKTZMV_lower quadrant: H F75 0.15 m0s2 | Hn F75 0.67 m1s0 | K F75 0.36 m0s1
+[36/40] L9EKTZMV_lower half: H F75 0.47 m0s1 | Hn F75 0.77 m1s0 | K F75 0.50 m0s1
+[37/40] 5J9O0LG3_upper full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[37/40] 5J9O0LG3_upper quadrant: H F75 0.50 m0s2 | Hn F75 1.00 m0s0 | K F75 0.57 m0s2
+[37/40] 5J9O0LG3_upper half: H F75 1.00 m0s0 | Hn F75 0.80 m1s0 | K F75 1.00 m0s0
+[38/40] 9U19TREK_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[38/40] 9U19TREK_lower quadrant: H F75 1.00 m0s0 | Hn F75 1.00 m0s0 | K F75 1.00 m0s0
+[38/40] 9U19TREK_lower half: H F75 0.70 m0s1 | Hn F75 0.82 m1s0 | K F75 0.78 m0s1
+[39/40] XGTCZ6LH_lower full: H F75 0.79 m0s1 | Hn F75 0.67 m1s1 | K F75 0.79 m0s1
+[39/40] XGTCZ6LH_lower quadrant: H F75 0.89 m0s0 | Hn F75 0.89 m0s0 | K F75 0.89 m0s0
+[39/40] XGTCZ6LH_lower half: H F75 1.00 m0s0 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0
+[40/40] LE4E8YWJ_lower full: H F75 1.00 m0s0 | Hn F75 0.89 m1s0 | K F75 1.00 m0s0
+[40/40] LE4E8YWJ_lower quadrant: H F75 1.00 m0s0 | Hn F75 0.73 m1s0 | K F75 0.73 m1s0
+[40/40] LE4E8YWJ_lower half: H F75 0.44 m0s2 | Hn F75 0.80 m1s0 | K F75 0.44 m0s2
+
+== inhouse (12 scans, 88 teeth)
+   method  F50   F75  mIoU  merge split  inter GT>P P>GT
+   H    0.972 0.928 0.913     3     4   0.23 0.92
+   Hn   0.975 0.943 0.913     5     2   0.35 0.81
+   K    0.982 0.946 0.918     3     3   0.23 0.86
+
+== public full (40 scans, 553 teeth)
+   method  F50   F75  mIoU  merge split  inter GT>P P>GT
+   H    0.987 0.970 0.930     2     5   0.06 0.21
+   Hn   0.896 0.869 0.871    42     3   0.68 0.18
+   K    0.981 0.962 0.930     3     5   0.06 0.21
+
+== public quadrant (40 scans, 224 teeth)
+   method  F50   F75  mIoU  merge split  inter GT>P P>GT
+   H    0.811 0.573 0.800     5    64   0.23 1.60
+   Hn   0.831 0.788 0.838    25     2   0.95 0.52
+   K    0.825 0.676 0.819    15    32   0.74 0.91
+
+== public half (40 scans, 321 teeth)
+   method  F50   F75  mIoU  merge split  inter GT>P P>GT
+   H    0.872 0.668 0.840     4    64   0.18 1.01
+   Hn   0.849 0.811 0.840    36     1   0.97 0.12
+   K    0.888 0.741 0.853    11    38   0.38 0.55

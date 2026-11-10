@@ -1,0 +1,26 @@
+251 inputs
+  0/251
+  20/251
+  40/251
+  60/251
+  80/251
+  100/251
+  120/251
+  140/251
+  160/251
+  180/251
+  200/251
+  220/251
+  240/251
+toothseg-pureptv3/1
+  full      scans  60 teeth  821 | tooth F1 0.979 | vertex FDI 0.938 | tooth FDI 0.954 ok75 0.938 side-only wrong 0.001 | 3.19s
+  half      scans  60 teeth  471 | tooth F1 0.980 | vertex FDI 0.783 | tooth FDI 0.824 ok75 0.699 side-only wrong 0.140 | 1.77s
+  quadrant  scans  60 teeth  331 | tooth F1 0.980 | vertex FDI 0.691 | tooth FDI 0.725 ok75 0.613 side-only wrong 0.211 | 1.47s
+  bridge    scans  59 teeth  196 | tooth F1 0.981 | vertex FDI 0.570 | tooth FDI 0.597 ok75 0.531 side-only wrong 0.357 | 1.33s
+  inhouse   scans  12 teeth   88 | tooth F1 0.959 | vertex FDI 0.485 | tooth FDI 0.500 ok75 0.455 side-only wrong 0.159 | 3.43s
+s0-sem-teeth3ds/1
+  full      scans  60 teeth  821 | tooth F1 0.980 | vertex FDI 0.919 | tooth FDI 0.949 ok75 0.948 side-only wrong 0.001 | 1.47s
+  half      scans  60 teeth  471 | tooth F1 0.982 | vertex FDI 0.891 | tooth FDI 0.919 ok75 0.919 side-only wrong 0.009 | 74.97s
+  quadrant  scans  60 teeth  331 | tooth F1 0.980 | vertex FDI 0.871 | tooth FDI 0.888 ok75 0.888 side-only wrong 0.021 | 0.81s
+  bridge    scans  59 teeth  196 | tooth F1 0.982 | vertex FDI 0.815 | tooth FDI 0.867 ok75 0.867 side-only wrong 0.056 | 0.71s
+  inhouse   scans  12 teeth   88 | tooth F1 0.964 | vertex FDI 0.365 | tooth FDI 0.398 ok75 0.386 side-only wrong 0.273 | 1.82s

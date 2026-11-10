@@ -1,0 +1,23 @@
+데이터셋별 스캔 수: {'teeth3ds': 1200, '3d_iosseg': 120, 'poseidon3d': 159, 'cbct_ios_fusion_liu2023': 105} 합 1584
+
+== 1. 원래 좌표계의 교합면 축 (치아 법선 평균, 스캔마다 단위벡터 -> 가장 큰 성분의 축)
+  teeth3ds                   n= 40  주축 x/y/z = [0, 0, 40]  |z| 평균 0.99  (1이면 교합면이 xy)
+  3d_iosseg                  n= 40  주축 x/y/z = [0, 40, 0]  |z| 평균 0.04  (1이면 교합면이 xy)
+  poseidon3d                 n= 40  주축 x/y/z = [0, 10, 30]  |z| 평균 0.77  (1이면 교합면이 xy)
+  cbct_ios_fusion_liu2023    n= 40  주축 x/y/z = [0, 0, 40]  |z| 평균 0.99  (1이면 교합면이 xy)
+
+== 2. train_recipe가 실제로 만든 입력
+
+  -- 배포 모델 (crop_p 0.35): mirror 0.5, crop 0.35 (그중 wedge 0.25, segment mix bridge/quadrant/half (0.4, 0.35, 0.25)), trim 0.5, rotation so3
+  teeth3ds                   full 78%  partial(>5) 8%  bridge(<=5) 15%  | 회전 뒤 교합면 z성분 평균 +0.11, |z| 평균 0.52 (균일이면 0, 0.5)
+  3d_iosseg                  full 98%  partial(>5) 0%  bridge(<=5) 2%  | 회전 뒤 교합면 z성분 평균 +0.15, |z| 평균 0.47 (균일이면 0, 0.5)
+  poseidon3d                 full 80%  partial(>5) 5%  bridge(<=5) 15%  | 회전 뒤 교합면 z성분 평균 +0.05, |z| 평균 0.51 (균일이면 0, 0.5)
+  cbct_ios_fusion_liu2023    full 78%  partial(>5) 10%  bridge(<=5) 12%  | 회전 뒤 교합면 z성분 평균 +0.16, |z| 평균 0.50 (균일이면 0, 0.5)
+  합계                        full 83%  partial(>5) 6%  bridge(<=5) 11%
+
+  -- 지금 기본 (crop_p 0.5): mirror 0.5, crop 0.5 (그중 wedge 0.25, segment mix bridge/quadrant/half (0.4, 0.35, 0.25)), trim 0.5, rotation so3
+  teeth3ds                   full 60%  partial(>5) 10%  bridge(<=5) 30%  | 회전 뒤 교합면 z성분 평균 +0.07, |z| 평균 0.51 (균일이면 0, 0.5)
+  3d_iosseg                  full 95%  partial(>5) 2%  bridge(<=5) 2%  | 회전 뒤 교합면 z성분 평균 +0.14, |z| 평균 0.45 (균일이면 0, 0.5)
+  poseidon3d                 full 62%  partial(>5) 12%  bridge(<=5) 25%  | 회전 뒤 교합면 z성분 평균 +0.05, |z| 평균 0.51 (균일이면 0, 0.5)
+  cbct_ios_fusion_liu2023    full 60%  partial(>5) 15%  bridge(<=5) 25%  | 회전 뒤 교합면 z성분 평균 +0.12, |z| 평균 0.49 (균일이면 0, 0.5)
+  합계                        full 69%  partial(>5) 10%  bridge(<=5) 21%

@@ -1,0 +1,22 @@
+GT neighbour pairs: 68, shared fraction median 0.232, p90 0.330, max 0.646
+share-merge threshold T = 0.808
+INHOUSE0001_lower H F50 1.00 F75 0.86 mIoU 0.911 m1s1 | H+colour F50 1.00 F75 0.86 mIoU 0.911 m1s1 | H16 F50 1.00 F75 0.86 mIoU 0.904 m1s1 | H+knnclean F50 0.76 F75 0.65 mIoU 0.911 m1s1 | H+erode.2c F50 1.00 F75 0.86 mIoU 0.912 m1s1 | H+sharemerge F50 1.00 F75 0.86 mIoU 0.911 m1s1
+INHOUSE0002_upper H F50 1.00 F75 1.00 mIoU 0.960 m0s0 | H+colour F50 1.00 F75 1.00 mIoU 0.960 m0s0 | H16 F50 1.00 F75 1.00 mIoU 0.961 m0s0 | H+knnclean F50 1.00 F75 1.00 mIoU 0.960 m0s0 | H+erode.2c F50 1.00 F75 1.00 mIoU 0.962 m0s0 | H+sharemerge F50 1.00 F75 1.00 mIoU 0.960 m0s0
+INHOUSE0003_lower H F50 1.00 F75 1.00 mIoU 0.951 m0s0 | H+colour F50 1.00 F75 1.00 mIoU 0.928 m0s0 | H16 F50 1.00 F75 1.00 mIoU 0.956 m0s0 | H+knnclean F50 1.00 F75 1.00 mIoU 0.951 m0s0 | H+erode.2c F50 1.00 F75 1.00 mIoU 0.955 m0s0 | H+sharemerge F50 1.00 F75 1.00 mIoU 0.951 m0s0
+INHOUSE0004_upper H F50 1.00 F75 1.00 mIoU 0.973 m0s0 | H+colour F50 1.00 F75 1.00 mIoU 0.971 m0s0 | H16 F50 1.00 F75 1.00 mIoU 0.973 m0s0 | H+knnclean F50 1.00 F75 1.00 mIoU 0.973 m0s0 | H+erode.2c F50 1.00 F75 1.00 mIoU 0.968 m0s0 | H+sharemerge F50 1.00 F75 1.00 mIoU 0.973 m0s0
+INHOUSE0005_lower H F50 1.00 F75 1.00 mIoU 0.950 m0s0 | H+colour F50 1.00 F75 1.00 mIoU 0.951 m0s0 | H16 F50 1.00 F75 1.00 mIoU 0.953 m0s0 | H+knnclean F50 1.00 F75 1.00 mIoU 0.950 m0s0 | H+erode.2c F50 1.00 F75 1.00 mIoU 0.960 m0s0 | H+sharemerge F50 1.00 F75 1.00 mIoU 0.950 m0s0
+INHOUSE0006_upper H F50 1.00 F75 1.00 mIoU 0.916 m0s1 | H+colour F50 1.00 F75 1.00 mIoU 0.919 m0s1 | H16 F50 1.00 F75 1.00 mIoU 0.918 m0s0 | H+knnclean F50 1.00 F75 1.00 mIoU 0.916 m0s1 | H+erode.2c F50 1.00 F75 1.00 mIoU 0.917 m0s1 | H+sharemerge F50 0.92 F75 0.77 mIoU 0.821 m1s0
+INHOUSE0007_lower H F50 0.92 F75 0.77 mIoU 0.798 m1s0 | H+colour F50 0.92 F75 0.77 mIoU 0.810 m1s0 | H16 F50 0.92 F75 0.77 mIoU 0.797 m1s0 | H+knnclean F50 0.92 F75 0.77 mIoU 0.798 m1s0 | H+erode.2c F50 0.92 F75 0.77 mIoU 0.798 m1s0 | H+sharemerge F50 0.92 F75 0.77 mIoU 0.798 m1s0
+INHOUSE0008_upper H F50 0.82 F75 0.59 mIoU 0.823 m0s2 | H+colour F50 0.82 F75 0.59 mIoU 0.829 m0s2 | H16 F50 0.82 F75 0.59 mIoU 0.824 m0s2 | H+knnclean F50 0.82 F75 0.59 mIoU 0.823 m0s2 | H+erode.2c F50 0.82 F75 0.59 mIoU 0.828 m0s2 | H+sharemerge F50 0.82 F75 0.59 mIoU 0.823 m0s2
+INHOUSE0009_lower H F50 0.92 F75 0.92 mIoU 0.799 m1s0 | H+colour F50 0.92 F75 0.77 mIoU 0.822 m1s0 | H16 F50 0.92 F75 0.92 mIoU 0.799 m1s0 | H+knnclean F50 0.92 F75 0.92 mIoU 0.799 m1s0 | H+erode.2c F50 0.92 F75 0.92 mIoU 0.809 m1s0 | H+sharemerge F50 0.92 F75 0.92 mIoU 0.799 m1s0
+INHOUSE0010_upper H F50 1.00 F75 1.00 mIoU 0.957 m0s0 | H+colour F50 1.00 F75 1.00 mIoU 0.953 m0s0 | H16 F50 1.00 F75 1.00 mIoU 0.955 m0s0 | H+knnclean F50 0.92 F75 0.92 mIoU 0.957 m0s0 | H+erode.2c F50 1.00 F75 1.00 mIoU 0.966 m0s0 | H+sharemerge F50 1.00 F75 1.00 mIoU 0.957 m0s0
+INHOUSE0011_lower H F50 1.00 F75 1.00 mIoU 0.966 m0s0 | H+colour F50 1.00 F75 1.00 mIoU 0.967 m0s0 | H16 F50 1.00 F75 1.00 mIoU 0.966 m0s0 | H+knnclean F50 1.00 F75 1.00 mIoU 0.966 m0s0 | H+erode.2c F50 1.00 F75 1.00 mIoU 0.963 m0s0 | H+sharemerge F50 1.00 F75 1.00 mIoU 0.966 m0s0
+INHOUSE0012_upper H F50 1.00 F75 1.00 mIoU 0.953 m0s0 | H+colour F50 1.00 F75 1.00 mIoU 0.947 m0s0 | H16 F50 1.00 F75 1.00 mIoU 0.953 m0s0 | H+knnclean F50 1.00 F75 1.00 mIoU 0.953 m0s0 | H+erode.2c F50 1.00 F75 1.00 mIoU 0.962 m0s0 | H+sharemerge F50 1.00 F75 1.00 mIoU 0.953 m0s0
+
+variant         F50   F75  mIoU  merge split  margin GT>P P>GT  inter GT>P P>GT  miss  extra(mm2)
+H              0.972 0.928 0.913     3     4   0.27 0.15      0.23 0.92      7    35
+H+colour       0.972 0.915 0.914     3     4   0.24 0.14      0.24 0.99      6    33
+H16            0.972 0.928 0.913     3     3   0.27 0.16      0.23 0.63      7    35
+H+knnclean     0.946 0.904 0.913     3     4   0.27 0.15      0.23 0.92      7    35
+H+erode.2c     0.972 0.928 0.917     3     4   0.24 0.13      0.23 0.80     20    18
+H+sharemerge   0.966 0.909 0.905     4     3   0.27 0.15      0.30 0.90      7    35

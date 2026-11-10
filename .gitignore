@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# 가중치·학습 산출물 (모델 패키지는 DDH models/ 또는 RustFS에 둔다)
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# 환자 스캔에서 나온 산출물(렌더 이미지, 정점별 예측 배열, 메시)은 저장소에 두지 않는다
+experiments/**/render_*/
+*.npz
+*.ply
+*.stl
+*.obj
