@@ -1,0 +1,33 @@
+=== instance -> /runs/ft2 | train 1076 / val 45 scans | 250 um | curve morton3d | in_ch 10 | batch 6x2 | 20 epochs | rot so3 crop 0.35 trim 0.5 colour 0.3 ===
+    data dental_ai | features xyz normal jaw colour | caches /work/data/cache
+params 9.86 M
+initialised from /base/instance.pt: 398/398 tensors
+ep   0 | bce 0.0408 dice 0.0553 cls 0.0114 aux 0.0777 position 0.1695 offset 1.0756 | lr 3.00e-04 | 67s
+ep   1 | bce 0.0417 dice 0.0560 cls 0.0145 aux 0.0842 position 0.1849 offset 1.1270 | lr 2.98e-04 | 63s
+ep   2 | bce 0.0435 dice 0.0567 cls 0.0142 aux 0.0846 position 0.1826 offset 1.1230 | lr 2.92e-04 | 64s
+ep   3 | bce 0.0462 dice 0.0595 cls 0.0131 aux 0.0857 position 0.1790 offset 1.1346 | lr 2.82e-04 | 65s
+ep   4 | bce 0.0459 dice 0.0561 cls 0.0136 aux 0.0834 position 0.1752 offset 1.1074 | lr 2.69e-04 | 64s
+      GREY mAP 91.75  AP50 99.60  TSA 97.21  |  COLOUR mAP 96.40  AP50 99.31  TSA 99.03
+      new best mAP 94.08
+ep   5 | bce 0.0430 dice 0.0619 cls 0.0153 aux 0.0843 position 0.1844 offset 1.1232 | lr 2.53e-04 | 63s
+ep   6 | bce 0.0445 dice 0.0576 cls 0.0132 aux 0.0844 position 0.1703 offset 1.1074 | lr 2.33e-04 | 63s
+ep   7 | bce 0.0440 dice 0.0554 cls 0.0123 aux 0.0828 position 0.1787 offset 1.1353 | lr 2.12e-04 | 64s
+ep   8 | bce 0.0417 dice 0.0568 cls 0.0130 aux 0.0806 position 0.1783 offset 1.1047 | lr 1.89e-04 | 65s
+ep   9 | bce 0.0415 dice 0.0549 cls 0.0133 aux 0.0782 position 0.1679 offset 1.0906 | lr 1.65e-04 | 63s
+      GREY mAP 91.96  AP50 99.64  TSA 97.16  |  COLOUR mAP 96.27  AP50 99.71  TSA 98.96
+      new best mAP 94.12
+ep  10 | bce 0.0432 dice 0.0565 cls 0.0119 aux 0.0791 position 0.1625 offset 1.0928 | lr 1.41e-04 | 64s
+ep  11 | bce 0.0419 dice 0.0544 cls 0.0117 aux 0.0786 position 0.1660 offset 1.0909 | lr 1.17e-04 | 63s
+ep  12 | bce 0.0450 dice 0.0577 cls 0.0124 aux 0.0805 position 0.1694 offset 1.0894 | lr 9.40e-05 | 64s
+ep  13 | bce 0.0445 dice 0.0569 cls 0.0115 aux 0.0811 position 0.1663 offset 1.0911 | lr 7.26e-05 | 63s
+ep  14 | bce 0.0414 dice 0.0537 cls 0.0118 aux 0.0783 position 0.1650 offset 1.0731 | lr 5.34e-05 | 64s
+      GREY mAP 92.44  AP50 99.31  TSA 97.44  |  COLOUR mAP 97.30  AP50 99.83  TSA 99.09
+      new best mAP 94.87
+ep  15 | bce 0.0394 dice 0.0514 cls 0.0106 aux 0.0738 position 0.1604 offset 1.0729 | lr 3.70e-05 | 66s
+ep  16 | bce 0.0418 dice 0.0542 cls 0.0112 aux 0.0771 position 0.1662 offset 1.0662 | lr 2.37e-05 | 63s
+ep  17 | bce 0.0404 dice 0.0541 cls 0.0107 aux 0.0753 position 0.1660 offset 1.0577 | lr 1.40e-05 | 65s
+ep  18 | bce 0.0413 dice 0.0527 cls 0.0107 aux 0.0772 position 0.1617 offset 1.0690 | lr 8.00e-06 | 63s
+ep  19 | bce 0.0415 dice 0.0543 cls 0.0116 aux 0.0781 position 0.1596 offset 1.0521 | lr 6.00e-06 | 73s
+      GREY mAP 92.62  AP50 99.47  TSA 97.43  |  COLOUR mAP 97.62  AP50 99.82  TSA 99.10
+      new best mAP 95.12
+done
