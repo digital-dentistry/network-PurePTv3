@@ -1,0 +1,100 @@
+# E7 Case 452 (e9478b72 lower, 55139e20 upper) / 453 (c90d9c5d lower, e5ec207e upper), Teeth3DS, rgb all (0,0,0)
+# live server (old code, toothsegnet-ios/1, no colour), run 1 of 7; runs 2-7 give the same numbers to 0.001
+e9478b722e219110 lower score {'f1_75': 1.0, 'n_gt': 14, 'n_pred': 14, 'iou_mean': 0.9725, 'iou_min': 0.964, 'teeth_below_085': 0, 'teeth_lost': 0, 'tooth_to_gum_mm2': 9.2, 'gum_to_tooth_mm2': 18.4, 'merges': 0, 'splits': 0}
+  src 31:   84.4 mm2 IoU 0.964 parts [(31, 0.978)]
+  src 32:  100.6 mm2 IoU 0.971 parts [(32, 0.984)]
+  src 33:   99.4 mm2 IoU 0.971 parts [(33, 0.987)]
+  src 34:  107.6 mm2 IoU 0.979 parts [(34, 0.991)]
+  src 35:  100.3 mm2 IoU 0.974 parts [(35, 0.989)]
+  src 36:  194.5 mm2 IoU 0.971 parts [(36, 0.997)]
+  src 37:  167.0 mm2 IoU 0.974 parts [(37, 0.979), (0, 0.016)]
+  src 41:   82.5 mm2 IoU 0.968 parts [(41, 0.99)]
+  src 42:   94.0 mm2 IoU 0.966 parts [(42, 0.983)]
+  src 43:   95.0 mm2 IoU 0.971 parts [(43, 0.988)]
+  src 44:  101.6 mm2 IoU 0.979 parts [(44, 0.989)]
+  src 45:   99.5 mm2 IoU 0.969 parts [(45, 0.993)]
+  src 46:  186.1 mm2 IoU 0.982 parts [(46, 0.996)]
+  src 47:  160.2 mm2 IoU 0.977 parts [(47, 0.994)]
+55139e2001a4c671 upper score {'f1_75': 1.0, 'n_gt': 14, 'n_pred': 14, 'iou_mean': 0.9774, 'iou_min': 0.968, 'teeth_below_085': 0, 'teeth_lost': 0, 'tooth_to_gum_mm2': 11.4, 'gum_to_tooth_mm2': 18.3, 'merges': 0, 'splits': 0}
+  src 11:  136.2 mm2 IoU 0.977 parts [(11, 0.995)]
+  src 12:   94.7 mm2 IoU 0.968 parts [(12, 0.98)]
+  src 13:  133.4 mm2 IoU 0.977 parts [(13, 0.987)]
+  src 14:  121.9 mm2 IoU 0.980 parts [(14, 0.992)]
+  src 15:  117.7 mm2 IoU 0.975 parts [(15, 0.989)]
+  src 16:  215.8 mm2 IoU 0.980 parts [(16, 0.989)]
+  src 17:  192.3 mm2 IoU 0.979 parts [(17, 0.993)]
+  src 21:  134.8 mm2 IoU 0.979 parts [(21, 0.991)]
+  src 22:   95.9 mm2 IoU 0.978 parts [(22, 0.994)]
+  src 23:  116.5 mm2 IoU 0.979 parts [(23, 0.99)]
+  src 24:  121.5 mm2 IoU 0.980 parts [(24, 0.994)]
+  src 25:  118.7 mm2 IoU 0.978 parts [(25, 0.988)]
+  src 26:  211.5 mm2 IoU 0.983 parts [(26, 0.995)]
+  src 27:  203.5 mm2 IoU 0.971 parts [(27, 0.985), (0, 0.012)]
+c90d9c5da8afee1b lower score {'f1_75': 1.0, 'n_gt': 12, 'n_pred': 12, 'iou_mean': 0.9712, 'iou_min': 0.961, 'teeth_below_085': 0, 'teeth_lost': 0, 'tooth_to_gum_mm2': 13.6, 'gum_to_tooth_mm2': 21.5, 'merges': 0, 'splits': 0}
+  src 31:   83.9 mm2 IoU 0.968 parts [(31, 0.984), (0, 0.016)]
+  src 32:   80.2 mm2 IoU 0.964 parts [(32, 0.987), (0, 0.013)]
+  src 33:   84.1 mm2 IoU 0.969 parts [(33, 0.995)]
+  src 35:  104.7 mm2 IoU 0.972 parts [(34, 0.99)]
+  src 36:  144.4 mm2 IoU 0.967 parts [(35, 0.993)]
+  src 37:  196.1 mm2 IoU 0.983 parts [(36, 0.989)]
+  src 41:   78.7 mm2 IoU 0.961 parts [(41, 0.984), (0, 0.015)]
+  src 42:   83.2 mm2 IoU 0.971 parts [(42, 0.982), (0, 0.017)]
+  src 43:   85.6 mm2 IoU 0.975 parts [(43, 0.991)]
+  src 44:   83.7 mm2 IoU 0.968 parts [(44, 0.986), (0, 0.014)]
+  src 46:  145.2 mm2 IoU 0.982 parts [(45, 0.99)]
+  src 47:  188.3 mm2 IoU 0.974 parts [(46, 0.991)]
+e5ec207ea0396e65 upper score {'f1_75': 1.0, 'n_gt': 10, 'n_pred': 10, 'iou_mean': 0.9753, 'iou_min': 0.923, 'teeth_below_085': 0, 'teeth_lost': 0, 'tooth_to_gum_mm2': 18.2, 'gum_to_tooth_mm2': 22.1, 'merges': 0, 'splits': 0}
+  src 11:  186.0 mm2 IoU 0.977 parts [(11, 0.997)]
+  src 12:  104.0 mm2 IoU 0.984 parts [(12, 0.997)]
+  src 15:  124.3 mm2 IoU 0.986 parts [(14, 0.991)]
+  src 16:  147.9 mm2 IoU 0.981 parts [(15, 0.988), (0, 0.011)]
+  src 17:  192.1 mm2 IoU 0.976 parts [(16, 0.997)]
+  src 21:  182.7 mm2 IoU 0.981 parts [(21, 0.996)]
+  src 22:  110.0 mm2 IoU 0.983 parts [(22, 0.992)]
+  src 25:  134.8 mm2 IoU 0.979 parts [(24, 0.984), (0, 0.015)]
+  src 26:  154.6 mm2 IoU 0.981 parts [(25, 0.991)]
+  src 27:  214.6 mm2 IoU 0.923 parts [(26, 0.952), (0, 0.046)]
+
+# islands in the live prediction (nothing listed = every tooth one piece, no holes) and in the source labels
+e9478b722e219110 [grey]
+55139e2001a4c671 [grey]
+c90d9c5da8afee1b [grey]
+e5ec207ea0396e65 [grey]
+e9478b722e219110 [src]
+  label 0: 68 pieces, largest 7301.9 mm2; others: ['0.38 mm2/26 v next to [36, 37]', '0.22 mm2/10 v next to [41, 42]', '0.13 mm2/1 v next to [31, 32]', '0.07 mm2/4 v next to [41, 42]', '0.07 mm2/5 v next to [31, 32]', '0.05 mm2/6 v next to [31, 32]']
+55139e2001a4c671 [src]
+  label 0: 46 pieces, largest 7913.2 mm2; others: ['0.19 mm2/8 v next to [11, 12]', '0.09 mm2/1 v next to [23, 24]', '0.09 mm2/10 v next to [14, 15]', '0.07 mm2/10 v next to [12, 13]', '0.05 mm2/2 v next to [23, 24]', '0.03 mm2/2 v next to [11, 21]']
+c90d9c5da8afee1b [src]
+  label 0: 6 pieces, largest 8906.2 mm2; others: ['1.87 mm2/100 v next to [31, 32]', '0.03 mm2/3 v next to [46, 47]', '0.01 mm2/1 v next to [44, 46]', '0.01 mm2/1 v next to [36, 37]', '0.00 mm2/1 v next to [46, 47]']
+e5ec207ea0396e65 [src]
+  label 0: 7 pieces, largest 8366.1 mm2; others: ['0.03 mm2/1 v next to [26, 27]', '0.01 mm2/2 v next to [25, 26]', '0.01 mm2/1 v next to [16, 17]', '0.01 mm2/1 v next to [16, 17]', '0.01 mm2/1 v next to [21, 22]', '0.00 mm2/1 v next to [25, 26]']
+
+# live runs 1-7: scan F1 / IoU mean / IoU min / n_pred
+run_r0 e9478b722e219110 lower 1.0 0.9725 0.964 14 splits 0
+run_r0 55139e2001a4c671 upper 1.0 0.9774 0.968 14 splits 0
+run_r0 c90d9c5da8afee1b lower 1.0 0.9712 0.961 12 splits 0
+run_r0 e5ec207ea0396e65 upper 1.0 0.9753 0.923 10 splits 0
+run_r1 e9478b722e219110 lower 1.0 0.9725 0.964 14 splits 0
+run_r1 55139e2001a4c671 upper 1.0 0.9773 0.968 14 splits 0
+run_r1 c90d9c5da8afee1b lower 1.0 0.9713 0.961 12 splits 0
+run_r1 e5ec207ea0396e65 upper 1.0 0.9753 0.923 10 splits 0
+run_r2 e9478b722e219110 lower 1.0 0.9727 0.963 14 splits 0
+run_r2 55139e2001a4c671 upper 1.0 0.9773 0.967 14 splits 0
+run_r2 c90d9c5da8afee1b lower 1.0 0.9713 0.961 12 splits 0
+run_r2 e5ec207ea0396e65 upper 1.0 0.9752 0.923 10 splits 0
+run_r3 e9478b722e219110 lower 1.0 0.9724 0.963 14 splits 0
+run_r3 55139e2001a4c671 upper 1.0 0.9773 0.967 14 splits 0
+run_r3 c90d9c5da8afee1b lower 1.0 0.9712 0.961 12 splits 0
+run_r3 e5ec207ea0396e65 upper 1.0 0.9753 0.923 10 splits 0
+run_r4 e9478b722e219110 lower 1.0 0.9726 0.964 14 splits 0
+run_r4 55139e2001a4c671 upper 1.0 0.9774 0.968 14 splits 0
+run_r4 c90d9c5da8afee1b lower 1.0 0.9712 0.961 12 splits 0
+run_r4 e5ec207ea0396e65 upper 1.0 0.9751 0.923 10 splits 0
+run_r5 e9478b722e219110 lower 1.0 0.9726 0.964 14 splits 0
+run_r5 55139e2001a4c671 upper 1.0 0.9774 0.968 14 splits 0
+run_r5 c90d9c5da8afee1b lower 1.0 0.9713 0.961 12 splits 0
+run_r5 e5ec207ea0396e65 upper 1.0 0.9752 0.923 10 splits 0
+run_r6 e9478b722e219110 lower 1.0 0.9725 0.964 14 splits 0
+run_r6 55139e2001a4c671 upper 1.0 0.9773 0.967 14 splits 0
+run_r6 c90d9c5da8afee1b lower 1.0 0.9712 0.961 12 splits 0
+run_r6 e5ec207ea0396e65 upper 1.0 0.9752 0.923 10 splits 0

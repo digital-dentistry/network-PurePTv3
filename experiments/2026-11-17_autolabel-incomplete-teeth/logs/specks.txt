@@ -1,0 +1,7 @@
+0cd3fc3a99fa694b: 23 mesh shells, 21 under 5 mm2
+  instance 13: 9 vertices, 0.044 mm2, on shell(s) [18] of [0.04] mm2 holding labels [0, 13]
+c7b91c9205f5e58f: 12 mesh shells, 10 under 5 mm2
+  instance 15: 2 vertices, 0.017 mm2, on shell(s) [5] of [0.09] mm2 holding labels [0, 15, 18]
+  instance 16: 2 vertices, 0.003 mm2, on shell(s) [8] of [0.17] mm2 holding labels [0, 16, 17]
+  instance 17: 1 vertices, 0.008 mm2, on shell(s) [8] of [0.17] mm2 holding labels [0, 16, 17]
+  instance 18: 1 vertices, 0.001 mm2, on shell(s) [5] of [0.09] mm2 holding labels [0, 15, 18]

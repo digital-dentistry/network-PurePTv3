@@ -1,0 +1,50 @@
+all (100 scans, GT teeth under 5.0 mm2 dropped)
+  side            f1_75    iou_mean teeth_below  teeth_lost tooth_to_gu      merges      splits      n_pred
+  old            0.9763      0.9671     23.0000      8.0000     25.0480      0.0000      9.0000   1423.0000
+  new            0.9822      0.9679     22.0000      7.0000     23.6540      0.0000      9.0000   1407.0000
+  nosplit        0.9835      0.9678     22.0000      7.0000     23.6540      0.0000      8.0000   1403.0000
+  gap0.5         0.9828      0.9679     22.0000      7.0000     23.6540      0.0000      8.0000   1405.0000
+
+scans where a gap side differs from new, or old and new lose different numbers of teeth (F1, below 0.85, lost, n_pred):
+  4e325c26e532c987 : {'old': (0.8462, 2, 1, 13), 'new': (0.8889, 1, 0, 14), 'nosplit': (0.8889, 1, 0, 14), 'gap0.5': (0.8889, 1, 0, 14)}
+  de81ba7ca4ee8b12 : {'old': (0.8667, 1, 0, 16), 'new': (0.8667, 1, 0, 16), 'nosplit': (0.9286, 1, 0, 14), 'gap0.5': (0.9286, 1, 0, 14)}
+inhouse (101 scans, GT teeth under 5.0 mm2 dropped)
+  side            f1_75    iou_mean teeth_below  teeth_lost tooth_to_gu      merges      splits      n_pred
+  old            0.9763      0.9838     16.0000      6.0000     12.5297      0.0000      1.0000   1205.0000
+  new            0.9770      0.9843     16.0000      6.0000     12.4337      0.0000      1.0000   1202.0000
+  nosplit        0.9835      0.9834     16.0000      6.0000     12.4337      1.0000      1.0000   1181.0000
+  gap0.5         0.9797      0.9844     15.0000      6.0000     12.4337      0.0000      1.0000   1196.0000
+
+scans where a gap side differs from new, or old and new lose different numbers of teeth (F1, below 0.85, lost, n_pred):
+  52e31c3508be015c inhouse: {'old': (0.6, 5, 3, 11), 'new': (0.6, 5, 3, 11), 'nosplit': (0.6667, 5, 3, 9), 'gap0.5': (0.6316, 5, 3, 10)}
+  2c2c05c85349e8eb inhouse: {'old': (0.9697, 1, 0, 17), 'new': (0.9697, 1, 0, 17), 'nosplit': (1.0, 0, 0, 16), 'gap0.5': (1.0, 0, 0, 16)}
+  ac5d137bd97552d0 inhouse: {'old': (0.75, 0, 0, 10), 'new': (0.75, 0, 0, 10), 'nosplit': (1.0, 0, 0, 6), 'gap0.5': (0.9231, 0, 0, 7)}
+  705541134a3bfccf inhouse: {'old': (0.875, 0, 0, 18), 'new': (0.9655, 0, 0, 15), 'nosplit': (1.0, 0, 0, 14), 'gap0.5': (1.0, 0, 0, 14)}
+3d_iosseg (25 scans, GT teeth under 5.0 mm2 dropped)
+  side            f1_75    iou_mean teeth_below  teeth_lost tooth_to_gu      merges      splits      n_pred
+  old            0.9913      0.9527      3.0000      0.0000     43.3600      0.0000      0.0000    347.0000
+  new            0.9913      0.9527      3.0000      0.0000     43.3600      0.0000      0.0000    347.0000
+  nosplit        0.9913      0.9527      3.0000      0.0000     43.3600      0.0000      0.0000    347.0000
+  gap0.5         0.9913      0.9527      3.0000      0.0000     43.3600      0.0000      0.0000    347.0000
+cbct_ios_fusion_liu2023 (25 scans, GT teeth under 5.0 mm2 dropped)
+  side            f1_75    iou_mean teeth_below  teeth_lost tooth_to_gu      merges      splits      n_pred
+  old            0.9948      0.9633      5.0000      1.0000     22.0000      0.0000      0.0000    357.0000
+  new            0.9948      0.9633      5.0000      1.0000     22.0000      0.0000      0.0000    357.0000
+  nosplit        0.9961      0.9631      6.0000      1.0000     22.0000      0.0000      0.0000    356.0000
+  gap0.5         0.9948      0.9633      5.0000      1.0000     22.0000      0.0000      0.0000    357.0000
+poseidon3d (25 scans, GT teeth under 5.0 mm2 dropped)
+  side            f1_75    iou_mean teeth_below  teeth_lost tooth_to_gu      merges      splits      n_pred
+  old            0.9299      0.9163     20.0000     12.0000     82.2280      1.0000      0.0000    329.0000
+  new            0.9336      0.9184     19.0000     12.0000     75.8000      1.0000      0.0000    329.0000
+  nosplit        0.9357      0.9178     20.0000     12.0000     75.8000      1.0000      0.0000    325.0000
+  gap0.5         0.9347      0.9183     19.0000     12.0000     75.8000      1.0000      0.0000    328.0000
+teeth3ds (25 scans, GT teeth under 5.0 mm2 dropped)
+  side            f1_75    iou_mean teeth_below  teeth_lost tooth_to_gu      merges      splits      n_pred
+  old            0.9863      0.9637      7.0000      2.0000     19.5760      0.0000      0.0000    332.0000
+  new            0.9863      0.9637      7.0000      2.0000     19.5760      0.0000      0.0000    332.0000
+  nosplit        0.9877      0.9636      7.0000      2.0000     19.5760      0.0000      0.0000    331.0000
+  gap0.5         0.9877      0.9636      7.0000      2.0000     19.5760      0.0000      0.0000    331.0000
+
+scans where a gap side differs from new, or old and new lose different numbers of teeth (F1, below 0.85, lost, n_pred):
+  2f2057c29c876a12 teeth3ds: {'old': (0.9655, 1, 0, 15), 'new': (0.9655, 1, 0, 15), 'nosplit': (1.0, 1, 0, 14), 'gap0.5': (1.0, 1, 0, 14)}
+  30e06eca29a828c6 poseidon3d: {'old': (0.875, 0, 0, 18), 'new': (0.875, 0, 0, 18), 'nosplit': (0.9286, 1, 0, 14), 'gap0.5': (0.9032, 0, 0, 17)}

@@ -1,0 +1,37 @@
+# scripts/pose_debug.py /in de81ba7ca4ee8b12 13 de81ba7ca4ee8b12 14 77fe8405ad9c2858 1  (Case 322 upper, Case 341 upper; image before the 2026-11-17 change, no colour)
+
+de81ba7ca4ee8b12 tooth 13: 4759 L0 points
+  pose 0: tooth claimed 0.98 | q8 cover 0.98 P 1.00 other-teeth 0.00 -> base q8
+  pose 1: tooth claimed 0.99 | q8 cover 0.98 P 1.00 other-teeth 0.01 -> base q8
+  pose 2: tooth claimed 0.99 | q8 cover 0.98 P 1.00 other-teeth 0.01 -> base q8
+  pose 3: tooth claimed 0.99 | q8 cover 0.98 P 1.00 other-teeth 0.00 -> base q8
+  pose 4: tooth claimed 0.98 | q8 cover 0.98 P 1.00 other-teeth 0.01 -> base q8
+  pose 5: tooth claimed 0.98 | q8 cover 0.98 P 1.00 other-teeth 0.01 -> base q8
+  pose 6: tooth claimed 0.99 | q8 cover 0.98 P 1.00 other-teeth 0.00 -> base q8
+  pose 7: tooth claimed 0.99 | q8 cover 0.98 P 1.00 other-teeth 0.01 -> base q8
+  fused: best base q8, mean conf on tooth 0.98, claimed (>0.5) 0.99
+  alignment-free foreground mean_t max_k conf > 0.5 on tooth: 0.99
+
+de81ba7ca4ee8b12 tooth 14: 1886 L0 points
+  pose 0: tooth claimed 0.98 | q3 cover 0.97 P 1.00 other-teeth 0.00 -> base q3
+  pose 1: tooth claimed 0.99 | q3 cover 0.97 P 1.00 other-teeth 0.00 -> base q3
+  pose 2: tooth claimed 0.98 | q3 cover 0.97 P 1.00 other-teeth 0.00 -> base q3
+  pose 3: tooth claimed 0.97 | q3 cover 0.96 P 1.00 other-teeth 0.00 -> base q3
+  pose 4: tooth claimed 0.98 | q3 cover 0.95 P 1.00 other-teeth 0.00 -> base q3, q8 cover 0.03 P 1.00 other-teeth 0.96 -> base q8
+  pose 5: tooth claimed 0.94 | q3 cover 0.93 P 1.00 other-teeth 0.00 -> base q3
+  pose 6: tooth claimed 0.99 | q3 cover 0.98 P 1.00 other-teeth 0.00 -> base q3
+  pose 7: tooth claimed 0.99 | q3 cover 0.98 P 1.00 other-teeth 0.00 -> base q3
+  fused: best base q3, mean conf on tooth 0.96, claimed (>0.5) 0.99
+  alignment-free foreground mean_t max_k conf > 0.5 on tooth: 0.99
+
+77fe8405ad9c2858 tooth 1: 2335 L0 points
+  pose 0: tooth claimed 0.93 | q1 cover 0.92 P 1.00 other-teeth 0.00 -> base q1
+  pose 1: tooth claimed 0.87 | q1 cover 0.87 P 1.00 other-teeth 0.00 -> base q1
+  pose 2: tooth claimed 0.91 | q1 cover 0.90 P 1.00 other-teeth 0.01 -> base q1
+  pose 3: tooth claimed 0.90 | q1 cover 0.89 P 1.00 other-teeth 0.01 -> base q1
+  pose 4: tooth claimed 0.90 | q1 cover 0.90 P 1.00 other-teeth 0.00 -> base q1
+  pose 5: tooth claimed 0.86 | q1 cover 0.86 P 0.99 other-teeth 0.01 -> base q1
+  pose 6: tooth claimed 0.89 | q1 cover 0.88 P 1.00 other-teeth 0.01 -> base q1
+  pose 7: tooth claimed 0.85 | q1 cover 0.85 P 1.00 other-teeth 0.00 -> base q1
+  fused: best base q1, mean conf on tooth 0.89, claimed (>0.5) 0.89
+  alignment-free foreground mean_t max_k conf > 0.5 on tooth: 0.89

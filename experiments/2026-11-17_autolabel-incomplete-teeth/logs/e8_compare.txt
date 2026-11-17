@@ -1,0 +1,94 @@
+=== paint
+dataset       n  side                f1_75     iou_mean      iou_min teeth_below_   teeth_lost tooth_to_gum gum_to_tooth       merges       splits       n_pred
+all          100  old               0.9763       0.9671       0.8497      23.0000       8.0000      25.0480      25.7600       0.0000       9.0000      14.2300
+all          100  fusion_only       0.9764       0.9679       0.8569      22.0000       7.0000      23.6540      25.9250       0.0000       9.0000      14.2500
+all          100  speck_only        0.9821       0.9671       0.8497      23.0000       8.0000      25.0480      25.7580       0.0000       9.0000      14.0500
+all          100  new               0.9822       0.9679       0.8569      22.0000       7.0000      23.6540      25.9230       0.0000       9.0000      14.0700
+all          100  nosplit           0.9835       0.9678       0.8566      22.0000       7.0000      23.6540      25.9230       0.0000       8.0000      14.0300
+                  teeth in GT: 1389
+
+lost teeth (IoU < 0.5) over 3 runs per scan (runs 2.. with normal noise sd 0.002):
+  old         total   24   scans where it varies between runs: 0 {}
+  fusion_only total   21   scans where it varies between runs: 0 {}
+  speck_only  total   24   scans where it varies between runs: 0 {}
+  new         total   21   scans where it varies between runs: 0 {}
+  nosplit     total   21   scans where it varies between runs: 0 {}
+
+scans where old and new differ (repeat 0): F1, IoU min, teeth below 0.85, n pred
+  02d623209fbae8be              F1 0.963 -> 0.929  IoU min 0.0 -> 0.146  below.85 1 -> 1  n 13 -> 14 (gt 14)  changed 0.0038
+  0cd3fc3a99fa694b              F1 0.960 -> 1.000  IoU min 0.858 -> 0.858  below.85 0 -> 0  n 13 -> 12 (gt 12)  changed 0.0000
+  0f200570d22fda79              F1 0.828 -> 0.857  IoU min 0.0 -> 0.0  below.85 2 -> 2  n 15 -> 14 (gt 14)  changed 0.0000
+  1995a6444662edf4              F1 0.970 -> 1.000  IoU min 0.886 -> 0.886  below.85 0 -> 0  n 17 -> 16 (gt 16)  changed 0.0000
+  341881313b32e617              F1 0.966 -> 1.000  IoU min 0.875 -> 0.875  below.85 0 -> 0  n 15 -> 14 (gt 14)  changed 0.0000
+  3c5069f6297f5a41              F1 0.882 -> 0.968  IoU min 0.96 -> 0.96  below.85 0 -> 0  n 19 -> 16 (gt 15)  changed 0.0001
+  4e325c26e532c987              F1 0.846 -> 0.889  IoU min 0.0 -> 0.579  below.85 2 -> 1  n 13 -> 14 (gt 13)  changed 0.0300
+  5ff83fdd26b25036              F1 0.929 -> 0.963  IoU min 0.947 -> 0.947  below.85 0 -> 0  n 15 -> 14 (gt 13)  changed 0.0000
+  77fe8405ad9c2858              F1 0.966 -> 1.000  IoU min 0.881 -> 0.881  below.85 0 -> 0  n 15 -> 14 (gt 14)  changed 0.0000
+  c7b91c9205f5e58f              F1 0.875 -> 1.000  IoU min 0.966 -> 0.966  below.85 0 -> 0  n 18 -> 14 (gt 14)  changed 0.0000
+  d3be166ce71eae97              F1 0.857 -> 0.889  IoU min 0.621 -> 0.621  below.85 1 -> 1  n 15 -> 14 (gt 13)  changed 0.0000
+  d5615a7b778d2e02              F1 0.966 -> 1.000  IoU min 0.889 -> 0.889  below.85 0 -> 0  n 15 -> 14 (gt 14)  changed 0.0000
+  d6ed225a39c6382b              F1 0.966 -> 1.000  IoU min 0.971 -> 0.971  below.85 0 -> 0  n 15 -> 14 (gt 14)  changed 0.0000
+  dbc443802ffa4acd              F1 0.875 -> 0.903  IoU min 0.516 -> 0.516  below.85 1 -> 1  n 17 -> 16 (gt 15)  changed 0.0000
+  dd23f8616cf7a3b0              F1 0.929 -> 0.963  IoU min 0.945 -> 0.945  below.85 0 -> 0  n 15 -> 14 (gt 13)  changed 0.0000
+
+scans where new and nosplit differ (repeat 0): F1, IoU min, teeth below 0.85, n pred
+  3c5069f6297f5a41              F1 0.968 -> 1.000  IoU min 0.96 -> 0.926  below.85 0 -> 0  n 16 -> 15 (gt 15)  changed 0.0001
+  89bb716aaa0c0944              F1 0.966 -> 1.000  IoU min 0.906 -> 0.906  below.85 0 -> 0  n 15 -> 14 (gt 14)  changed 0.0000
+  de81ba7ca4ee8b12              F1 0.867 -> 0.929  IoU min 0.51 -> 0.512  below.85 1 -> 1  n 16 -> 14 (gt 14)  changed 0.0000
+=== inhouse
+dataset       n  side                f1_75     iou_mean      iou_min teeth_below_   teeth_lost tooth_to_gum gum_to_tooth       merges       splits       n_pred
+inhouse      101  old               0.9773       0.9837       0.9292      16.0000       6.0000      12.5297      10.3168       0.0000       1.0000      11.9307
+inhouse      101  fusion_only       0.9768       0.9842       0.9333      16.0000       6.0000      12.4337      10.3099       0.0000       1.0000      11.9406
+inhouse      101  speck_only        0.9766       0.9819       0.9107      19.0000       9.0000      12.5327      10.3168       0.0000       1.0000      11.8911
+inhouse      101  new               0.9761       0.9824       0.9148      19.0000       9.0000      12.4366      10.3099       0.0000       1.0000      11.9010
+inhouse      101  nosplit           0.9825       0.9815       0.9138      19.0000       9.0000      12.4366      10.3099       1.0000       1.0000      11.6931
+                  teeth in GT: 1179
+
+scans where old and new differ (repeat 0): F1, IoU min, teeth below 0.85, n pred
+  c673fe52fd903164 inhouse      F1 1.000 -> 0.966  IoU min 0.999 -> 0.0  below.85 0 -> 1  n 15 -> 14 (gt 15)  changed 0.0000
+  2833a1f6e227aff3 inhouse      F1 0.769 -> 0.714  IoU min 0.0 -> 0.408  below.85 2 -> 2  n 6 -> 7 (gt 7)  changed 0.0073
+  705541134a3bfccf inhouse      F1 0.941 -> 0.903  IoU min 0.864 -> 0.0  below.85 0 -> 2  n 18 -> 15 (gt 16)  changed 0.0001
+
+scans where new and nosplit differ (repeat 0): F1, IoU min, teeth below 0.85, n pred
+  52e31c3508be015c inhouse      F1 0.600 -> 0.667  IoU min 0.233 -> 0.0  below.85 5 -> 5  n 11 -> 9 (gt 9)  changed 0.0004
+  2c2c05c85349e8eb inhouse      F1 0.970 -> 1.000  IoU min 0.761 -> 0.867  below.85 1 -> 0  n 17 -> 16 (gt 16)  changed 0.0000
+  b6392967705915ce inhouse      F1 0.957 -> 1.000  IoU min 0.996 -> 0.94  below.85 0 -> 0  n 12 -> 11 (gt 11)  changed 0.0000
+  23f2f6cd17338599 inhouse      F1 0.933 -> 0.966  IoU min 0.999 -> 0.999  below.85 0 -> 0  n 16 -> 15 (gt 14)  changed 0.0000
+  ac5d137bd97552d0 inhouse      F1 0.750 -> 1.000  IoU min 0.958 -> 0.956  below.85 0 -> 0  n 10 -> 6 (gt 6)  changed 0.0000
+  a47e6db1c3f48bdc inhouse      F1 0.462 -> 0.588  IoU min 0.592 -> 0.592  below.85 3 -> 4  n 18 -> 9 (gt 8)  changed 0.0007
+  4ab4062a1a0998a5 inhouse      F1 0.933 -> 1.000  IoU min 0.897 -> 0.978  below.85 0 -> 0  n 16 -> 14 (gt 14)  changed 0.0000
+  705541134a3bfccf inhouse      F1 0.903 -> 0.933  IoU min 0.0 -> 0.0  below.85 2 -> 2  n 15 -> 14 (gt 16)  changed 0.0001
+=== public
+dataset       n  side                f1_75     iou_mean      iou_min teeth_below_   teeth_lost tooth_to_gum gum_to_tooth       merges       splits       n_pred
+3d_iosseg     25  old               0.9913       0.9527       0.8947       3.0000       0.0000      43.3600      31.7440       0.0000       0.0000      13.8800
+3d_iosseg     25  fusion_only       0.9913       0.9527       0.8947       3.0000       0.0000      43.3600      31.7440       0.0000       0.0000      13.8800
+3d_iosseg     25  speck_only        0.9913       0.9527       0.8947       3.0000       0.0000      43.3600      31.7440       0.0000       0.0000      13.8800
+3d_iosseg     25  new               0.9913       0.9527       0.8947       3.0000       0.0000      43.3600      31.7440       0.0000       0.0000      13.8800
+3d_iosseg     25  nosplit           0.9913       0.9527       0.8947       3.0000       0.0000      43.3600      31.7440       0.0000       0.0000      13.8800
+                  teeth in GT: 345
+cbct_ios_fus  25  old               0.9948       0.9633       0.8905       5.0000       1.0000      22.0000      30.1480       0.0000       0.0000      14.2800
+cbct_ios_fus  25  fusion_only       0.9948       0.9633       0.8905       5.0000       1.0000      22.0000      30.1480       0.0000       0.0000      14.2800
+cbct_ios_fus  25  speck_only        0.9948       0.9633       0.8905       5.0000       1.0000      22.0000      30.1480       0.0000       0.0000      14.2800
+cbct_ios_fus  25  new               0.9948       0.9633       0.8905       5.0000       1.0000      22.0000      30.1480       0.0000       0.0000      14.2800
+cbct_ios_fus  25  nosplit           0.9961       0.9631       0.8873       6.0000       1.0000      22.0000      30.1480       0.0000       0.0000      14.2400
+                  teeth in GT: 357
+poseidon3d    25  old               0.9299       0.9163       0.8082      20.0000      12.0000      82.2280      41.0360       1.0000       0.0000      13.1600
+poseidon3d    25  fusion_only       0.9336       0.9184       0.8246      19.0000      12.0000      75.8000      41.2880       1.0000       0.0000      13.1600
+poseidon3d    25  speck_only        0.9299       0.9163       0.8082      20.0000      12.0000      82.2280      41.0360       1.0000       0.0000      13.1600
+poseidon3d    25  new               0.9336       0.9184       0.8246      19.0000      12.0000      75.8000      41.2880       1.0000       0.0000      13.1600
+poseidon3d    25  nosplit           0.9357       0.9178       0.8190      20.0000      12.0000      75.8000      41.2880       1.0000       0.0000      13.0000
+                  teeth in GT: 333
+teeth3ds      25  old               0.9863       0.9637       0.8490       7.0000       2.0000      19.5760      27.7480       0.0000       0.0000      13.2800
+teeth3ds      25  fusion_only       0.9863       0.9637       0.8490       7.0000       2.0000      19.5760      27.7480       0.0000       0.0000      13.2800
+teeth3ds      25  speck_only        0.9863       0.9637       0.8490       7.0000       2.0000      19.5760      27.7480       0.0000       0.0000      13.2800
+teeth3ds      25  new               0.9863       0.9637       0.8490       7.0000       2.0000      19.5760      27.7480       0.0000       0.0000      13.2800
+teeth3ds      25  nosplit           0.9877       0.9636       0.8490       7.0000       2.0000      19.5760      27.7480       0.0000       0.0000      13.2400
+                  teeth in GT: 329
+
+scans where old and new differ (repeat 0): F1, IoU min, teeth below 0.85, n pred
+  ff75b7cde113e43a poseidon3d   F1 0.909 -> 1.000  IoU min 0.529 -> 0.943  below.85 1 -> 0  n 11 -> 11 (gt 11)  changed 0.0131
+
+scans where new and nosplit differ (repeat 0): F1, IoU min, teeth below 0.85, n pred
+  2f2057c29c876a12 teeth3ds     F1 0.966 -> 1.000  IoU min 0.782 -> 0.782  below.85 1 -> 1  n 15 -> 14 (gt 14)  changed 0.0000
+  30e06eca29a828c6 poseidon3d   F1 0.875 -> 0.929  IoU min 0.88 -> 0.74  below.85 0 -> 1  n 18 -> 14 (gt 14)  changed 0.0002
+  f2ccb039e4f04a10 cbct_ios_fusion_liu2023 F1 0.968 -> 1.000  IoU min 0.919 -> 0.84  below.85 0 -> 1  n 16 -> 15 (gt 15)  changed 0.0000

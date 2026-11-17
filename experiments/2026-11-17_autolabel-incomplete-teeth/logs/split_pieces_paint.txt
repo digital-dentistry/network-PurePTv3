@@ -1,0 +1,15 @@
+# scripts/split_pieces.py out100 stages v0_noclean stages < list_t3all.txt  (painted 100; only scans with a split piece listed)
+02d623209fbae8be inst 11 piece   19.3 mm2  min gap 2.866 mm  near(<0.5mm) 0.00  open-border v 0  GT 0 (0.65)
+02d623209fbae8be inst 11 piece    5.1 mm2  min gap 2.866 mm  near(<0.5mm) 0.00  open-border v 0  GT 0 (1.00)
+02d623209fbae8be split instances 1
+3c5069f6297f5a41 inst 2 piece  151.7 mm2  min gap inf mm  near(<0.5mm) 0.00  open-border v 76  GT 1 (0.99)
+3c5069f6297f5a41 inst 2 piece    5.5 mm2  min gap inf mm  near(<0.5mm) 0.00  open-border v 34  GT 0 (1.00)
+3c5069f6297f5a41 split instances 1
+89bb716aaa0c0944 inst 2 piece  203.2 mm2  min gap inf mm  near(<0.5mm) 0.00  open-border v 59  GT 1 (0.98)
+89bb716aaa0c0944 inst 2 piece   12.7 mm2  min gap inf mm  near(<0.5mm) 0.00  open-border v 41  GT 0 (1.00)
+89bb716aaa0c0944 split instances 1
+de81ba7ca4ee8b12 inst 2 piece  107.5 mm2  min gap 0.017 mm  near(<0.5mm) 0.32  open-border v 131  GT 0 (1.00)
+de81ba7ca4ee8b12 inst 2 piece  119.4 mm2  min gap 0.017 mm  near(<0.5mm) 0.34  open-border v 163  GT 14 (0.98)
+de81ba7ca4ee8b12 inst 4 piece  141.5 mm2  min gap 0.042 mm  near(<0.5mm) 0.23  open-border v 134  GT 13 (0.99)
+de81ba7ca4ee8b12 inst 4 piece  156.5 mm2  min gap 0.042 mm  near(<0.5mm) 0.25  open-border v 95  GT 13 (0.98)
+de81ba7ca4ee8b12 split instances 2

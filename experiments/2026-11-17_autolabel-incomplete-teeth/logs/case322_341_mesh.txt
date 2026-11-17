@@ -1,0 +1,19 @@
+# Case 322 upper (de81ba7ca4ee8b12) tooth 13 and Case 341 upper (77fe8405ad9c2858) tooth 1: mesh pieces, open borders, sheet offset
+mesh boundary edges 3553 non-manifold edges 1
+boundary vertices in A 88 in B 134 of 4484 4449
+A boundary vertices: distance to B median 0.302, <0.3 mm 0.50
+B boundary vertices: distance to A median 0.465, <0.3 mm 0.25
+A vertices within 0.6 mm of B: 1351; offset along normal: median -0.260, |offset|>0.1: 0.87, frac A above B 0.04
+boundary edge length total 569.5 mm, inside predicted teeth 93.3 mm
+mesh boundary edges 3553 non-manifold edges 1
+boundary vertices in A 131 in B 156 of 3722 3434
+A boundary vertices: distance to B median 0.373, <0.3 mm 0.47
+B boundary vertices: distance to A median 0.317, <0.3 mm 0.43
+A vertices within 0.6 mm of B: 1468; offset along normal: median 0.327, |offset|>0.1: 0.89, frac A above B 0.93
+boundary edge length total 569.5 mm, inside predicted teeth 93.3 mm
+77fe8405ad9c2858 1 tooth 152.7 mm2, missed 16.7 mm2
+  GT tooth mesh pieces: [(4066, 152.7)]
+  missed piece 15.9 mm2: border edges to predicted tooth 116, to GT gum 54, to other 0
+    distance to predicted part of the tooth: median 0.90 max 2.31
+  open-boundary vertices: in tooth 0, in missed part 0
+  median edge length: predicted part 0.202, missed part 0.226, gum 0.215

@@ -1,0 +1,22 @@
+dataset       n  side                f1_75     iou_mean      iou_min teeth_below_   teeth_lost tooth_to_gum gum_to_tooth       merges       splits       n_pred
+all           51  old               0.9751       0.9642       0.8250      14.0000       6.0000      27.5882      25.9647       0.0000       4.0000      14.2941
+all           51  fusion_only       0.9759       0.9656       0.8363      13.0000       5.0000      24.9824      26.0490       0.0000       4.0000      14.3137
+all           51  speck_only        0.9808       0.9642       0.8250      14.0000       6.0000      27.5882      25.9588       0.0000       4.0000      14.1176
+all           51  new               0.9816       0.9656       0.8363      13.0000       5.0000      24.9824      26.0431       0.0000       4.0000      14.1373
+                  teeth in GT: 713
+
+lost teeth (IoU < 0.5) over 3 runs per scan (runs 2.. with normal noise sd 0.002):
+  old         total   18   scans where it varies between runs: 0 {}
+  fusion_only total   15   scans where it varies between runs: 0 {}
+  speck_only  total   18   scans where it varies between runs: 0 {}
+  new         total   15   scans where it varies between runs: 0 {}
+
+scans where old and new differ (repeat 0): F1, IoU min, teeth below 0.85, n pred
+  0cd3fc3a99fa694b              F1 0.960 -> 1.000  IoU min 0.857 -> 0.857  below.85 0 -> 0  n 13 -> 12 (gt 12)  changed 0.0000
+  0f200570d22fda79              F1 0.828 -> 0.857  IoU min 0.0 -> 0.0  below.85 2 -> 2  n 15 -> 14 (gt 14)  changed 0.0000
+  1995a6444662edf4              F1 0.970 -> 1.000  IoU min 0.886 -> 0.886  below.85 0 -> 0  n 17 -> 16 (gt 16)  changed 0.0000
+  341881313b32e617              F1 0.966 -> 1.000  IoU min 0.875 -> 0.875  below.85 0 -> 0  n 15 -> 14 (gt 14)  changed 0.0000
+  3c5069f6297f5a41              F1 0.882 -> 0.968  IoU min 0.959 -> 0.959  below.85 0 -> 0  n 19 -> 16 (gt 15)  changed 0.0001
+  4e325c26e532c987              F1 0.846 -> 0.889  IoU min 0.0 -> 0.579  below.85 2 -> 1  n 13 -> 14 (gt 13)  changed 0.0300
+  5ff83fdd26b25036              F1 0.929 -> 0.963  IoU min 0.948 -> 0.948  below.85 0 -> 0  n 15 -> 14 (gt 13)  changed 0.0000
+  77fe8405ad9c2858              F1 0.966 -> 1.000  IoU min 0.88 -> 0.88  below.85 0 -> 0  n 15 -> 14 (gt 14)  changed 0.0000

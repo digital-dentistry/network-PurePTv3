@@ -1,0 +1,8 @@
+dataset       n  side                f1_75     iou_mean      iou_min teeth_below_   teeth_lost tooth_to_gum gum_to_tooth       merges       splits       n_pred
+all           26  old               0.9847       0.9805       0.9368       6.0000       3.0000      13.6385       5.1462       0.0000       0.0000      12.8462
+all           26  fusion_only       0.9847       0.9805       0.9368       6.0000       3.0000      13.6385       5.1462       0.0000       0.0000      12.8462
+all           26  speck_only        0.9847       0.9805       0.9368       6.0000       3.0000      13.6385       5.1462       0.0000       0.0000      12.8462
+all           26  new               0.9847       0.9805       0.9368       6.0000       3.0000      13.6385       5.1462       0.0000       0.0000      12.8462
+                  teeth in GT: 332
+
+scans where old and new differ (repeat 0): F1, IoU min, teeth below 0.85, n pred

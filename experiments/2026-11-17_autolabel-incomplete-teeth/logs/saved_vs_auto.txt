@@ -1,0 +1,20 @@
+asset            jaw   teeth  added mm2  removed mm2  IoU<0.9 auto  IoU<0.9 saved  min IoU auto/saved
+02d623209fbae8be upper    14        0.3          0.2             1              1  0.00 / 0.00
+0cd3fc3a99fa694b lower    12        0.3          0.1             2              2  0.86 / 0.86
+27ec7ffa1a7c00ff lower    14        8.3         21.0             2              2  0.89 / 0.88
+5011c289a9269803 upper    14        3.6          0.5             0              0  0.98 / 0.98
+5f2bf0b402ec7b58 lower    15       12.7          8.8             0              0  0.97 / 0.96
+64cd551fc92ac325 upper    14       17.8          3.7             2              1  0.84 / 0.89
+85cad8a82c011fa0 lower    16       45.2         28.8             1              2  0.88 / 0.69
+8c217d14bd94a6b0 lower    14       14.5          8.8             0              0  0.96 / 0.97
+9315b7240ecc545f upper    13        0.3          0.3             0              0  0.98 / 0.98
+995ec8dcaedc1182 upper    14        0.2          0.3             0              0  0.97 / 0.97
+a7bdda1d0f12ea06 lower    13        2.1          0.2             0              0  0.96 / 0.96
+aa3436c0d0859567 upper    14        0.9          5.3             1              1  0.65 / 0.65
+b22680ce37a82fff lower    14        3.9          1.8             0              0  0.94 / 0.96
+b60ceea898b384ca lower    12       19.2         16.9             0              1  0.94 / 0.88
+bdafe0db8ac3fc12 lower    14        0.3          4.8             0              0  0.97 / 0.96
+c1c3f3fdf6f5a96c upper    14        8.2         15.2             0              0  0.98 / 0.97
+d2a1158cdcf8d5d0 upper    14        0.3          0.3             0              0  0.91 / 0.91
+e30a028eb37362d9 upper    16        0.2          0.2             0              0  0.97 / 0.97
+e7a6c49ed54e2e87 lower    13        0.1         48.4             1              1  0.24 / 0.00

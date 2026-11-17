@@ -1,0 +1,14 @@
+signed curvature 1/mm (> 0 convex, < 0 concave), percentiles [10, 25, 50, 75, 90]
+  gt boundary    n=  222830   -1.92   -1.39   -0.94   -0.56   -0.23   share concave(< -0.1) 0.93
+  pred boundary  n=  215101   -1.80   -1.30   -0.87   -0.52   -0.24   share concave(< -0.1) 0.94
+  missed band    n=  144126   -1.83   -1.22   -0.67   -0.10    0.37   share concave(< -0.1) 0.75
+  tooth inside   n= 5653690   -0.55   -0.10    0.15    0.35    0.66   share concave(< -0.1) 0.25
+  gingiva        n= 4944655   -0.48   -0.17    0.00    0.16    0.35   share concave(< -0.1) 0.33
+
+missed tooth area by distance from the predicted tooth (mm):
+   0.0 -  0.3:   1636.4 mm2  (0.65)
+   0.3 -  0.6:    216.8 mm2  (0.09)
+   0.6 -  1.0:    147.1 mm2  (0.06)
+   1.0 -  2.0:    199.2 mm2  (0.08)
+   2.0 -  4.0:    238.7 mm2  (0.10)
+   4.0 - 99.0:     60.9 mm2  (0.02)
