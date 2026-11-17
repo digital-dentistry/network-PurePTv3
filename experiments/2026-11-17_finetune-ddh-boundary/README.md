@@ -120,12 +120,8 @@ What a model-level change would need:
 3. **Then architecture.** The mask is predicted on 0.25 mm voxels and spread to vertices by kNN. A mesh-level
    boundary refinement head is a larger project, worth it only after 1 and 2.
 
-Kept for re-runs:
-- the cache volume `ddh-train-cache` (1.5 GB, patient scans);
-- the runs volume `ddh-train-runs` (453 MB: ft1, ft2);
-- the candidate packages in the session scratch.
-
-Remove the volumes with `docker volume rm ddh-train-cache ddh-train-runs` when they are no longer needed.
+The cache volume `ddh-train-cache` (1.5 GB, patient scans) and the runs volume `ddh-train-runs` (ft1, ft2) were
+deleted on 2026-11-17 at the user's request. A re-run starts again from the export step below.
 
 ## Commands
 
